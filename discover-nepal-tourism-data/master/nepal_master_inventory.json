@@ -1,0 +1,5242 @@
+[
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Arun River Corridor",
+    "category": "River landscape and adventure potential",
+    "municipality_or_area": "Arun Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Bhojpur Khukuri Craft Centres",
+    "category": "Traditional handicrafts",
+    "municipality_or_area": "Bhojpur Municipality and Taksar",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Hatuwagadhi Durbar",
+    "category": "Fort, palace and historical site",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Maiyung Danda",
+    "category": "Viewpoint, grassland and trekking area",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Mundhum Trail",
+    "category": "Cultural trekking route",
+    "municipality_or_area": "Temkemaiyung and adjoining areas",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Salpa Pokhari",
+    "category": "Sacred lake, pilgrimage and trekking destination",
+    "municipality_or_area": "Salpasilichho Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Silichung Peak",
+    "category": "Mountain viewpoint and trekking destination",
+    "municipality_or_area": "Salpasilichho Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Temke Danda",
+    "category": "Viewpoint and hill destination",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Bhojpur Bazaar",
+    "category": "Cultural town and handicraft centre",
+    "municipality_or_area": "Bhojpur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Bidhya Pokhari",
+    "category": "Pond, wetland and religious/natural site",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Chakhewa Danda",
+    "category": "Viewpoint and trekking stop",
+    "municipality_or_area": "Temkemaiyung area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Chamere Gufa",
+    "category": "Cave",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Dimalung Park",
+    "category": "Park and local recreation site",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Local/Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Dingla Bazaar",
+    "category": "Historical market and cultural town",
+    "municipality_or_area": "Shadananda Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Dobhane",
+    "category": "Trekking village and gateway",
+    "municipality_or_area": "Salpasilichho Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Hans Pokhari",
+    "category": "Lake, wetland and wildlife area",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Indreni Jharna",
+    "category": "Waterfall",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Mahavir Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Maluwa Pokhari",
+    "category": "Lake and natural attraction",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Ramchandra Temple",
+    "category": "Religious site",
+    "municipality_or_area": "Shadananda Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Rawa Dhap",
+    "category": "Highland wetland and Mundhum Trail stop",
+    "municipality_or_area": "Northern Bhojpur",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Sahid Samadhi Sthal",
+    "category": "Memorial and historical site",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Local/Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Salpa Bhanjyang",
+    "category": "Mountain pass and trekking stop",
+    "municipality_or_area": "Salpasilichho Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Sawa Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Selme Danda",
+    "category": "Hill, viewpoint and hiking area",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Shila Sutkeri",
+    "category": "Geological or culturally significant site",
+    "municipality_or_area": "Hatuwagadhi Rural Municipality",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Siddhakali Temple",
+    "category": "Religious site",
+    "municipality_or_area": "Bhojpur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Suntale Danda",
+    "category": "Viewpoint",
+    "municipality_or_area": "Bhojpur Municipality Ward 3 area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Taksar Bazaar",
+    "category": "Historical and cultural settlement",
+    "municipality_or_area": "Bhojpur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Bhojpur",
+    "place_name": "Tawa Bhanjyang",
+    "category": "Viewpoint and trekking location",
+    "municipality_or_area": "Temkemaiyung Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Bhedetar",
+    "category": "Hill station and viewpoint",
+    "municipality_or_area": "Sangurigadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Charles Point",
+    "category": "Viewpoint",
+    "municipality_or_area": "Bhedetar, Sangurigadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Hile Bazaar",
+    "category": "Hill town and cultural market",
+    "municipality_or_area": "Dhankuta Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Kopche Heritage Trail",
+    "category": "Heritage walking route",
+    "municipality_or_area": "Dhankuta Bazaar",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Namaste Jharana",
+    "category": "Waterfall",
+    "municipality_or_area": "Sangurigadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Namje Village",
+    "category": "Cultural village and community tourism",
+    "municipality_or_area": "Sangurigadhi Rural Municipality–6",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Namje–Thumki Community Homestay",
+    "category": "Community homestay and Magar culture",
+    "municipality_or_area": "Sangurigadhi Rural Municipality–6",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Rajarani Wetland",
+    "category": "Wetland and biodiversity",
+    "municipality_or_area": "Chaubise Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Rani Tal / Rani Lake",
+    "category": "Lake, wetland and birdwatching",
+    "municipality_or_area": "Chaubise Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Aathpahariya Baunna Chulo Ghar",
+    "category": "Indigenous cultural heritage",
+    "municipality_or_area": "Dhankuta Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Banjhakri Park",
+    "category": "Cultural park",
+    "municipality_or_area": "Mahalaxmi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Chintang Devi Temple",
+    "category": "Religious site",
+    "municipality_or_area": "Chhathar Jorpati area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Chuliban View Tower",
+    "category": "Viewpoint",
+    "municipality_or_area": "Dhankuta Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Dhankuta Bazaar",
+    "category": "Historical hill town",
+    "municipality_or_area": "Dhankuta Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Jitpur Bazaar",
+    "category": "Historical market settlement",
+    "municipality_or_area": "Mahalaxmi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Kopche Heritage Settlement",
+    "category": "Historical neighbourhood and community tourism",
+    "municipality_or_area": "Dhankuta Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Latibhanjyang Shiva Statue",
+    "category": "Religious site and viewpoint",
+    "municipality_or_area": "Mahalaxmi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Leguwa–Arun River Confluence Area",
+    "category": "River scenery",
+    "municipality_or_area": "Mahalaxmi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Nageshwar Temple",
+    "category": "Religious site",
+    "municipality_or_area": "Leguwa, Mahalaxmi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Pakhribas Agricultural Research Centre",
+    "category": "Agro-tourism and education",
+    "municipality_or_area": "Pakhribas Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Pakhribas Bazaar",
+    "category": "Scenic hill town",
+    "municipality_or_area": "Pakhribas Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Pathibhara Temple near Hile",
+    "category": "Religious and pilgrimage site",
+    "municipality_or_area": "Hile area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Rajarani Valley",
+    "category": "Valley landscape and cultural destination",
+    "municipality_or_area": "Chaubise Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Sadam Tourism Area",
+    "category": "Rural nature destination",
+    "municipality_or_area": "Chaubise Rural Municipality Ward 5",
+    "priority": "Emerging",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Syaule–Sipting Aathpahariya Community Homestay",
+    "category": "Community and Indigenous cultural tourism",
+    "municipality_or_area": "Dhankuta Municipality Ward 3",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Dhankuta",
+    "place_name": "Thumki Hill",
+    "category": "Viewpoint and village hike",
+    "municipality_or_area": "Sangurigadhi Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Antu Danda",
+    "category": "Sunrise viewpoint",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Chhintapu",
+    "category": "Trekking peak and wildlife area",
+    "municipality_or_area": "Sandakpur Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Didi Bahini Jharana",
+    "category": "Waterfall",
+    "municipality_or_area": "Rong Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Fensong Gumba",
+    "category": "Buddhist monastery and Lepcha heritage",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Gajurmukhi Dham",
+    "category": "Cave-temple and religious destination",
+    "municipality_or_area": "Western Ilam",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Ilam Tea Factory",
+    "category": "Industrial heritage and tea tourism",
+    "municipality_or_area": "Ilam Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Kanyam Tea Garden",
+    "category": "Tea landscape and agro-tourism",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Lepcha Museum at Fensong Gumba",
+    "category": "Indigenous cultural museum",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Mai Pokhari",
+    "category": "Ramsar wetland and sacred lake",
+    "municipality_or_area": "Sandakpur Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Mangmalung",
+    "category": "Kirat religious, forest and cave destination",
+    "municipality_or_area": "Mangsebung area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Meghma",
+    "category": "Border-ridge trekking and monastery destination",
+    "municipality_or_area": "Maijogmai corridor",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Patenagi",
+    "category": "Viewpoint and red panda habitat",
+    "municipality_or_area": "Rong Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Sandakpur",
+    "category": "Mountain viewpoint and trekking destination",
+    "municipality_or_area": "Sandakpur Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Sanu Pathibhara Temple",
+    "category": "Religious site and viewpoint",
+    "municipality_or_area": "Kutidanda–Hanspokhari area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Shree Antu",
+    "category": "Rural tourism and homestay destination",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Siddhithumka Chuli",
+    "category": "Sunrise viewpoint",
+    "municipality_or_area": "Deumai Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Antu Pokhari",
+    "category": "Lake and recreation",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Fikkal Bazaar",
+    "category": "Tourism gateway",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Google Point",
+    "category": "Viewpoint",
+    "municipality_or_area": "Rong Rural Municipality–3",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Gufathumki",
+    "category": "Cave and hill destination",
+    "municipality_or_area": "Deumai Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Ilam Bazaar",
+    "category": "Historical hill town",
+    "municipality_or_area": "Ilam Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Jaubari",
+    "category": "Hill settlement and trekking stop",
+    "municipality_or_area": "Maijogmai Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Jhau Pokhari",
+    "category": "Pond and recreation",
+    "municipality_or_area": "Deumai Municipality Ward 8",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Kuibhir Tourism Area",
+    "category": "Cliff and viewpoint",
+    "municipality_or_area": "Deumai Municipality Ward 1",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Kuinetar Omkareshwar Temple",
+    "category": "Religious and natural tourism",
+    "municipality_or_area": "Chulachuli Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Mahabhir Rock Climbing Area",
+    "category": "Adventure tourism",
+    "municipality_or_area": "Rong Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Mai Beni",
+    "category": "River confluence and pilgrimage site",
+    "municipality_or_area": "Near Ilam Bazaar",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Namsaling Village",
+    "category": "Community and rural tourism",
+    "municipality_or_area": "Maijogmai Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Nayabazar",
+    "category": "Historic hill market",
+    "municipality_or_area": "Maijogmai Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Panchakanya Tourism Area",
+    "category": "Tea landscape and rural destination",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Pashupatinagar",
+    "category": "Border town and cultural market",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Ramite Danda, Sakphara",
+    "category": "Viewpoint",
+    "municipality_or_area": "Chulachuli Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Rani Forest",
+    "category": "Forest walk",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Siddhi Thumka",
+    "category": "Sunrise and sunset viewpoint",
+    "municipality_or_area": "Ilam Municipality area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Suryodaya Tea Tasting and Promotion Centre",
+    "category": "Tea culture and agro-tourism",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Three-tier Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Suryodaya Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Ilam",
+    "place_name": "Tinkune Pokhari",
+    "category": "Pond and wetland",
+    "municipality_or_area": "Chulachuli Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Arjundhara Jaleshwar Dham",
+    "category": "Hindu pilgrimage site",
+    "municipality_or_area": "Arjundhara Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Bahundangi Elephant Corridor",
+    "category": "Wildlife and eco-tourism landscape",
+    "municipality_or_area": "Bahundangi",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Domukha Tourism Area",
+    "category": "Riverbank recreation",
+    "municipality_or_area": "Shivasatakshi Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Jamunkhadi Simsar",
+    "category": "Wetland, wildlife and recreation",
+    "municipality_or_area": "Kankai Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Kakarbhitta Border Gate",
+    "category": "International border gateway",
+    "municipality_or_area": "Mechinagar Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Kankai Dham / Kotihom",
+    "category": "Hindu pilgrimage complex",
+    "municipality_or_area": "Kankai Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Kechana Kawal",
+    "category": "Geographical landmark and wetland landscape",
+    "municipality_or_area": "Kachankawal Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Kichakbadh Archaeological Site",
+    "category": "Archaeological and mythological site",
+    "municipality_or_area": "Bhadrapur area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Mini Mountain Bahundangi",
+    "category": "Viewpoint",
+    "municipality_or_area": "Mechinagar Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Satakshi Dham",
+    "category": "Hindu pilgrimage and forest attraction",
+    "municipality_or_area": "Shivasatakshi Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Bhelagudi Wetland",
+    "category": "Wetland and picnic destination",
+    "municipality_or_area": "Haldibari Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Birat Pokhari",
+    "category": "Historical pond",
+    "municipality_or_area": "Birtamod area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Burney Tea Estate",
+    "category": "Tea landscape",
+    "municipality_or_area": "Buddhashanti Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Chillagadh",
+    "category": "Historical and cultural heritage",
+    "municipality_or_area": "Shivasatakshi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Damak Tourism Park / Birat Buddha Village",
+    "category": "Developing Buddhist tourism project",
+    "municipality_or_area": "Damak",
+    "priority": "Developing",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Dhanushkoti Dham",
+    "category": "Religious and mythological site",
+    "municipality_or_area": "Kankai–Domukha area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Dharagola View Tower",
+    "category": "Viewpoint",
+    "municipality_or_area": "Buddhashanti Rural Municipality Ward 7",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Dhulabari Tea Estate",
+    "category": "Tea garden",
+    "municipality_or_area": "Mechinagar Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Gauradaha Dah Pokhari",
+    "category": "Historic pond",
+    "municipality_or_area": "Gauradaha Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Kechana Jhil",
+    "category": "Lake and wetland",
+    "municipality_or_area": "Kachankawal Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Mahendra Park",
+    "category": "Urban park",
+    "municipality_or_area": "Bhadrapur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Pau Pathibhara Temple",
+    "category": "Religious site and viewpoint",
+    "municipality_or_area": "Charali, Mechinagar",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Jhapa",
+    "place_name": "Salbari Park",
+    "category": "Forest park",
+    "municipality_or_area": "Arjundhara Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Baraha Pokhari",
+    "category": "Sacred lake and pilgrimage",
+    "municipality_or_area": "Barahapokhari Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Dhiplung Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Diprung Chuichumma Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Halesi Cave Complex",
+    "category": "Multi-faith sacred cave system",
+    "municipality_or_area": "Halesi Tuwachung Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Halesi Mahadev Temple",
+    "category": "Hindu pilgrimage and sacred cave",
+    "municipality_or_area": "Halesi Tuwachung Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Jantedhunga",
+    "category": "Historical and cultural hill",
+    "municipality_or_area": "Jantedhunga Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Kepilasgadhi Fort",
+    "category": "Historical fort",
+    "municipality_or_area": "Kepilasgadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Majhuwagadhi",
+    "category": "Historical fort and viewpoint",
+    "municipality_or_area": "Diktel Rupakot Majhuwagadhi Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Maratika Cave",
+    "category": "Buddhist pilgrimage cave",
+    "municipality_or_area": "Halesi area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Rupakot Danda",
+    "category": "Hill viewpoint and religious site",
+    "municipality_or_area": "Diktel Rupakot Majhuwagadhi Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Tuwachung–Jayajum Hill",
+    "category": "Kirat sacred site and viewpoint",
+    "municipality_or_area": "Halesi Tuwachung Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Bhulbhule Dudhkunda Deudham",
+    "category": "Sacred spring and pilgrimage",
+    "municipality_or_area": "Nerpa Ward 6",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Indrani Pokhari",
+    "category": "Sacred pond and Kirat site",
+    "municipality_or_area": "Khotehang Rural Municipality Ward 6",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Kangsahop Lake",
+    "category": "Artificial lake and boating",
+    "municipality_or_area": "Kharmi–Bhangedar Ward 11",
+    "priority": "Emerging/High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Lakuchumbu Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Khotehang Rural Municipality Ward 3",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Mahuregadhi",
+    "category": "Historical fort and viewpoint",
+    "municipality_or_area": "Diktel Rupakot Majhuwagadhi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Paruhang–Sumnima Park",
+    "category": "Kirat religious and cultural park",
+    "municipality_or_area": "Khotehang Rural Municipality Ward 5",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Sapsudhapa",
+    "category": "Religious and natural site",
+    "municipality_or_area": "Diktel Rupakot Majhuwagadhi Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Soldhunga Tourism Area",
+    "category": "Rock formation and viewpoint",
+    "municipality_or_area": "Khotehang Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Khotang",
+    "place_name": "Yalambar Park",
+    "category": "Kirat cultural park",
+    "municipality_or_area": "Khotehang Rural Municipality Ward 2",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Betana Wetland",
+    "category": "Wetland, wildlife and boating",
+    "municipality_or_area": "Belbari Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Betini Wetland",
+    "category": "Wetland and birdwatching",
+    "municipality_or_area": "Urlabari Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Bhulke Wetland",
+    "category": "Wetland and eco-tourism",
+    "municipality_or_area": "Pathari Shanishchare Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Birat Palace Archaeological Site / Bhediyari Dhisko",
+    "category": "Archaeological and historical site",
+    "municipality_or_area": "Biratnagar–18",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Dhanpalgadhi",
+    "category": "Historical fort and Tharu religious site",
+    "municipality_or_area": "Belbari Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Hasina Wetland / Hasina Simsar",
+    "category": "Wetland and recreation",
+    "municipality_or_area": "Sundarharaicha Municipality Ward 5",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Jefale Danda",
+    "category": "Hill station and viewpoint",
+    "municipality_or_area": "Kerabari Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Kanepokhari Lake",
+    "category": "Lake and recreation",
+    "municipality_or_area": "Kanepokhari Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Rajarani Pond",
+    "category": "Sacred pond and Dhimal heritage",
+    "municipality_or_area": "Letang Municipality Ward 1",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Baghjhora",
+    "category": "Forest and stream destination",
+    "municipality_or_area": "Sundarharaicha Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Biratnagar Jute Mills",
+    "category": "Industrial and political heritage",
+    "municipality_or_area": "Biratnagar",
+    "priority": "Major heritage potential",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Interfaith Peace Park",
+    "category": "Religious harmony park",
+    "municipality_or_area": "Letang Municipality Ward 1",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Jhalajhali Wetland",
+    "category": "Wetland",
+    "municipality_or_area": "Belbari Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Kali Mandir",
+    "category": "Hindu religious site",
+    "municipality_or_area": "Biratnagar",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Lampate Wetland",
+    "category": "Wetland",
+    "municipality_or_area": "Urlabari Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Raniban Eco-tourism Area",
+    "category": "Forest and eco-tourism",
+    "municipality_or_area": "Letang Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Morang",
+    "place_name": "Sunawarshi Pond",
+    "category": "Sacred pond and Indigenous culture",
+    "municipality_or_area": "Ratuwamai Municipality Ward 5",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Champadevi Temple",
+    "category": "Hindu pilgrimage and hill destination",
+    "municipality_or_area": "Champadevi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Khiji Tholedemba",
+    "category": "High-altitude viewpoint and trekking",
+    "municipality_or_area": "Khijidemba Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Libju Religious Site",
+    "category": "Kirat sacred site",
+    "municipality_or_area": "Manebhanjyang Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Patale Viewpoint",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Northern Okhaldhunga",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Pokali Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Likhu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Ratmate Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Chisankhugadhi Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Chandi Devi Temple and Chandisthan Cave",
+    "category": "Temple and sacred cave",
+    "municipality_or_area": "Ragani, Champadevi Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Chisankhugadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Chisankhugadhi Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Okhaldhunga Gadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Siddhicharan area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Prapcha Tourism Park",
+    "category": "Developing recreation site",
+    "municipality_or_area": "Molung Rural Municipality Ward 3",
+    "priority": "Developing",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Rumjatar",
+    "category": "Highland settlement and gateway",
+    "municipality_or_area": "Siddhicharan Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Siddhicharan Shrestha Birthplace Area",
+    "category": "Literary heritage",
+    "municipality_or_area": "Okhaldhunga Bazaar",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Srijana / Srasta Park",
+    "category": "Literary memorial park",
+    "municipality_or_area": "Siddhicharan Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Okhaldhunga",
+    "place_name": "Tolu Gumba",
+    "category": "Buddhist monastery",
+    "municipality_or_area": "Jantarkhani area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Chiwabhanjyang",
+    "category": "Border pass and viewpoint",
+    "municipality_or_area": "Yangwarak Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Hilihang Palace",
+    "category": "Historical palace and viewpoint",
+    "municipality_or_area": "Hilihang Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Kummayak–Kussayak",
+    "category": "Kirat sacred and historical site",
+    "municipality_or_area": "Kummayak Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Labrekuti–Silauti",
+    "category": "Kirat pilgrimage and historical site",
+    "municipality_or_area": "Phidim–Phalgunanda border",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Mahaguru Phalgunanda Mausoleum",
+    "category": "Religious memorial",
+    "municipality_or_area": "Silauti–Labrekuti",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Phalot",
+    "category": "High-altitude meadow and viewpoint",
+    "municipality_or_area": "Phalelung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Phokte Danda",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Phalelung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Sadhutar",
+    "category": "Hill viewpoint and pond",
+    "municipality_or_area": "Phidim Municipality Ward 8",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Sehonamlang",
+    "category": "Mundhumi sacred hill and caves",
+    "municipality_or_area": "Phalgunanda Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Sumhatlung",
+    "category": "Kirat sacred and historical site",
+    "municipality_or_area": "Phidim Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Timbu Pokhari",
+    "category": "Sacred alpine lake and trek",
+    "municipality_or_area": "Yangwarak Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Aagejung Monastery",
+    "category": "Historic Buddhist monastery",
+    "municipality_or_area": "Phalelung Rural Municipality Ward 1",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Battise Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Phalgunanda Rural Municipality Ward 2",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Bhote Gadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Yangwarak Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Gumse Pathibhara",
+    "category": "Religious site and viewpoint",
+    "municipality_or_area": "Yangwarak Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Gupteshwar Mahadev",
+    "category": "Sacred cave",
+    "municipality_or_area": "Yangwarak Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Hile Pokhari",
+    "category": "Pond and wetland",
+    "municipality_or_area": "Miklajung Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Panchthar",
+    "place_name": "Jor Pokhari",
+    "category": "Twin sacred ponds",
+    "municipality_or_area": "Hilihang Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Arun Valley",
+    "category": "River valley and trekking landscape",
+    "municipality_or_area": "Sankhuwasabha",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Barun Valley",
+    "category": "Himalayan valley",
+    "municipality_or_area": "Makalu Barun National Park",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Chhyankuti Danda",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Khandbari area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Gupha Pokhari",
+    "category": "Highland lake and viewpoint",
+    "municipality_or_area": "Chainpur Municipality Ward 1",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Kimathanka",
+    "category": "Nepal–China border village",
+    "municipality_or_area": "Bhotkhola Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Makalu Barun National Park",
+    "category": "National park and wildlife",
+    "municipality_or_area": "Northern Sankhuwasabha",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Makalu Base Camp",
+    "category": "High-altitude trekking destination",
+    "municipality_or_area": "Makalu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Milke Danda",
+    "category": "Rhododendron ridge and viewpoint",
+    "municipality_or_area": "Chichila–Silichong",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Mount Makalu",
+    "category": "Mountain and expedition destination",
+    "municipality_or_area": "Makalu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Sabha Pokhari",
+    "category": "Sacred alpine lake",
+    "municipality_or_area": "Silichong Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Shipton La",
+    "category": "Mountain pass",
+    "municipality_or_area": "Makalu Base Camp route",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Tinjure–Milke–Jaljale Corridor",
+    "category": "Rhododendron conservation area",
+    "municipality_or_area": "Chichila–Silichong",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Chainpur Gadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Chainpur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Chainpur Karuwa Park",
+    "category": "Handicraft heritage park",
+    "municipality_or_area": "Chainpur Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Hedangna Gadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Northern Sankhuwasabha",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Seduwa",
+    "category": "National park gateway",
+    "municipality_or_area": "Makalu Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Tashigaon",
+    "category": "Sherpa village",
+    "municipality_or_area": "Makalu Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sankhuwasabha",
+    "place_name": "Tumlingtar",
+    "category": "Air gateway",
+    "municipality_or_area": "Khandbari Municipality",
+    "priority": "Major gateway",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Ama Dablam",
+    "category": "Mountain and climbing destination",
+    "municipality_or_area": "Khumbu",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Cho La Pass",
+    "category": "High mountain pass",
+    "municipality_or_area": "Three Passes Trek",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Dharmadanda",
+    "category": "Viewpoint and sacred hill",
+    "municipality_or_area": "Sotang–Thulung Dudhkoshi border",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Dingboche",
+    "category": "Sherpa settlement and trekking hub",
+    "municipality_or_area": "Imja Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Dudhkunda Lake",
+    "category": "Sacred alpine lake",
+    "municipality_or_area": "Solududhkunda Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Everest Base Camp",
+    "category": "High-altitude trekking destination",
+    "municipality_or_area": "Khumbu Pasang Lhamu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Gokyo Lakes",
+    "category": "Ramsar alpine lake system",
+    "municipality_or_area": "Gokyo Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Gokyo Ri",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Gokyo Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Gorakshep",
+    "category": "High-altitude settlement",
+    "municipality_or_area": "Khumbu",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Hinku Valley",
+    "category": "Himalayan valley",
+    "municipality_or_area": "Mahakulung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Imja Tsho",
+    "category": "Glacial lake",
+    "municipality_or_area": "Imja Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Island Peak / Imja Tse",
+    "category": "Climbing peak",
+    "municipality_or_area": "Imja Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Junbesi Village",
+    "category": "Sherpa cultural village",
+    "municipality_or_area": "Solududhkunda Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Kala Patthar",
+    "category": "Mountain viewpoint",
+    "municipality_or_area": "Gorakshep area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Khiraule Monastery",
+    "category": "Historic Buddhist monastery",
+    "municipality_or_area": "Mahakulung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Khumbu Glacier",
+    "category": "Glacier",
+    "municipality_or_area": "Everest Base Camp route",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Khumbu Icefall",
+    "category": "Glacier feature",
+    "municipality_or_area": "Everest expedition route",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Khumjung Village",
+    "category": "Sherpa village and heritage",
+    "municipality_or_area": "Khumbu",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Kongma La Pass",
+    "category": "High mountain pass",
+    "municipality_or_area": "Three Passes Trek",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Mera Peak",
+    "category": "Trekking peak",
+    "municipality_or_area": "Mahakulung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Mount Everest / Sagarmatha",
+    "category": "Mountain and expedition destination",
+    "municipality_or_area": "Khumbu Pasang Lhamu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Namche Bazaar",
+    "category": "Sherpa town and trekking hub",
+    "municipality_or_area": "Khumbu",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Ngozumpa Glacier",
+    "category": "Glacier",
+    "municipality_or_area": "Gokyo Valley",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Panch Pokhari, Mahakulung",
+    "category": "Sacred glacial lake cluster",
+    "municipality_or_area": "Mahakulung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Pikey Peak",
+    "category": "Himalayan viewpoint and trek",
+    "municipality_or_area": "Likhu Pike area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Renjo La Pass",
+    "category": "High mountain pass",
+    "municipality_or_area": "Three Passes Trek",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Sagarmatha National Park",
+    "category": "UNESCO national park",
+    "municipality_or_area": "Khumbu Pasang Lhamu Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Taksindu Monastery",
+    "category": "Historic Buddhist monastery",
+    "municipality_or_area": "Solududhkunda Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Tengboche Monastery",
+    "category": "Buddhist monastery",
+    "municipality_or_area": "Tengboche",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Thupten Chholing Monastery",
+    "category": "Buddhist monastery",
+    "municipality_or_area": "Junbesi area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Lukla",
+    "category": "Air gateway",
+    "municipality_or_area": "Khumbu Pasang Lhamu Rural Municipality",
+    "priority": "Major gateway",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Pangboche Monastery and Village",
+    "category": "Monastery and Sherpa settlement",
+    "municipality_or_area": "Pangboche",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Phaplu",
+    "category": "Air gateway",
+    "municipality_or_area": "Solududhkunda Municipality",
+    "priority": "Major gateway",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Solukhumbu",
+    "place_name": "Thame Village and Monastery",
+    "category": "Sherpa village and monastery",
+    "municipality_or_area": "Thame Valley",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Amha Simsar / Amaha Wetland",
+    "category": "Wetland and birdwatching",
+    "municipality_or_area": "Barju Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Barahakshetra Temple",
+    "category": "Hindu pilgrimage site",
+    "municipality_or_area": "Barahakshetra Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Budha Subba Temple",
+    "category": "Kirat and Hindu site",
+    "municipality_or_area": "Vijayapur, Dharan",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Chatara",
+    "category": "Religious gateway and river town",
+    "municipality_or_area": "Barahakshetra Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Chataradham",
+    "category": "Religious pilgrimage destination",
+    "municipality_or_area": "Chatara",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Dantakali Temple",
+    "category": "Shakti Peeth",
+    "municipality_or_area": "Vijayapur, Dharan",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Koshi Barrage Viewpoint",
+    "category": "River viewpoint and birdwatching",
+    "municipality_or_area": "Koshi River",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Koshi Tappu Ramsar Site",
+    "category": "Wetland of international importance",
+    "municipality_or_area": "Koshi floodplain",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Koshi Tappu Wildlife Reserve",
+    "category": "Wildlife reserve and wetland",
+    "municipality_or_area": "Sunsari–Saptari–Udayapur",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Pindeshwar Temple",
+    "category": "Hindu pilgrimage site",
+    "municipality_or_area": "Vijayapur, Dharan",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Ramdhuni Temple",
+    "category": "Hindu pilgrimage and sacred fire site",
+    "municipality_or_area": "Ramdhuni Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Tal Talaiya",
+    "category": "Wetland, park and boating",
+    "municipality_or_area": "Itahari",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Vijayapur Hill",
+    "category": "Historical and religious landscape",
+    "municipality_or_area": "Dharan",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Chinde Danda",
+    "category": "Viewpoint and hike",
+    "municipality_or_area": "Dharan area",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Mechikali Pokhari",
+    "category": "Pond and recreation",
+    "municipality_or_area": "Itahari",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Panchakanya Forest",
+    "category": "Forest recreation",
+    "municipality_or_area": "Dharan",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Srilanka Tappu",
+    "category": "River island and wetland",
+    "municipality_or_area": "Koshi floodplain",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Sunsari",
+    "place_name": "Vijayapur Gadhi",
+    "category": "Historical fort",
+    "municipality_or_area": "Dharan",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Diki Chhyoling Monastery",
+    "category": "Historic Buddhist monastery",
+    "municipality_or_area": "Olangchung Gola",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Fungfunge / Phungphunge Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Meringden Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Ghunsa Village",
+    "category": "Sherpa village and trekking hub",
+    "municipality_or_area": "Phaktanglung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Kanchenjunga Conservation Area",
+    "category": "Conservation area and trekking",
+    "municipality_or_area": "Northern Taplejung",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Kanchenjunga North Base Camp / Pang Pema",
+    "category": "High-altitude trekking destination",
+    "municipality_or_area": "Phaktanglung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Kanchenjunga South Base Camp / Oktang",
+    "category": "High-altitude trekking destination",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Lhonak Valley",
+    "category": "Alpine valley",
+    "municipality_or_area": "Phaktanglung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Mount Kanchenjunga",
+    "category": "Mountain and expedition destination",
+    "municipality_or_area": "Northern Taplejung",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Olangchung Gola",
+    "category": "Historic trans-Himalayan village",
+    "municipality_or_area": "Phaktanglung Rural Municipality Ward 7",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Pathibhara Devi Temple",
+    "category": "Pilgrimage site and viewpoint",
+    "municipality_or_area": "Taplejung",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Sele La",
+    "category": "High mountain pass",
+    "municipality_or_area": "Kanchenjunga circuit",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Timbung Pokhari",
+    "category": "Sacred alpine lake",
+    "municipality_or_area": "Sidingwa–Panchthar border area",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Tiptala / Tipta La Border Pass",
+    "category": "Nepal–China border pass",
+    "municipality_or_area": "North of Olangchung Gola",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Yalung Glacier",
+    "category": "Glacier",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Yalung Valley",
+    "category": "Glacier valley",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Gumbadanda",
+    "category": "Buddhist cultural village and homestay",
+    "municipality_or_area": "Phungling Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Lelep Village",
+    "category": "Conservation gateway",
+    "municipality_or_area": "Phaktanglung Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Limbu Museum, Mamangkhe",
+    "category": "Cultural museum",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Sirijangha Cave",
+    "category": "Historical and religious cave",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Suketar",
+    "category": "Air gateway",
+    "municipality_or_area": "Phungling Municipality",
+    "priority": "Major gateway",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Taplejung",
+    "place_name": "Tato Pani",
+    "category": "Natural hot spring",
+    "municipality_or_area": "Sirijangha Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Basantapur",
+    "category": "Hill station and rhododendron gateway",
+    "municipality_or_area": "Laligurans Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Changlung Cave",
+    "category": "Cave and geological attraction",
+    "municipality_or_area": "Chhathar Rural Municipality Ward 6",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Chotlung Park",
+    "category": "Limbu cultural park",
+    "municipality_or_area": "Basantapur, Laligurans Municipality Ward 3",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Hyatrung Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Phedap Rural Municipality Wards 4–5",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Menchhayayem Danda",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Menchhayayem Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Tinjure Danda",
+    "category": "Rhododendron forest and viewpoint",
+    "municipality_or_area": "Laligurans Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Tinjure–Milke–Jaljale Corridor",
+    "category": "Rhododendron biodiversity and trekking",
+    "municipality_or_area": "Laligurans and adjoining districts",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Marga Pokhari",
+    "category": "Sacred natural pond",
+    "municipality_or_area": "Chhathar Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Morahang Bazaar",
+    "category": "Historic hill settlement",
+    "municipality_or_area": "Menchhayayem Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Myanglung Bazaar",
+    "category": "Historical hill town",
+    "municipality_or_area": "Myanglung Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Myanglung Cat Stone / Chichi Lung",
+    "category": "Cultural landmark",
+    "municipality_or_area": "Myanglung Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Panchakanya Chhathar Pokhari",
+    "category": "Pond and religious landscape",
+    "municipality_or_area": "Chhathar Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Tehrathum",
+    "place_name": "Sankranti Bazaar",
+    "category": "Historic market and Aathrai gateway",
+    "municipality_or_area": "Aathrai Rural Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Chaudandigadhi Fort",
+    "category": "Historical fort and viewpoint",
+    "municipality_or_area": "Chaudandigadhi Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Koshi Tappu Wildlife Reserve – Udayapur section",
+    "category": "Wildlife and wetland",
+    "municipality_or_area": "Belaka Municipality side",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Limchungbung Everest Viewpoint / Debate Danda",
+    "category": "Himalayan viewpoint",
+    "municipality_or_area": "Limchungbung Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Rauta Pokhari and Rauta Mahadev",
+    "category": "Sacred pond and pilgrimage cluster",
+    "municipality_or_area": "Rautamai Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Tapli Pokhari",
+    "category": "Sacred pond and viewpoint",
+    "municipality_or_area": "Tapli Rural Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Triveni Dham",
+    "category": "River confluence and pilgrimage",
+    "municipality_or_area": "Katari Municipality",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Udayapurgadhi",
+    "category": "Historical fort and viewpoint",
+    "municipality_or_area": "Udayapurgadhi Rural Municipality Ward 5",
+    "priority": "Major",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Basaha Than Shivalaya",
+    "category": "Hindu temple",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 4",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Dwardani Devi Sthan",
+    "category": "Religious site",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 7",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Kanya Aulshree Gumba",
+    "category": "Buddhist monastery",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 7",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Lingeshwar Shivalaya",
+    "category": "Hindu temple",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 6",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Mini Apraha Waterfall",
+    "category": "Waterfall",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 8",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Sapta Koshi River Corridor",
+    "category": "River and nature destination",
+    "municipality_or_area": "Belaka Municipality",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Koshi Province",
+    "district": "Udayapur",
+    "place_name": "Than Pokhari Than",
+    "category": "Sacred pond and religious site",
+    "municipality_or_area": "Chaudandigadhi Municipality Ward 9",
+    "priority": "High",
+    "research_status": "First-round researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Chinnamasta Bhagwati Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Chinnamasta Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Kankalini Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Hanumannagar Kankalini Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Shambhunath Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Shambhunath Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Koshi Tappu Wildlife Reserve sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Koshi floodplain",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district reserve."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Koshi Barrage eastern approaches",
+    "category": "Major tourist attractions",
+    "municipality_or_area": "Hanumannagar-Kankalini area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Rupani wetland and forest belt",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Rupani area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Bhar Daha wetland",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Kanchanrup area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Saptakoshi river islands and bird habitat",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Saptari",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Salahesh Fulbari",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Lahan Municipality area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cultural garden associated with the folk hero Salahesh."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Pakadi Gadhi remains",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Local verification required",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Exact site naming/location should be checked locally."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Salahesh Temple sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Lahan-Siraha region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Uttarayani Dham",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kamala river area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Baba Taal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Lahan area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Kamal Daha",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Siraha district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Kamala River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern district boundary",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Chure foothill forest belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern Siraha",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Janaki Mandir",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Janakpurdham Sub-Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ram Mandir, Janakpur",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanushadham",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dhanushadham Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Mithila Bihari and Parikrama route sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dhanusha countryside",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district pilgrimage circuit."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanush Sagar",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ganga Sagar",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ratna Sagar and other sacred ponds",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Vivah Mandap",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Janaki Mandir complex",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanushadham Protected Forest",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Dhanushadham area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Mithila Art and cultural quarters",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Kamala River",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Dhanusha",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Jaleshwar Mahadev Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Jaleshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Matihani Temple and Sanskrit heritage area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Matihani Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Raimandal religious site",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Mahottari district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Local-area verification recommended."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Mithila Parikrama route sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Various southern and central localities",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district pilgrimage circuit."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Tuteshwar Nath Mahadev",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bardibas region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Bardibas Chure foothills",
+    "category": "Natural attractions",
+    "municipality_or_area": "Bardibas Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Gaushala forest and wetland belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Gaushala Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Ratu River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Mahottari",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Nadhi Tal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Chandranagar Rural Municipality area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Bharat Tal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Bagmati Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Large artificial lake and recreation destination."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Nunthar religious and riverside area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bagmati River, northern Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Rajdevi Temple sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Malangawa area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Sagarnath Forest",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Ishwarpur-Lalbandi region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Bagmati River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Western/northern Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Lakhandehi river landscape",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Chure foothill viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Northern Lalbandi-Ishwarpur",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Nunthar riverside and pilgrimage area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Chandrapur area, Bagmati River",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Rajdevi Temple, Gaur area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Gaur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Jungle Sahiya forest landscape",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Chandrapur region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Gaur historical town core",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Gaur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Bagmati River beaches",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Northern/western district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Lal Bakaiya River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Rautahat",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Chure forest and hill belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern Rautahat",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Maraghar wetland areas",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Local verification required",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Include after municipality-level verification."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Gadhimai Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Mahagadhimai Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Kankali Temple, Simraungadh",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Simraungadh",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Simraungadh archaeological and palace area",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Simraungadh Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Parsa National Park sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Bara",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district national park."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Nijgadh forest landscape",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Nijgadh Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Halkhoria Daha",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Northern Bara",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Chure forest viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Nijgadh-Kolhabi north",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Pasaha River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Bara district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Dudhora River and forest belt",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Nijgadh area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Parsa National Park",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Parsa and adjoining districts",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Parsa forest safari areas",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Thori-Sakhuwa Prasauni belt",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Birgunj Ghadiarwa Pokhari",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Birgunj Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Gahawa Mai Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Birgunj",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Bindabasini Temple, Birgunj area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Birgunj",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Shankaracharya Gate",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Birgunj border",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Thori hill and forest gateway",
+    "category": "Lesser-known or emerging destinations",
+    "municipality_or_area": "Thori Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Sikta and Oriya river corridors",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Western Parsa",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Alau historical area",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Birgunj-Alau",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Kalinchowk Bhagwati Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kalinchowk Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Dolakha Bhimsen Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bhimeshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Kuri village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Kalinchowk",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Jiri",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Jiri Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Historic trekking gateway."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Gaurishankar Conservation Area",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Dolakha and adjoining districts",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Rolwaling Valley",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Gaurishankar Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Lamabagar and Lapchi valley",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "BigU Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Tsho Rolpa Lake",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Rolwaling Valley",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Charikot viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Bhimeshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Sailung hills",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Dolakha-Ramechhap border",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dolakha",
+    "place_name": "Biguti and Tamakoshi valleys",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern and central Dolakha",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Langtang National Park sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Sindhupalchok",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district park."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Helambu trekking region",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Helambu Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Panch Pokhari",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Panchpokhari Thangpal Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Sacred alpine lake group."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Bhairav Kunda",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Bhotekoshi region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Tatopani hot springs",
+    "category": "Natural attractions",
+    "municipality_or_area": "Bhotekoshi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Sukute beach and rafting corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Sunkoshi River",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Bhotekoshi rafting and canyoning area",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Bhotekoshi valley",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Gaurati Bhimsen Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Chautara Sangachokgadhi Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Palchok Bhagwati Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Helambu region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Melamchi-Ghyangfedi villages",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Helambu-Melamchi belt",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhupalchok",
+    "place_name": "Ama Yangri peak",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Helambu",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Langtang National Park",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Most of northern Rasuwa",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Langtang Valley",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Gosainkunda Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Tamang Heritage Trail",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Gatlang-Tatopani-Thuman region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Gosainkunda Lake",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Gosainkunda Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Ramsar sacred alpine lake."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Kyanjin Gompa",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Langtang Valley",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Gatlang village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Parbatikunda/Aama Chhodingmo area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Tserko Ri",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Kyanjin area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Tatopani, Rasuwa",
+    "category": "Natural attractions",
+    "municipality_or_area": "Tamang Heritage Trail",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Chilime and Bhote Koshi valleys",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern Rasuwa",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Rasuwa",
+    "place_name": "Rasuwagadhi Fort",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Gosaikunda Rural Municipality, border area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Ganesh Himal trekking region",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Northern Dhading",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Ruby Valley",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Ruby Valley Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Tripurasundari Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Tripurasundari Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Ganga Jamuna Waterfall",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Ganga Jamuna Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Trishuli River rafting corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Benighat-Rorang/Gajuri belt",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Netrawati-Dabjong heritage landscape",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Netrawati Dabjong Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Budhi Gandaki valley",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern and western Dhading",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Jyamrung Durbar area",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Nilkantha region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Salyantar plateau",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Tripurasundari area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Dhading",
+    "place_name": "Jharlang and Darkha villages",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Ruby Valley approaches",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Nuwakot Durbar complex",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Bidur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Saat Tale Durbar",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Nuwakot heritage area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Bhairabi Temple, Nuwakot",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Nuwakot heritage area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Devighat",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Trishuli-Tadi confluence",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Dupcheshwar Mahadev Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dupcheshwar Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Kakani",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Kakani Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Suryachaur",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Shivapuri area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Langtang National Park sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Eastern/northern Nuwakot",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district park."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Trishuli River rafting corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Across district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Tadi River valley",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Nuwakot",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Nuwakot",
+    "place_name": "Kispang and Ghale village landscapes",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Kispang Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Kathmandu Durbar Square",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Kathmandu Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Kirtipur heritage town",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Kirtipur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Swayambhunath",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kathmandu Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Boudhanath Stupa",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kathmandu Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Pashupatinath Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kathmandu Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Budhanilkantha Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Budhanilkantha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Kapan Monastery",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Budhanilkantha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Pharping heritage and monastery circuit",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dakshinkali Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Dakshinkali Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dakshinkali Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Chandragiri Hills",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Chandragiri Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Indra Daha and Dahachok",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Chandragiri Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Shivapuri-Nagarjun National Park",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern and western Kathmandu Valley",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Nagarjun-Jamacho hike",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Nagarjun forest",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Sundarijal",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Gokarneshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Bagdwar",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Shivapuri ridge",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Source area of the Bagmati River."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Taudaha Lake",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Kirtipur/Dakshinkali corridor",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Gokarna forest and temple area",
+    "category": "Natural attractions",
+    "municipality_or_area": "Gokarneshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "Narayanhiti Palace Museum",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Kathmandu",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kathmandu",
+    "place_name": "National Museum of Nepal",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Chhauni, Kathmandu",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Bhaktapur Durbar Square",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Bhaktapur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Dattatreya Square",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Bhaktapur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Thimi heritage town",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Madhyapur Thimi Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Bode and Nil Barahi cultural area",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Madhyapur Thimi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Nyatapola Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Taumadhi Square",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Changu Narayan Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Changunarayan Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Kailashnath Mahadev Statue",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Sanga, Suryabinayak Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Suryabinayak Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Suryabinayak Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Siddha Pokhari",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Bhaktapur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Nagarkot",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Changunarayan Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district ridge with Kavrepalanchok."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Bhaktapur",
+    "place_name": "Pilot Baba Ashram viewpoint",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Suryabinayak area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Patan Durbar Square",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Lalitpur Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Patan Museum",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Patan Durbar Square",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Hiranya Varna Mahavihar",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Patan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Mahaboudha Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Patan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Kumbeshwar Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Patan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Bajrabarahi Temple and forest",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Godawari Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Tika Bhairab and Lele valley",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Godawari Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Karya Binayak Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bungamati area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Bungamati heritage village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Lalitpur Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Khokana heritage village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Lalitpur Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Godavari Botanical Garden",
+    "category": "Natural attractions",
+    "municipality_or_area": "Godawari Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Phulchowki hill",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Godawari Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Lakuri Bhanjyang",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Mahalaxmi Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Lalitpur",
+    "place_name": "Nag Daha",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Dhapakhel, Lalitpur",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Namo Buddha",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Namobuddha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Indreshwar Mahadev Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Panauti",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Palanchok Bhagwati Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Panchkhal area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Panauti heritage town",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Panauti Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Banepa old town and Chandeshwari Temple",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Banepa Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Dhulikhel viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Dhulikhel Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Nagarkot eastern ridge",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Banepa/Mandan Deupur side",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district ridge with Bhaktapur."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Bethanchok Narayanthan",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Bethanchok Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Balthali village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Panauti Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Namo Buddha-Dhulikhel-Panauti hiking circuit",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Central Kavre",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Tindhare Waterfall",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Roshib area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Kavrepalanchok",
+    "place_name": "Kushadevi and Roshi valley",
+    "category": "Natural attractions",
+    "municipality_or_area": "Panauti-Roshi region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Sindhuligadhi Fort",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Kamalamai Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Hariharpurgadhi",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Hariharpurgadhi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Sindhuligadhi viewpoint",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Kamalamai Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Phikkal hill viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Phikkal Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Kusheshwar Dumja",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Sunkoshi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Kamala River valley",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Sindhuli",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Sunkoshi rafting corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Northern boundary",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Marin valley",
+    "category": "Natural attractions",
+    "municipality_or_area": "Marin Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Sindhuli",
+    "place_name": "Junaar orchards and village routes",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Sindhuli highlands",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Sailung",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Doramba Sailung Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district ridge with Dolakha."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Sunapati hill",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Sunapati Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Khadadevi Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Khadadevi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Doramba memorial and cultural village",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Doramba Sailung",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Manthali-Tamakoshi river landscape",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Manthali Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Likhu River valley",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Ramechhap",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Jatapokhari and Panchpokhari trekking area",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Umakunda Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Remote alpine lake system; local route verification needed."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Numbur Cheese Circuit",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Umakunda/Gumdel region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Bamti Bhandar and Gumdel villages",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Northern Ramechhap",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Ramechhap",
+    "place_name": "Khimti valley",
+    "category": "Natural attractions",
+    "municipality_or_area": "Eastern Ramechhap",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Daman",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Thaha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Sim Bhanjyang",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Thaha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Kanti Rajpath hill viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Northern Makwanpur",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Kulekhani Reservoir / Indra Sarovar",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Indrasarowar Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Chitlang village",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Thaha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Markhu",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Indrasarowar Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Bajrabarahi Temple, Thaha",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Thaha Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Bhimphedi heritage town",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Bhimphedi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Makwanpurgadhi Fort",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Makwanpurgadhi Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Chisapani Gadhi",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Bhimphedi region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "place_name": "Parsa National Park sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Southern Makwanpur",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district park."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Chitwan National Park",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Southern Chitwan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "UNESCO World Heritage national park."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Bish Hajari birdwatching forests",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Buffer-zone landscape",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Sauraha",
+    "category": "Major tourist attractions",
+    "municipality_or_area": "Ratnanagar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Beeshazar and Associated Lakes",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Bharatpur Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Ramsar wetland complex."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Narayani River waterfront",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Bharatpur and western Chitwan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Rapti River wildlife corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Sauraha and park boundary",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Jalbire Waterfall",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Ichchhakamana Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Devghat",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bharatpur/Devghat confluence area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district pilgrimage site with Tanahun."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Balmiki Ashram approach",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Madi/park southern sector",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Access and district attribution should be checked for publishing."
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Chepang Hill Trail",
+    "category": "Trekking areas and mountain destinations",
+    "municipality_or_area": "Northern Chitwan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Siraichuli viewpoint",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Ichchhakamana Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Upper Dang Gadhi",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Northern Chitwan",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Meghauli wildlife tourism area",
+    "category": "Community tourism and notable villages",
+    "municipality_or_area": "Bharatpur western sector",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Chitwan",
+    "place_name": "Madi valley and Someshwar hills",
+    "category": "Natural attractions",
+    "municipality_or_area": "Madi Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  }
+]

@@ -1,0 +1,692 @@
+[
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Chinnamasta Bhagwati Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Chinnamasta Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Kankalini Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Hanumannagar Kankalini Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Shambhunath Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Shambhunath Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Koshi Tappu Wildlife Reserve sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Koshi floodplain",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district reserve."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Koshi Barrage eastern approaches",
+    "category": "Major tourist attractions",
+    "municipality_or_area": "Hanumannagar-Kankalini area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Rupani wetland and forest belt",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Rupani area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Bhar Daha wetland",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Kanchanrup area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Saptari",
+    "place_name": "Saptakoshi river islands and bird habitat",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Saptari",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Salahesh Fulbari",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Lahan Municipality area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cultural garden associated with the folk hero Salahesh."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Pakadi Gadhi remains",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Local verification required",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Exact site naming/location should be checked locally."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Salahesh Temple sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Lahan-Siraha region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Uttarayani Dham",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Kamala river area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Baba Taal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Lahan area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Kamal Daha",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Siraha district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Kamala River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern district boundary",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Siraha",
+    "place_name": "Chure foothill forest belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern Siraha",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Janaki Mandir",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Janakpurdham Sub-Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ram Mandir, Janakpur",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanushadham",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dhanushadham Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Mithila Bihari and Parikrama route sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Dhanusha countryside",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district pilgrimage circuit."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanush Sagar",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ganga Sagar",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Ratna Sagar and other sacred ponds",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Vivah Mandap",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Janaki Mandir complex",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Dhanushadham Protected Forest",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Dhanushadham area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Mithila Art and cultural quarters",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Janakpurdham",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Dhanusha",
+    "place_name": "Kamala River",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Eastern Dhanusha",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Jaleshwar Mahadev Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Jaleshwar Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Matihani Temple and Sanskrit heritage area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Matihani Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Raimandal religious site",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Mahottari district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Local-area verification recommended."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Mithila Parikrama route sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Various southern and central localities",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district pilgrimage circuit."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Tuteshwar Nath Mahadev",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bardibas region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Bardibas Chure foothills",
+    "category": "Natural attractions",
+    "municipality_or_area": "Bardibas Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Gaushala forest and wetland belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Gaushala Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Mahottari",
+    "place_name": "Ratu River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Mahottari",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Nadhi Tal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Chandranagar Rural Municipality area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Bharat Tal",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Bagmati Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Large artificial lake and recreation destination."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Nunthar religious and riverside area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Bagmati River, northern Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Rajdevi Temple sites",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Malangawa area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Sagarnath Forest",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Ishwarpur-Lalbandi region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Bagmati River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Western/northern Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Lakhandehi river landscape",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Sarlahi",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Sarlahi",
+    "place_name": "Chure foothill viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Northern Lalbandi-Ishwarpur",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Nunthar riverside and pilgrimage area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Chandrapur area, Bagmati River",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Rajdevi Temple, Gaur area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Gaur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Jungle Sahiya forest landscape",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Chandrapur region",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Gaur historical town core",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Gaur Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Bagmati River beaches",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Northern/western district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Lal Bakaiya River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Central Rautahat",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Chure forest and hill belt",
+    "category": "Natural attractions",
+    "municipality_or_area": "Northern Rautahat",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Rautahat",
+    "place_name": "Maraghar wetland areas",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Local verification required",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Include after municipality-level verification."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Gadhimai Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Mahagadhimai Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Kankali Temple, Simraungadh",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Simraungadh",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Simraungadh archaeological and palace area",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Simraungadh Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Parsa National Park sector",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Bara",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": "Cross-district national park."
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Nijgadh forest landscape",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Nijgadh Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Halkhoria Daha",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Northern Bara",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Chure forest viewpoints",
+    "category": "Viewpoints and hill stations",
+    "municipality_or_area": "Nijgadh-Kolhabi north",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Pasaha River corridor",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Bara district",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Bara",
+    "place_name": "Dudhora River and forest belt",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Nijgadh area",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Parsa National Park",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Northern Parsa and adjoining districts",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Parsa forest safari areas",
+    "category": "National parks, conservation areas, and wildlife sites",
+    "municipality_or_area": "Thori-Sakhuwa Prasauni belt",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Birgunj Ghadiarwa Pokhari",
+    "category": "Lakes and wetlands",
+    "municipality_or_area": "Birgunj Metropolitan City",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Gahawa Mai Temple",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Birgunj",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Bindabasini Temple, Birgunj area",
+    "category": "Religious sites and temples",
+    "municipality_or_area": "Birgunj",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Shankaracharya Gate",
+    "category": "Museums, palaces, forts, and monuments",
+    "municipality_or_area": "Birgunj border",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Thori hill and forest gateway",
+    "category": "Lesser-known or emerging destinations",
+    "municipality_or_area": "Thori Rural Municipality",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Sikta and Oriya river corridors",
+    "category": "Rivers and waterfalls",
+    "municipality_or_area": "Western Parsa",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Parsa",
+    "place_name": "Alau historical area",
+    "category": "Historical and cultural places",
+    "municipality_or_area": "Birgunj-Alau",
+    "priority": "To prioritize",
+    "research_status": "Master inventory researched",
+    "notes": ""
+  }
+]

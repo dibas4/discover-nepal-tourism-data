@@ -1,1 +1,0 @@
-# discover-nepal-tourism-data
