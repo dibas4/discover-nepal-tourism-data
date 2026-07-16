@@ -12,10 +12,10 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Dailekh | 30 | First-round inventory complete | `districts/dailekh.md` |
 | Jajarkot | 27 | First-round inventory complete | `districts/jajarkot.md` |
 | Western Rukum | 27 | First-round inventory complete | `districts/western-rukum.md` |
-| Salyan | 0 | Not started | `districts/salyan.md` |
+| Salyan | 26 | First-round inventory complete | `districts/salyan.md` |
 | Surkhet | 0 | Not started | `districts/surkhet.md` |
 
-**Current organized entries: 228**
+**Current organized entries: 254**
 
 ## Verification model
 
@@ -37,6 +37,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 - Mahabu/Mahawai is a cross-district Kalikot–Dailekh landscape and should be represented through relationship records, not duplicated as unrelated attractions.
 - Jajarkot heritage structures and visitor safety must be rechecked after the 2023 earthquake before publication.
 - Conflict-history sites in Western Rukum require neutral interpretation, current-condition checks and local consultation.
+- Kupinde Lake access, boating, shoreline safety and tourism facilities require date-stamped local verification.
 
 ## Data files to create after district review
 
