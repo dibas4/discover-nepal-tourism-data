@@ -12,9 +12,9 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 | Bajhang | 30 | First-round inventory complete | `districts/bajhang.md` |
 | Bajura | 30 | First-round inventory complete | `districts/bajura.md` |
 | Kailali | 32 | First-round inventory complete | `districts/kailali.md` |
-| Kanchanpur | 0 | Not started | `districts/kanchanpur.md` |
+| Kanchanpur | 32 | First-round inventory complete | `districts/kanchanpur.md` |
 
-**Current organized entries: 238**
+**Current organized entries: 270**
 
 ## Verification model
 
@@ -41,7 +41,10 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 - Badimalika and Budhinanda pilgrimage landscapes require seasonal access, camp, weather and local-condition verification.
 - Ghodaghodi must be modeled as a Ramsar wetland complex with component lakes, habitats and sacred sites.
 - Kailali rafting, museums, homestays, border rivers and wildlife corridors require date-stamped operating and mapping checks.
-- Tharu living-culture records require community consent and respectful representation.
+- Tharu and Rana Tharu living-culture records require community consent and respectful representation.
+- Shuklaphanta park gates, safari operations, wetlands, fees and seasonal closures require current park-authority verification.
+- Mahakali, Banbasa, Dodhara Chandani and Brahmadev border or river landscapes require date-stamped access and security checks.
+- Jhilmila, Bedkot and smaller wetlands require municipality and ground verification for coordinates, shoreline condition, trails and boating.
 
 ## Data files to create after district review
 
@@ -49,4 +52,4 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 - `sudurpashchim_master_inventory.json`
 - `quality_flags.md`
 
-District Markdown files are the source of truth during active research.
+District Markdown files are the source of truth during active research. All 9 Sudurpashchim districts now have first-round inventory files.
