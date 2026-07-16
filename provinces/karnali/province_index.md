@@ -7,7 +7,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Dolpa | 32 | First-round inventory complete | `districts/dolpa.md` |
 | Humla | 28 | First-round inventory complete | `districts/humla.md` |
 | Mugu | 30 | First-round inventory complete | `districts/mugu.md` |
-| Jumla | 0 | Not started | `districts/jumla.md` |
+| Jumla | 28 | First-round inventory complete | `districts/jumla.md` |
 | Kalikot | 0 | Not started | `districts/kalikot.md` |
 | Dailekh | 0 | Not started | `districts/dailekh.md` |
 | Jajarkot | 0 | Not started | `districts/jajarkot.md` |
@@ -15,7 +15,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Salyan | 0 | Not started | `districts/salyan.md` |
 | Surkhet | 0 | Not started | `districts/surkhet.md` |
 
-**Current organized entries: 90**
+**Current organized entries: 118**
 
 ## Verification model
 
@@ -32,6 +32,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 - Wildlife records represent habitat and conservation value, not guaranteed sighting locations.
 - Seasonal pilgrimage, yarsagumba collection and high-pasture access require community approval and current safety checks.
 - Any protected-area change reported after 2024 must be verified against a government gazette or Department of National Parks and Wildlife Conservation record before final publication.
+- Archaeological boundaries, inscriptions and excavation features in Sinja Valley require Department of Archaeology or specialist verification before coordinates are published.
 
 ## Data files to create after district review
 
