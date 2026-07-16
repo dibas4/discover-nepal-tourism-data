@@ -13,9 +13,9 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Jajarkot | 27 | First-round inventory complete | `districts/jajarkot.md` |
 | Western Rukum | 27 | First-round inventory complete | `districts/western-rukum.md` |
 | Salyan | 26 | First-round inventory complete | `districts/salyan.md` |
-| Surkhet | 0 | Not started | `districts/surkhet.md` |
+| Surkhet | 30 | First-round inventory complete | `districts/surkhet.md` |
 
-**Current organized entries: 254**
+**Current organized entries: 284**
 
 ## Verification model
 
@@ -38,6 +38,8 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 - Jajarkot heritage structures and visitor safety must be rechecked after the 2023 earthquake before publication.
 - Conflict-history sites in Western Rukum require neutral interpretation, current-condition checks and local consultation.
 - Kupinde Lake access, boating, shoreline safety and tourism facilities require date-stamped local verification.
+- Kakrebihar archaeological limits and monument components require specialist verification; Bulbule Lake and Bheri rafting operations need date-stamped condition checks.
+- Raji cultural records require community consent and respectful living-culture representation.
 
 ## Data files to create after district review
 
