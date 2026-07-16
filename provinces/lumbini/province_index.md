@@ -10,14 +10,14 @@ Structured master-inventory research for the 12 districts of Lumbini Province.
 | Palpa | 30 | First full inventory complete | `districts/palpa.md` |
 | Arghakhanchi | 24 | First full inventory complete | `districts/arghakhanchi.md` |
 | Gulmi | 25 | First full inventory complete | `districts/gulmi.md` |
-| Pyuthan | 0 | Not started | `districts/pyuthan.md` |
-| Rolpa | 0 | Not started | `districts/rolpa.md` |
+| Pyuthan | 23 | First full inventory complete | `districts/pyuthan.md` |
+| Rolpa | 28 | First full inventory complete | `districts/rolpa.md` |
 | Eastern Rukum | 0 | Not started | `districts/eastern-rukum.md` |
 | Dang | 0 | Not started | `districts/dang.md` |
 | Banke | 0 | Not started | `districts/banke.md` |
 | Bardiya | 0 | Not started | `districts/bardiya.md` |
 
-**Current organized entries:** 156
+**Current organized entries:** 207
 
 ## Verification model
 
