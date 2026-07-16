@@ -10,12 +10,12 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Jumla | 28 | First-round inventory complete | `districts/jumla.md` |
 | Kalikot | 26 | First-round inventory complete | `districts/kalikot.md` |
 | Dailekh | 30 | First-round inventory complete | `districts/dailekh.md` |
-| Jajarkot | 0 | Not started | `districts/jajarkot.md` |
-| Western Rukum | 0 | Not started | `districts/western-rukum.md` |
+| Jajarkot | 27 | First-round inventory complete | `districts/jajarkot.md` |
+| Western Rukum | 27 | First-round inventory complete | `districts/western-rukum.md` |
 | Salyan | 0 | Not started | `districts/salyan.md` |
 | Surkhet | 0 | Not started | `districts/surkhet.md` |
 
-**Current organized entries: 174**
+**Current organized entries: 228**
 
 ## Verification model
 
@@ -35,6 +35,8 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 - Archaeological boundaries, inscriptions and excavation features in Sinja Valley require Department of Archaeology or specialist verification before coordinates are published.
 - Panchakoshi, Bhurti, Dullu and other Dailekh archaeological records require Department of Archaeology verification before monument-level coordinates are published.
 - Mahabu/Mahawai is a cross-district Kalikot–Dailekh landscape and should be represented through relationship records, not duplicated as unrelated attractions.
+- Jajarkot heritage structures and visitor safety must be rechecked after the 2023 earthquake before publication.
+- Conflict-history sites in Western Rukum require neutral interpretation, current-condition checks and local consultation.
 
 ## Data files to create after district review
 
