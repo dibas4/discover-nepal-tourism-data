@@ -7,14 +7,14 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 | Darchula | 32 | First-round inventory complete | `districts/darchula.md` |
 | Baitadi | 27 | First-round inventory complete | `districts/baitadi.md` |
 | Dadeldhura | 28 | First-round inventory complete | `districts/dadeldhura.md` |
-| Doti | 0 | Not started | `districts/doti.md` |
-| Achham | 0 | Not started | `districts/achham.md` |
+| Doti | 29 | First-round inventory complete | `districts/doti.md` |
+| Achham | 30 | First-round inventory complete | `districts/achham.md` |
 | Bajhang | 0 | Not started | `districts/bajhang.md` |
 | Bajura | 0 | Not started | `districts/bajura.md` |
 | Kailali | 0 | Not started | `districts/kailali.md` |
 | Kanchanpur | 0 | Not started | `districts/kanchanpur.md` |
 
-**Current organized entries: 87**
+**Current organized entries: 146**
 
 ## Verification model
 
@@ -33,6 +33,9 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 - Seasonal roads, monsoon access, flights, ferries, boating and trail infrastructure require current local verification.
 - Amargadhi Fort, Ajaymerukot, and other monument sites require official heritage-condition and boundary verification before monument-level coordinates are published.
 - Pancheshwar, Parashuram, Mahakali and other cross-border or river-confluence landscapes require relationship records rather than duplicate isolated points.
+- Khaptad National Park is a cross-district protected landscape; Doti and Achham entries represent district-specific access and tourism relationships.
+- Ramaroshan lake names, counts, coordinates, shoreline conditions, and trail access require municipality and ground verification.
+- Mangalsen, Panchadewal, and other Achham heritage structures require official condition and boundary checks before publication.
 
 ## Data files to create after district review
 
