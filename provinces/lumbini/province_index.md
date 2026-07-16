@@ -15,9 +15,9 @@ Structured master-inventory research for the 12 districts of Lumbini Province.
 | Eastern Rukum | 26 | First full inventory complete | `districts/eastern-rukum.md` |
 | Dang | 30 | First full inventory complete | `districts/dang.md` |
 | Banke | 25 | First full inventory complete | `districts/banke.md` |
-| Bardiya | 0 | Not started | `districts/bardiya.md` |
+| Bardiya | 30 | First full inventory complete | `districts/bardiya.md` |
 
-**Current organized entries:** 288
+**Current organized entries:** 318
 
 ## Verification model
 
