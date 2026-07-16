@@ -6,7 +6,7 @@ Structured master-inventory research for the 12 districts of Lumbini Province.
 |---|---:|---|---|
 | Rupandehi | 28 | First full inventory complete | `districts/rupandehi.md` |
 | Kapilvastu | 27 | First full inventory complete | `districts/kapilvastu.md` |
-| Nawalparasi (West) | 0 | Not started | `districts/nawalparasi-west.md` |
+| Nawalparasi (West) | 22 | First full inventory complete | `districts/nawalparasi-west.md` |
 | Palpa | 0 | Not started | `districts/palpa.md` |
 | Arghakhanchi | 0 | Not started | `districts/arghakhanchi.md` |
 | Gulmi | 0 | Not started | `districts/gulmi.md` |
@@ -17,7 +17,7 @@ Structured master-inventory research for the 12 districts of Lumbini Province.
 | Banke | 0 | Not started | `districts/banke.md` |
 | Bardiya | 0 | Not started | `districts/bardiya.md` |
 
-**Current organized entries:** 55
+**Current organized entries:** 77
 
 ## Verification model
 
