@@ -4,16 +4,16 @@ Organized master-inventory research covering all 8 districts.
 
 | District | Entries | File |
 |---|---:|---|
-| Saptari | 8 | `districts/saptari.md` |
-| Siraha | 8 | `districts/siraha.md` |
-| Dhanusha | 11 | `districts/dhanusha.md` |
-| Mahottari | 8 | `districts/mahottari.md` |
-| Sarlahi | 8 | `districts/sarlahi.md` |
-| Rautahat | 8 | `districts/rautahat.md` |
-| Bara | 9 | `districts/bara.md` |
-| Parsa | 9 | `districts/parsa.md` |
+| Saptari | 18 | `districts/saptari.md` |
+| Siraha | 17 | `districts/siraha.md` |
+| Dhanusha | 24 | `districts/dhanusha.md` |
+| Mahottari | 20 | `districts/mahottari.md` |
+| Sarlahi | 17 | `districts/sarlahi.md` |
+| Rautahat | 16 | `districts/rautahat.md` |
+| Bara | 20 | `districts/bara.md` |
+| Parsa | 21 | `districts/parsa.md` |
 
-**Total organized entries:** 69
+**Total organized entries:** 153
 
 ## Data files
 
@@ -21,3 +21,9 @@ Organized master-inventory research covering all 8 districts.
 - `madhesh_master_inventory.json`
 - `districts/`
 - `quality_flags.md`
+
+## Synchronization status
+
+- District Markdown inventories are the current source of truth.
+- The province CSV and JSON files still require regeneration from the expanded district files.
+- Record-level coordinates, source URLs, verification dates and local-status checks remain later verification work.
