@@ -5,8 +5,8 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 | District | Entries | Status | File |
 |---|---:|---|---|
 | Darchula | 32 | First-round inventory complete | `districts/darchula.md` |
-| Baitadi | 0 | Not started | `districts/baitadi.md` |
-| Dadeldhura | 0 | Not started | `districts/dadeldhura.md` |
+| Baitadi | 27 | First-round inventory complete | `districts/baitadi.md` |
+| Dadeldhura | 28 | First-round inventory complete | `districts/dadeldhura.md` |
 | Doti | 0 | Not started | `districts/doti.md` |
 | Achham | 0 | Not started | `districts/achham.md` |
 | Bajhang | 0 | Not started | `districts/bajhang.md` |
@@ -14,7 +14,7 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 | Kailali | 0 | Not started | `districts/kailali.md` |
 | Kanchanpur | 0 | Not started | `districts/kanchanpur.md` |
 
-**Current organized entries: 32**
+**Current organized entries: 87**
 
 ## Verification model
 
@@ -31,6 +31,8 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 - Community cultures, sacred landscapes and oral traditions require local consultation before detailed publication.
 - Wildlife records describe habitat and conservation value, not guaranteed sighting locations.
 - Seasonal roads, monsoon access, flights, ferries, boating and trail infrastructure require current local verification.
+- Amargadhi Fort, Ajaymerukot, and other monument sites require official heritage-condition and boundary verification before monument-level coordinates are published.
+- Pancheshwar, Parashuram, Mahakali and other cross-border or river-confluence landscapes require relationship records rather than duplicate isolated points.
 
 ## Data files to create after district review
 
