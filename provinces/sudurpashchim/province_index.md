@@ -10,11 +10,11 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 | Doti | 29 | First-round inventory complete | `districts/doti.md` |
 | Achham | 30 | First-round inventory complete | `districts/achham.md` |
 | Bajhang | 30 | First-round inventory complete | `districts/bajhang.md` |
-| Bajura | 0 | Not started | `districts/bajura.md` |
-| Kailali | 0 | Not started | `districts/kailali.md` |
+| Bajura | 30 | First-round inventory complete | `districts/bajura.md` |
+| Kailali | 32 | First-round inventory complete | `districts/kailali.md` |
 | Kanchanpur | 0 | Not started | `districts/kanchanpur.md` |
 
-**Current organized entries: 176**
+**Current organized entries: 238**
 
 ## Verification model
 
@@ -38,6 +38,10 @@ Structured first-round tourism inventory for the 9 districts of Sudurpashchim Pr
 - Mangalsen, Panchadewal, and other Achham heritage structures require official condition and boundary checks before publication.
 - Surma Sarovar, Saipal routes and northern Bajhang pilgrimage or trade corridors require date-stamped access, permit and ground verification.
 - Bajhang royal, temple and monument records require municipality, Department of Archaeology or specialist confirmation before precise coordinates are published.
+- Badimalika and Budhinanda pilgrimage landscapes require seasonal access, camp, weather and local-condition verification.
+- Ghodaghodi must be modeled as a Ramsar wetland complex with component lakes, habitats and sacred sites.
+- Kailali rafting, museums, homestays, border rivers and wildlife corridors require date-stamped operating and mapping checks.
+- Tharu living-culture records require community consent and respectful representation.
 
 ## Data files to create after district review
 
