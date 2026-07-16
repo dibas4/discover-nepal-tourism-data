@@ -6,7 +6,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 |---|---:|---|---|
 | Dolpa | 32 | First-round inventory complete | `districts/dolpa.md` |
 | Humla | 28 | First-round inventory complete | `districts/humla.md` |
-| Mugu | 0 | Not started | `districts/mugu.md` |
+| Mugu | 30 | First-round inventory complete | `districts/mugu.md` |
 | Jumla | 0 | Not started | `districts/jumla.md` |
 | Kalikot | 0 | Not started | `districts/kalikot.md` |
 | Dailekh | 0 | Not started | `districts/dailekh.md` |
@@ -15,7 +15,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Salyan | 0 | Not started | `districts/salyan.md` |
 | Surkhet | 0 | Not started | `districts/surkhet.md` |
 
-**Current organized entries: 60**
+**Current organized entries: 90**
 
 ## Verification model
 
@@ -31,6 +31,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 - Mountain passes, valleys, protected areas and trekking regions are geographic entities, not single-point attractions.
 - Wildlife records represent habitat and conservation value, not guaranteed sighting locations.
 - Seasonal pilgrimage, yarsagumba collection and high-pasture access require community approval and current safety checks.
+- Any protected-area change reported after 2024 must be verified against a government gazette or Department of National Parks and Wildlife Conservation record before final publication.
 
 ## Data files to create after district review
 
