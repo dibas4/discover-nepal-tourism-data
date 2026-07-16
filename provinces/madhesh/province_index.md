@@ -24,10 +24,7 @@ Organized master-inventory research covering all 8 districts.
 
 ## Synchronization status
 
+- All 8 district Markdown files are normalized under `provinces/madhesh/districts/`.
 - District Markdown inventories are the current source of truth.
 - The province CSV and JSON files still require regeneration from the expanded district files.
 - Record-level coordinates, source URLs, verification dates and local-status checks remain later verification work.
-
-## Migration status
-
-This normalized index was copied from the legacy nested path. Legacy files remain untouched until all eight district files are verified in `provinces/madhesh/districts/`.
