@@ -1,45 +1,62 @@
 # National First-Round Tourism Inventory Audit
 
-Audit status: **in progress**
+Audit status: **first-round reconciliation complete**
 
 This file records repository-level checks after completing the first-round district inventories. Git files, not chat messages, are the source of truth.
 
-## Province indexes directly verified
+## Province indexes verified
 
-| Province | Districts verified | Organized entries | Index path | Status |
+| Province | Districts | Organized entries | Index path | Status |
 |---|---:|---:|---|---|
+| Koshi | 14 | 302 | `discover-nepal-tourism-data/provinces/koshi/province_index.md` | Reconciled; legacy nested path |
+| Madhesh | 8 | 153 | `discover-nepal-tourism-data/provinces/madhesh/province_index.md` | Reconciled; legacy nested path |
+| Bagmati | 13 | 153 | `discover-nepal-tourism-data/provinces/bagmati/province_index.md` | Reconciled; legacy nested path |
 | Lumbini | 12 | 318 | `provinces/lumbini/province_index.md` | Reconciled |
 | Gandaki | 11 | 217 | `provinces/gandaki/province_index.md` | Reconciled |
 | Karnali | 10 | 284 | `provinces/karnali/province_index.md` | Reconciled |
 | Sudurpashchim | 9 | 270 | `provinces/sudurpashchim/province_index.md` | Reconciled |
 
-**Verified subtotal:** 42 districts and 1,089 organized entries.
+**National first-round total: 77 districts and 1,697 organized records.**
 
-## Older province structures requiring reconciliation
+## Structural finding
 
-The current standardized path `provinces/<province>/province_index.md` was not found for:
+The first three provinces are stored below an accidental extra top-level directory:
 
-- Koshi
-- Madhesh
-- Bagmati
+```text
+discover-nepal-tourism-data/provinces/
+```
 
-These provinces were researched earlier, but their files may use an older folder layout or naming convention. They must be located and normalized before a reliable national total is published.
+The later four provinces use:
+
+```text
+provinces/
+```
+
+This is a repository-layout problem, not missing data. Do not create duplicate province files before migrating the legacy tree.
+
+## Safe migration plan
+
+1. Copy Koshi, Madhesh, and Bagmati province indexes, district files, quality flags, CSV, and JSON into `provinces/<province>/`.
+2. Verify file counts and content hashes after copying.
+3. Update references in README, scripts, and audit files.
+4. Delete the legacy nested copies only after the normalized paths are verified.
+5. Regenerate province CSV/JSON files where district Markdown files are newer than the existing exports.
 
 ## Audit findings
 
-1. Province folder structure is inconsistent between earlier and later research phases.
-2. The four standardized province indexes above reconcile correctly with their district counts.
+1. All 77 district inventories are represented by the seven province indexes.
+2. Province index arithmetic reconciles to 1,697 records.
 3. Gandaki is intentionally conservative at 217 records and should not be inflated from earlier chat estimates.
-4. Cross-district entities must become relationship records rather than unrelated duplicates.
-5. Exact coordinates must not be published for archaeological boundaries, seasonal natural features, uncertain mapped sites, or sensitive border locations without verification.
-6. Living-culture records require community consent and respectful representation.
-7. Roads, flights, trails, bridges, boating, safari operations, permits, entry fees, border access, and accommodation must carry a `last_verified` date.
+4. Madhesh district Markdown files are the current source of truth; its province CSV/JSON require regeneration.
+5. Cross-district entities must become relationship records rather than unrelated duplicates.
+6. Exact coordinates must not be published for archaeological boundaries, seasonal natural features, uncertain mapped sites, or sensitive border locations without verification.
+7. Living-culture records require community consent and respectful representation.
+8. Roads, flights, trails, bridges, boating, safari operations, permits, entry fees, border access, and accommodation must carry a `last_verified` date.
 
 ## Next audit actions
 
-- Locate and normalize Koshi, Madhesh, and Bagmati province indexes.
-- Recalculate the true national record total from all seven Git indexes.
-- Check every province table for arithmetic errors.
+- Normalize the three legacy province paths without duplicating records.
+- Check district files against province-index counts.
 - Identify districts below the minimum first-round depth threshold.
 - Detect likely duplicate names and cross-district landscapes.
 - Create a national `quality_flags.md`.
