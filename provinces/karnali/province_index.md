@@ -5,7 +5,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | District | Entries | Status | File |
 |---|---:|---|---|
 | Dolpa | 32 | First-round inventory complete | `districts/dolpa.md` |
-| Humla | 0 | Not started | `districts/humla.md` |
+| Humla | 28 | First-round inventory complete | `districts/humla.md` |
 | Mugu | 0 | Not started | `districts/mugu.md` |
 | Jumla | 0 | Not started | `districts/jumla.md` |
 | Kalikot | 0 | Not started | `districts/kalikot.md` |
@@ -15,7 +15,7 @@ Structured first-round tourism inventory for the 10 districts of Karnali Provinc
 | Salyan | 0 | Not started | `districts/salyan.md` |
 | Surkhet | 0 | Not started | `districts/surkhet.md` |
 
-**Current organized entries: 32**
+**Current organized entries: 60**
 
 ## Verification model
 
