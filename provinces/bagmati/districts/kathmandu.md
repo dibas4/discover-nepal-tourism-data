@@ -213,10 +213,104 @@ This section records publication-grade facts separately from the first-round pla
   - https://www.wikidata.org/wiki/Q28183964
 - **Verification status:** Core destination, municipality, cable-car operation and current published fares verified; operating hours explicitly flagged for recheck because official pages conflict
 
+## Verified research batch 03 — 2026-08-10
+
+### 11. Indra Daha and Dahachok
+
+- **District:** Kathmandu
+- **Municipality / ward:** Chandragiri Municipality, Ward 1 (Dahachok)
+- **Destination type:** Historical-religious hill destination / viewpoint / local pilgrimage area
+- **Administrative verification:** Chandragiri Municipality identifies Ward 1 as the former Dahachok VDC area. The municipality homepage also features the Kaji Kalu Pande memorial and Dahachok View Tower as a ward attraction.
+- **Core attractions:** Indra Daha pond and associated religious area, Kaji Kalu Pande memorial/cemetery, Dahachok View Tower, surrounding hill viewpoints and local temples.
+- **Historical context:** The Kalu Pande memorial is associated with the Gorkhali commander killed during the Kirtipur campaign. A government-recognized tourism-site report also identifies Dahachok as a historic and religious destination and places Indra Daha within Dahachok.
+- **Festival context:** Indra Daha hosts a major local religious fair linked with Indra worship; the exact annual Gregorian date varies with the lunar calendar and should be published only from a dated local notice.
+- **Coordinates:** Exact publication-grade attraction coordinates still pending. Do not use a generic Dahachok centroid as the map pin for Indra Daha.
+- **Permit requirement:** No separate tourism permit identified in municipality or government-linked sources reviewed.
+- **Entry fee / hours:** No reliable current official general entry fee or opening-hour schedule found; locally recheck before publishing operational details.
+- **Primary sources:**
+  - https://www.chandragirimun.gov.np/en/ward1
+  - https://www.chandragirimun.gov.np/ne
+  - https://chandragirimun.gov.np/en/content/ward-offices
+  - https://english.nepalnews.com/s/nation/president-visits-kalu-pandeys-memorial/
+- **Verification status:** Municipality/ward and principal heritage anchors verified; exact attraction coordinates and live operational details remain pending
+
+### 12. Shivapuri-Nagarjun National Park
+
+- **District / regional extent:** Kathmandu Valley rim; park also reaches adjoining hill areas beyond Kathmandu District
+- **Destination type:** National park / watershed / biodiversity area / hiking and pilgrimage landscape
+- **Established:** Shivapuri National Park in 2002; expanded by adding the 15 sq km Nagarjun area to form Shivapuri-Nagarjun National Park.
+- **Area:** 159 sq km; DNPWC currently lists a 118.61 sq km buffer zone.
+- **Elevation anchor:** Shivapuri peak reaches 2,732 m according to DNPWC.
+- **Landscape / water significance:** DNPWC identifies Shivapuri as a major Kathmandu water-source area; water collected at Sundarijal also supports hydropower infrastructure.
+- **Biodiversity:** Current DNPWC profile records 318 bird species, 102 butterfly species and 129 mushroom species and notes mammals including clouded leopard, bear, leopard, barking deer, wild boar, jungle cat and langur.
+- **Religious / hiking sites inside the park:** DNPWC specifically names Bagdwar, Jamacho, Bishnudwar, Tarebhir and Nagi Gumba among important sites. The Sundarijal-Chisapani trail toward Helambu also passes through the park.
+- **Headquarters:** Panimuhan, Kathmandu; current park contact page lists Budhanilkantha/Panimuhan access for headquarters inquiries.
+- **Permit / entrance requirement:** This is a protected national park, so park-entry rules apply. Current fee tables should be pulled from the park/DNPWC immediately before publication rather than copied from secondary trekking sites.
+- **Primary sources:**
+  - https://dnpwc.gov.np/content/47/shivpuri-nagarjuna-national-park/
+  - https://snnp.gov.np/
+  - https://snnp.gov.np/contact
+  - https://dnpwc.gov.np/pages/shivpuri-nagarjuna-r-n-management-plan--2024-2029--27/
+- **Verification status:** Protected-area identity, area, biodiversity, major internal destinations and headquarters verified from park/DNPWC sources; live fee details still require an official tariff capture
+
+### 13. Nagarjun-Jamacho hike
+
+- **District:** Kathmandu
+- **Area:** Nagarjun forest sector of Shivapuri-Nagarjun National Park, west/northwest of Kathmandu urban core
+- **Destination type:** Protected-forest day hike / hilltop pilgrimage and viewpoint
+- **Protected-area status:** Jamacho is explicitly listed by DNPWC as an important religious site inside Shivapuri-Nagarjun National Park; Nagarjun is also listed by Nepal Tourism Board among Kathmandu Valley hiking options.
+- **Visitor experience:** Forest ascent to the Jamacho hilltop area with Kathmandu Valley and hill views; route planning must treat it as a national-park hike rather than an unrestricted neighborhood trail.
+- **Coordinates:** Exact trailhead and summit coordinates should be stored separately during the later route-planner geometry pass. Do not collapse the whole hike into one generic “Nagarjun” pin.
+- **Permit / entrance requirement:** National-park entry rules apply. Any same-day ID, guide, route-opening or security requirements should be checked with the park before publication because controlled-access practices can change.
+- **Fees / hours:** No live official fee/hour table captured in this research pass; do not publish third-party figures as authoritative.
+- **Primary sources:**
+  - https://dnpwc.gov.np/content/47/shivpuri-nagarjuna-national-park/
+  - https://snnp.gov.np/
+  - https://ntb.gov.np/en/hiking
+- **Verification status:** Hike identity and protected-area context verified; trailhead geometry and current gate operations pending
+
+### 14. Sundarijal
+
+- **District:** Kathmandu
+- **Municipality:** Gokarneshwor Municipality
+- **Destination type:** River/waterfall landscape / religious-natural site / national-park gateway / hiking trailhead
+- **Municipality verification:** Gokarneshwor Municipality was formed in part from the former Sundarijal VDC and maintains an official tourism-information entry for Sundarijal and Sundari Waterfall.
+- **Natural / cultural context:** Municipality tourism information describes Sundarijal as a combination of religious, natural and built heritage, with flowing water, waterfalls, temples and the historic reservoir/hydropower landscape.
+- **Hydropower / water context:** The municipality identifies Sundarijal Hydropower Station as Nepal's second hydroelectric plant and highlights the area's role in Kathmandu water infrastructure. DNPWC likewise identifies Sundarijal as an important water-collection and hydropower point in the Shivapuri watershed.
+- **Trekking role:** DNPWC confirms the Sundarijal-Chisapani route through the national park as a principal trail toward Helambu; NTB also lists Sundarijal among Kathmandu Valley hiking options.
+- **Protected-area relationship:** Some Sundarijal attractions and onward trails enter Shivapuri-Nagarjun National Park, so visitor fees/rules differ depending on whether a traveler remains in the municipal attraction area or crosses a park gate.
+- **Current local tourism-page hours:** Gokarneshwor's generic Sundarijal tourism entry currently displays Sunday 10:00-17:00 and Monday-Friday 07:00-17:00, but the page does not clearly define which facility those hours govern. Do not publish these as universal Sundarijal opening hours.
+- **Fee caution:** The municipality's separate Sundari Waterfall page displays adult/SAARC/non-SAARC fees, but these should not automatically be applied to the entire Sundarijal destination or national-park entry.
+- **Primary sources:**
+  - https://info.gokarneshwormun.gov.np/tourist-places/7
+  - https://info.gokarneshwormun.gov.np/tourist-places/5
+  - https://www.gokarneshwormun.gov.np/ne/node/424
+  - https://dnpwc.gov.np/content/47/shivpuri-nagarjuna-national-park/
+  - https://ntb.gov.np/en/hiking
+- **Verification status:** Municipality, attraction identity, water/hydropower significance and trekking-gateway role verified; facility-specific fee/hour mapping still needs normalization
+
+### 15. Bagdwar / Baghdwar
+
+- **District:** Kathmandu
+- **Area:** Shivapuri ridge inside Shivapuri-Nagarjun National Park; approached from the Kathmandu-side park network
+- **Destination type:** Sacred spring / river-source pilgrimage / forest hike
+- **Name note:** Preserve both “Bagdwar” and “Baghdwar” aliases; government and municipality English transliterations vary.
+- **Hydrological significance:** DNPWC identifies Bagdwar as the source of the Bagmati River and one of the park's important religious sites. Gokarneshwor Municipality tourism information likewise identifies Bagdwar as the Bagmati source and provides the site's religious origin tradition.
+- **Pilgrimage context:** DNPWC notes that devotees visit Bagdwar around the Nepali New Year period for ritual bathing and worship.
+- **Route context:** This is not a roadside urban attraction; it is an upland protected-area destination reached through Shivapuri's trail network. Route-planner data should therefore include trailhead, elevation gain, walking time and park-gate dependency separately.
+- **Coordinates:** Exact spring coordinate should be verified from a park map/GIS layer before map publication rather than from generic web map pins.
+- **Permit / entrance requirement:** National-park entry rules apply. Live gate hours and tariff should be rechecked from the park before publication.
+- **Primary sources:**
+  - https://dnpwc.gov.np/content/47/shivpuri-nagarjuna-national-park/
+  - https://info.gokarneshwormun.gov.np/tourist-places/2
+  - https://info.gokarneshwormun.gov.np/tourist-places
+  - https://snnp.gov.np/
+- **Verification status:** River-source identity, protected-area context and pilgrimage significance verified from government/municipal sources; exact GIS point and operational gate details pending
+
 ## Next verification work
 
-- Continue Kathmandu with entries 11–15: Indra Daha and Dahachok; Shivapuri-Nagarjun National Park; Nagarjun-Jamacho hike; Sundarijal; Bagdwar.
-- Confirm exact municipality/ward for records where the place spans multiple administrative areas.
-- Add source URLs and verification dates to each researched record.
+- Complete Kathmandu entries 16–19: Taudaha Lake; Gokarna forest and temple area; Narayanhiti Palace Museum; National Museum of Nepal.
+- After Kathmandu's 19 entries are complete, run one district QA pass for aliases, duplicate concepts, coordinate precision, fee freshness and route-planner readiness.
+- For Shivapuri-Nagarjun records, capture the current official entrance tariff and gate rules before traveler-facing publication.
+- Keep attraction-level coordinates separate from settlement centroids and trailhead/summit coordinates.
 - Treat fees, opening hours, protected-area rules and religious access rules as time-sensitive.
-- Check cross-district places and alternate spellings before CMS import.
