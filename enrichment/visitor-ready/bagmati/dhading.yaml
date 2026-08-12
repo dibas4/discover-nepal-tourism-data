@@ -1,0 +1,377 @@
+district: Dhading
+province: Bagmati
+status: visitor_ready_enrichment_v1
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Dhading stretches from the Himalayan zone around Ganesh Himal in the north to lower Mahabharat hills and the Trishuli corridor in the south. It combines remote trekking, Tamang and Gurung villages, river adventure, pilgrimage sites, waterfalls, historic hill forts and practical highway gateways between Kathmandu, Pokhara and Chitwan.
+  why_visit:
+    - Ruby Valley and Ganesh Himal trekking
+    - Tamang and Gurung village culture
+    - Trishuli rafting and canyoning
+    - Ganga Jamuna waterfall and pilgrimage
+    - Salyantar plateau and Budhi Gandaki views
+    - local temples, forts and ridge viewpoints
+
+history:
+  short: >
+    Dhading's settlements developed along old hill routes connecting the Kathmandu Valley with Ganesh Himal, the Budhi Gandaki basin and western Nepal. Tamang, Gurung, Newar, Brahmin-Chhetri and other communities shaped the district's cultural geography. Today the district is both a major transport corridor and one of Nepal's quieter trekking regions, with historic kot and durbar landscapes surviving in the central hills.
+
+main_hubs:
+  - name: Kathmandu
+    role: primary_external_gateway
+  - name: Dhading Besi
+    role: district_headquarters_and_northern_route_hub
+    geometry: {type: circle_first_pass, center: {lat: 27.9116, lng: 84.8917}, radius_m: 2500, coordinate_quality: approximate_city_center}
+  - name: Malekhu
+    role: highway_and_rafting_gateway
+    geometry: {type: circle_first_pass, center: {lat: 27.8078, lng: 84.8249}, radius_m: 1800, coordinate_quality: approximate_bazaar_center}
+  - name: Benighat
+    role: highway_river_gateway
+    geometry: {type: circle_first_pass, center: {lat: 27.7907, lng: 84.7797}, radius_m: 1800, coordinate_quality: approximate_settlement_center}
+
+map_model_rules:
+  large_area: "Use approximate area center plus radius/polygon; never route users to one fake center pin."
+  point_poi: "Use exact pin only for verified temples, forts, viewpoints, trailheads or facilities."
+  corridor: "Use line/polygon geometry for rivers, valleys and trekking routes."
+  pending: "If an exact visitor-access point is weak, keep coordinate_status pending and route only to the nearest verified hub."
+
+permit_policy:
+  general: >
+    No Dhading-wide special tourism permit was identified. Ruby Valley and the Chitwan Chepang Hill Trail are not treated here as Nepal restricted-area permit zones. If an itinerary crosses into a national park, conservation area or another district with separate rules, use that area's current permit/entry requirements.
+  rafting: "Visitors normally book through a licensed/current rafting operator; river activity fees and launch arrangements are dynamic operator data rather than a district permit."
+  temples_and_local_sites: "Treat current donations, local tickets, festival access and parking fees as dynamic unless an official authority publishes a fixed requirement."
+  trekking: "Guide, TIMS or agency requirements must be checked against current Nepal Tourism Board rules for the exact itinerary before publication; do not assume one rule covers every Ruby Valley variant."
+
+visitor_areas:
+  - id: ruby-valley
+    name: Ruby Valley trekking region
+    type: trekking_region
+    intro: "Remote multi-day trekking landscape below the Ganesh Himal range, combining high ridges, rhododendron forest, Tamang-Gurung villages and broad mountain views."
+    geometry: {type: polygon_preferred, reference_center: {lat: 28.166, lng: 85.055}, radius_m: 22000, coordinate_quality: approximate_region_center}
+    things_to_do: [multi-day trekking, village stays, mountain viewing, cultural experiences, photography]
+    permits_entry: {special_restricted_permit: false, local_entry_fee: dynamic, note: "Check current TIMS/guide rules for the exact route before departure."}
+    how_to_visit:
+      from_kathmandu: "Travel by road toward Dhading Besi and then continue by local jeep/4WD toward northern trail gateways such as Jharlang, Darkha, Borang or the Somdang side depending on itinerary."
+      final_access: "Large parts are trail-based; road reach and condition vary seasonally."
+      route_condition: dynamic
+
+  - id: ganesh-himal-region
+    name: Ganesh Himal trekking region
+    type: mountain_trekking_landscape
+    intro: "Northern Dhading trekking country with Ganesh Himal views, alpine meadows, forest and highland villages."
+    geometry: {type: polygon_preferred, reference_center: {lat: 28.255, lng: 85.17}, radius_m: 25000, coordinate_quality: approximate_mountain_region}
+    things_to_do: [trekking, camping, mountain viewing, cultural village visits]
+    permits_entry: {special_restricted_permit: false, note: "Some route variants may approach Rasuwa/Langtang-side checkpoints; apply the current rule of the area actually entered."}
+    how_to_visit: {from_main_hub: "Dhading Besi or Rasuwa-side road access depending on route", final_access: "multi-day trail", route_condition: dynamic}
+
+  - id: pangsang-pass
+    name: Pangsang Pass / Pangsang Kharka
+    type: high_ridge_viewpoint
+    intro: "High scenic ridge on Ganesh Himal/Ruby Valley routes, valued for camping and panoramas toward Ganesh Himal and Manaslu."
+    geometry: {type: point_and_ridge_area, coordinate_status: pending_authoritative_pass_pin, elevation_m: 4400}
+    things_to_do: [trekking, camping, sunrise, mountain panorama]
+    permits_entry: {special_local_permit: false, note: "High-altitude trekking rules and any current guide/TIMS requirements are itinerary-dependent."}
+    how_to_visit: {from_main_hub: "Usually reached on foot from Somdang or adjoining trekking stages", final_access: "steep high-altitude trail", route_condition: dynamic}
+    safety_note: "Snow, rain, hail and altitude exposure can be severe."
+
+  - id: somdang
+    name: Somdang Village
+    type: trekking_village_area
+    intro: "Highland trekking settlement used as a staging point toward Pangsang Pass and northern Ganesh Himal routes."
+    geometry: {type: circle_first_pass, center: {lat: 28.171, lng: 85.218}, radius_m: 1200, coordinate_quality: approximate_settlement_center}
+    things_to_do: [village stay, trekking staging, mountain scenery]
+    permits_entry: {special_permit: false, accommodation_status: dynamic}
+    how_to_visit: {from_kathmandu: "Road/jeep approach via northern Dhading or Rasuwa-side route depending on current access, then continue locally toward Somdang.", final_access: "road-plus-trail depending on season", route_condition: dynamic}
+
+  - id: tipling
+    name: Tipling Village
+    type: cultural_village_area
+    intro: "Tamang village on established Ganesh Himal trekking routes, known for local culture, traditional dances and mountain scenery."
+    geometry: {type: circle_first_pass, center: {lat: 28.141, lng: 85.136}, radius_m: 1600, coordinate_quality: approximate_settlement_center}
+    things_to_do: [Tamang culture, village stay, trekking, local food, photography]
+    permits_entry: {special_permit: false, homestay_status: dynamic}
+    how_to_visit: {from_dhading_besi: "Continue north by local jeep toward Ruby Valley route settlements, then use village roads/trails to Tipling.", final_access: "road/trail mix", route_condition: dynamic}
+
+  - id: sertung
+    name: Sertung Village
+    type: cultural_village_area
+    intro: "Large Tamang settlement and important stop in the Ruby Valley trekking network."
+    geometry: {type: circle_first_pass, center: {lat: 28.096, lng: 85.071}, radius_m: 1700, coordinate_quality: approximate_settlement_center}
+    things_to_do: [Tamang culture, village stay, trekking, rural landscapes]
+    permits_entry: {special_permit: false, homestay_status: dynamic}
+    how_to_visit: {from_dhading_besi: "Use northern Dhading local-road connections toward Ruby Valley, then continue by jeep or trail according to road condition.", route_condition: dynamic}
+
+  - id: chalish
+    name: Chalish Village
+    type: community_tourism_village
+    intro: "Gurung and Dalit community-tourism settlement used on Ruby Valley itineraries, with village hospitality and agricultural landscapes."
+    geometry: {type: circle_first_pass, center: {lat: 28.071, lng: 85.078}, radius_m: 1200, coordinate_quality: approximate_settlement_center}
+    things_to_do: [community stay, cultural exchange, trekking, local food]
+    permits_entry: {special_permit: false, homestay_status: dynamic}
+    how_to_visit: {from_dhading_besi: "Travel toward Sertung/Ruby Valley route and continue locally to Chalish; final approach may involve walking.", route_condition: dynamic}
+
+  - id: borang
+    name: Borang Village
+    type: northern_village_area
+    intro: "Northern Dhading settlement used on local road and trekking approaches into Ruby Valley."
+    geometry: {type: circle_first_pass, center: {lat: 28.107, lng: 85.027}, radius_m: 1500, coordinate_quality: approximate_settlement_center}
+    things_to_do: [village scenery, trekking staging]
+    permits_entry: {special_permit: false, visitor_facilities: dynamic}
+    how_to_visit: {from_dhading_besi: "Use northern local roads toward Ruby Valley; 4WD may be preferable and road condition must be checked.", route_condition: dynamic}
+
+  - id: lapa
+    name: Lapa Village
+    type: remote_tamang_village
+    intro: "Remote Tamang settlement and approach point for northern Dhading trekking landscapes."
+    geometry: {type: circle_first_pass, center: {lat: 28.055, lng: 84.993}, radius_m: 1600, coordinate_quality: approximate_settlement_center}
+    things_to_do: [Tamang culture, village stay, trekking]
+    permits_entry: {special_permit: false, visitor_facilities: dynamic}
+    how_to_visit: {from_dhading_besi: "Continue by local jeep toward northern villages, then use local road/trail to Lapa.", route_condition: dynamic}
+
+  - id: jharlang
+    name: Jharlang Village
+    type: tamang_village_gateway
+    intro: "Tamang cultural village and practical gateway toward northern Dhading and Ganesh Himal routes."
+    geometry: {type: circle_first_pass, center: {lat: 28.044, lng: 84.965}, radius_m: 1700, coordinate_quality: approximate_settlement_center}
+    things_to_do: [village culture, mountain views, trekking gateway]
+    permits_entry: {special_permit: false, lodging_status: dynamic}
+    how_to_visit: {from_dhading_besi: "Local bus/jeep north via district roads; travel time and road condition vary strongly by season.", route_condition: dynamic}
+
+  - id: darkha
+    name: Darkha Village
+    type: hill_village_gateway
+    intro: "Scenic hill settlement in Khaniyabas used as a gateway toward northern routes and cultural villages."
+    geometry: {type: circle_first_pass, center: {lat: 28.002, lng: 84.959}, radius_m: 1600, coordinate_quality: approximate_settlement_center}
+    things_to_do: [village views, local culture, route staging]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Travel by local road/jeep toward Khaniyabas and Darkha.", route_condition: dynamic}
+
+  - id: ganga-jamuna-waterfall
+    name: Ganga Jamuna Waterfall
+    type: waterfall_site
+    intro: "Major twin-waterfall destination and one of Dhading's best-known natural landmarks."
+    geometry: {type: point_and_small_area, coordinate_status: pending_verified_waterfall_pin}
+    things_to_do: [waterfall viewing, photography, pilgrimage-season visit, short hiking]
+    permits_entry: {special_permit: false, current_local_fee: dynamic}
+    how_to_visit:
+      from_dhading_besi: "Travel toward Phulkharka/Ganga Jamuna Rural Municipality; the municipality is about 54 km from the district headquarters, then continue locally toward the waterfall approach."
+      final_access: "short walk/trail may be required depending on road end."
+      route_condition: dynamic
+    safety_note: "Waterfall rock and trail conditions are seasonal."
+
+  - id: ganga-jamuna-pilgrimage
+    name: Ganga Jamuna pilgrimage area
+    type: religious_landscape
+    intro: "Sacred landscape associated with the twin falls and annual religious gatherings."
+    geometry: {type: area_around_waterfall, coordinate_status: use_waterfall_area_when_verified}
+    things_to_do: [pilgrimage, ritual visit, festival participation, waterfall viewing]
+    permits_entry: {special_permit: false, festival_rules: dynamic}
+    how_to_visit: {from_main_hub: "Same approach as Ganga Jamuna Waterfall via Phulkharka/Ganga Jamuna Rural Municipality.", route_condition: dynamic}
+
+  - id: tripurasundari-mai
+    name: Tripurasundari Mai Temple
+    type: temple
+    intro: "Regionally important goddess shrine and major religious identity of Tripurasundari Rural Municipality."
+    geometry: {type: point_site, coordinate_status: pending_verified_temple_pin}
+    things_to_do: [temple visit, pilgrimage, festival visit]
+    permits_entry: {special_permit: false, donation_or_local_fee: dynamic}
+    how_to_visit: {from_dhading_besi: "Travel west/northwest by local road toward Tripurasundari Rural Municipality and the temple area.", route_condition: dynamic}
+
+  - id: salyantar
+    name: Salyantar Plateau
+    type: plateau_area
+    intro: "Broad elevated plateau above the Budhi Gandaki landscape, known for open rural scenery and hill views."
+    geometry: {type: polygon_preferred, center: {lat: 27.963, lng: 84.741}, radius_m: 5000, coordinate_quality: approximate_plateau_center}
+    things_to_do: [viewpoint drives, rural photography, village exploration, sunset]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Use local road toward Salyantar/Tripurasundari area.", route_condition: dynamic}
+
+  - id: narsingha-dham
+    name: Narsingha Dham
+    type: religious_complex
+    intro: "Hindu religious complex in the Salyantar area associated with Narsingha and other shrines."
+    geometry: {type: point_site, coordinate_status: pending_verified_complex_pin}
+    things_to_do: [pilgrimage, temple visit]
+    permits_entry: {special_permit: false, local_fee_or_donation: dynamic}
+    how_to_visit: {from_main_hub: "Reach Salyantar first, then continue locally to the religious complex.", route_condition: dynamic}
+
+  - id: budhi-gandaki-valley
+    name: Budhi Gandaki River valley - Dhading side
+    type: river_valley_corridor
+    intro: "Major river valley along the Gorkha-Dhading boundary shaping western Dhading's scenery and settlement pattern."
+    geometry: {type: corridor, anchor_center: {lat: 28.00, lng: 84.72}, coordinate_quality: approximate_corridor_anchor}
+    things_to_do: [river-valley views, road touring, photography]
+    permits_entry: {special_permit: false, note: "Any project/construction-zone restrictions are dynamic."}
+    how_to_visit: {from_dhading_besi: "Use western district roads toward Salyantar/Tripurasundari and riverside settlements.", route_condition: dynamic}
+
+  - id: ankhu-khola
+    name: Ankhu Khola valley
+    type: river_corridor
+    intro: "Important river valley linking central and northern Dhading settlements and trekking approaches."
+    geometry: {type: corridor, anchor_center: {lat: 28.01, lng: 84.94}, coordinate_quality: approximate_corridor_anchor}
+    things_to_do: [scenic drives, trekking crossings, rural photography]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Follow northern local-road networks toward Khaniyabas/Ruby Valley areas.", route_condition: dynamic}
+
+  - id: trishuli-rafting
+    name: Trishuli River rafting corridor - Dhading sector
+    type: adventure_river_corridor
+    intro: "One of Nepal's most accessible rafting rivers, with gorges and rapids close to the Kathmandu-Pokhara highway."
+    geometry: {type: river_corridor, anchor_center: {lat: 27.794, lng: 84.77}, coordinate_quality: approximate_dhading_rafting_anchor}
+    things_to_do: [rafting, kayaking with operator, riverside camping where operated, canyoning near Charaundi]
+    permits_entry: {visitor_special_permit: false, operator_booking: required_for_guided_rafting, fees: dynamic}
+    how_to_visit:
+      from_kathmandu: "Drive west on the Prithvi Highway toward launch areas around Fishling, Charaundi, Benighat or nearby operator-selected points."
+      final_access: "Exact launch and take-out are operator-specific."
+    safety_note: "Use current licensed/qualified operators and current river-flow guidance."
+
+  - id: benighat
+    name: Benighat river gateway
+    type: highway_river_gateway
+    intro: "Highway settlement and practical access hub for the Trishuli River and southern Dhading routes."
+    geometry: {type: circle_first_pass, center: {lat: 27.7907, lng: 84.7797}, radius_m: 1800, coordinate_quality: approximate_settlement_center}
+    things_to_do: [rafting access, highway stop, river views]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Direct road access west along the Prithvi Highway.", transport: [bus, microbus, private_vehicle]}
+
+  - id: malekhu
+    name: Malekhu river and bazaar area
+    type: highway_food_and_river_area
+    intro: "Busy Prithvi Highway bazaar known for river scenery and its long-standing fish-food identity."
+    geometry: {type: circle_first_pass, center: {lat: 27.8078, lng: 84.8249}, radius_m: 1800, coordinate_quality: approximate_bazaar_center}
+    things_to_do: [local fish meals, highway stop, riverside views]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Direct by bus or private vehicle on the Prithvi Highway.", road_condition: dynamic}
+
+  - id: chepang-trail-dhading
+    name: Chitwan Chepang Hill Trail - Dhading sector
+    type: cross_district_trekking_route
+    intro: "Dhading-side beginning of the cultural hill trail that continues toward Shaktikhor in Chitwan."
+    geometry: {type: route, dhading_gateway: {name: Hugdi, coordinate_status: pending_verified_trailhead_pin}}
+    things_to_do: [trekking, village culture, forest walking, birdwatching]
+    permits_entry: {restricted_area_permit: false, current_guide_or_tims_rule: dynamic}
+    how_to_visit: {from_kathmandu: "Travel west on the Prithvi Highway toward the Hugdi/Benighat Rorang side, then join the trail at the current locally verified trailhead.", final_access: trail}
+
+  - id: netrawati-dabjong
+    name: Netrawati-Dabjong heritage landscape
+    type: heritage_landscape
+    intro: "Hill settlements, old kot/fort traditions and cultural landscapes associated with the Dabjong area."
+    geometry: {type: large_area, center: {lat: 28.018, lng: 84.836}, radius_m: 7000, coordinate_quality: approximate_municipal_landscape_center}
+    things_to_do: [heritage landscape viewing, village exploration, photography]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Travel by local road toward Netrawati Dabjong Rural Municipality.", route_condition: dynamic}
+
+  - id: dabjong-durbar
+    name: Dabjong Durbar / fort area
+    type: historic_site_hold
+    intro: "Historic fort/palace tradition in the Dabjong landscape; surviving structure identity and exact visitor access still need field verification."
+    geometry: {type: point_pending, coordinate_status: hold_exact_pin}
+    things_to_do: [heritage_interest]
+    permits_entry: {status: unknown_local_access}
+    how_to_visit: {routing_status: hold, note: "Route only to Netrawati-Dabjong area until the exact public site is verified."}
+
+  - id: jyamrung-durbar
+    name: Jyamrung Durbar area
+    type: historic_hill_area
+    intro: "Historic hilltop palace/fort landscape near central Dhading."
+    geometry: {type: point_or_small_area, coordinate_status: pending_verified_site_pin}
+    things_to_do: [heritage viewing, hill scenery]
+    permits_entry: {special_permit: false, public_access: dynamic}
+    how_to_visit: {from_dhading_besi: "Travel by local road toward Jyamrung; verify the final public approach locally.", route_condition: dynamic}
+
+  - id: dhading-besi
+    name: Dhading Besi
+    type: district_gateway_town
+    intro: "District headquarters and the most practical staging hub for central and northern Dhading."
+    geometry: {type: circle_first_pass, center: {lat: 27.9116, lng: 84.8917}, radius_m: 2500, coordinate_quality: approximate_city_center}
+    things_to_do: [trip staging, local market, transport connections]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Road access by bus, microbus or private vehicle via the Kathmandu-Prithvi Highway corridor and the Dhading Besi turnoff.", road_condition: dynamic}
+
+  - id: bhairabi-sunaula-bazar
+    name: Bhairabi Temple, Sunaula Bazar
+    type: hill_temple
+    intro: "Prominent local goddess shrine in the Sunaula Bazar/Jwalamukhi area."
+    geometry: {type: point_site, coordinate_status: pending_verified_temple_pin}
+    things_to_do: [pilgrimage, temple visit, hill views]
+    permits_entry: {special_permit: false, donation_or_local_fee: dynamic}
+    how_to_visit: {from_dhading_besi: "Use local road toward Jwalamukhi/Sunaula Bazar, then continue to the temple approach.", route_condition: dynamic}
+
+  - id: maidi-kot
+    name: Maidi Kot / Kot Devi area
+    type: historic_religious_site_hold
+    intro: "Local hill shrine and kot landscape in Jwalamukhi; exact public-site naming and surviving heritage need stronger verification."
+    geometry: {type: point_pending, coordinate_status: hold_exact_pin}
+    things_to_do: [pilgrimage_interest, heritage_interest]
+    permits_entry: {status: unknown_local_access}
+    how_to_visit: {routing_status: hold, note: "Route to the Maidi/Jwalamukhi area only until exact site verification."}
+
+  - id: siddha-than
+    name: Siddha Than
+    type: hilltop_religious_site
+    intro: "Hilltop sacred site associated with Siddhalek and a local pilgrimage/viewpoint destination."
+    geometry: {type: point_site, coordinate_status: pending_verified_shrine_pin}
+    things_to_do: [pilgrimage, ridge views, short hike]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Travel toward Siddhalek Rural Municipality, then continue by local road/trail to the shrine area.", route_condition: dynamic}
+
+  - id: siddhalek-ridge
+    name: Siddhalek ridge
+    type: ridge_viewpoint_area
+    intro: "Scenic mid-hill ridge with broad views across Dhading's valleys and, in clear weather, toward Himalayan ranges."
+    geometry: {type: ridge_corridor, reference_center: {lat: 27.84, lng: 84.90}, coordinate_quality: approximate_ridge_anchor}
+    things_to_do: [hiking, sunrise, mountain views, photography]
+    permits_entry: {special_permit: false}
+    how_to_visit: {from_dhading_besi: "Use local road toward Siddhalek, then follow locally verified ridge access or walking routes.", route_condition: dynamic}
+
+  - id: dhola-mandali
+    name: Dhola Mandali Temple
+    type: pilgrimage_temple
+    intro: "Well-known local pilgrimage shrine associated with distinctive ritual traditions in the former Dhola area."
+    geometry: {type: point_site, coordinate_status: pending_verified_temple_pin}
+    things_to_do: [pilgrimage, cultural observation, festival visit]
+    permits_entry: {special_permit: false, ritual_and_festival_rules: dynamic}
+    how_to_visit: {from_dhading_besi: "Travel by local road toward the Jwalamukhi/former Dhola area, then continue to the temple approach.", route_condition: dynamic}
+
+things_to_do_index:
+  - activity: multi_day_trekking
+    primary_locations: [Ruby Valley, Ganesh Himal region, Pangsang Pass, Tipling, Sertung, Chalish]
+    map_behavior: route_and_area
+  - activity: village_culture
+    primary_locations: [Tipling, Sertung, Chalish, Jharlang, Lapa, Darkha]
+    map_behavior: settlement_area
+  - activity: rafting
+    primary_locations: [Trishuli River corridor, Benighat, Charaundi-side launch areas]
+    map_behavior: operator_launch_point_plus_corridor
+  - activity: canyoning
+    primary_locations: [Charaundi Canyon]
+    map_behavior: exact_operator_site_when_current
+  - activity: waterfall_visit
+    primary_locations: [Ganga Jamuna Waterfall]
+    map_behavior: point_and_small_area
+  - activity: pilgrimage
+    primary_locations: [Ganga Jamuna pilgrimage area, Tripurasundari Mai, Narsingha Dham, Bhairabi Temple, Siddha Than, Dhola Mandali]
+    map_behavior: exact_pin_when_verified
+  - activity: viewpoints
+    primary_locations: [Pangsang Pass, Salyantar Plateau, Siddhalek ridge]
+    map_behavior: ridge_or_area
+  - activity: heritage
+    primary_locations: [Netrawati-Dabjong landscape, Dabjong Durbar, Jyamrung Durbar, Maidi Kot]
+    map_behavior: parent_area_plus_verified_structure_pins
+
+publication_rules:
+  - "Do not publish a guessed exact pin for Dabjong Durbar, Maidi Kot or other weak heritage records."
+  - "Do not route users to the middle of Ruby Valley, Ganesh Himal, Budhi Gandaki, Ankhu Khola or the Trishuli River."
+  - "Road access to northern Dhading is seasonal and landslide-sensitive; route condition must remain dynamic."
+  - "Homestays, lodges, rafting launch points, festival dates and local entry fees must be current-operation fields."
+  - "For trekking itineraries crossing into Rasuwa, Langtang National Park or another regulated area, inherit that area's current permit/entry rules."
+
+sources:
+  - "Nepal Tourism Board - Ganesh Himal Trek / Ruby Valley route"
+  - "Nepal Tourism Board - Bagmati Province / Trishuli rafting"
+  - "Nepal Tourism Board - Canyoning / Charaundi Canyon"
+  - "District Administration Office Dhading - district introduction"
+  - "Ganga Jamuna Rural Municipality official website and municipal profile references"
+  - "Dhading deep-research district inventory"
