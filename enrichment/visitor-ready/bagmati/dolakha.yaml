@@ -1,0 +1,90 @@
+district: Dolakha
+province: Bagmati
+status: visitor_ready_enrichment_v1
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Dolakha is a mountain district east of Kathmandu combining pilgrimage, Newar heritage, high Himalayan trekking, glacial lakes, Sherpa settlements, historic gateways and scenic hill towns. Its visitor geography ranges from accessible Charikot, Dolakha town and Jiri to the remote Rolwaling and Lapchi valleys inside the Gaurishankar Conservation Area.
+  why_visit:
+    - Kalinchowk pilgrimage and Himalayan views
+    - historic Dolakha town and Bhimsen Temple
+    - Rolwaling Valley and Tsho Rolpa trekking
+    - Jiri hill-town heritage and hikes
+    - sacred Lapchi Valley
+    - highland viewpoints and village culture
+
+history:
+  short: >
+    Dolakha developed around old trans-Himalayan trade corridors, Newar settlement, Hindu and Buddhist sacred sites and mountain routes linking central Nepal with northern valleys. Dolakha town retains important temple and settlement heritage, while Jiri became famous as a classic overland gateway for early Everest expeditions before Lukla flights became dominant.
+
+main_hubs:
+  - {name: Kathmandu, role: primary_external_gateway}
+  - {name: Charikot, role: main_district_transport_and_service_hub, center: {lat: 27.6667, lng: 86.0333}}
+  - {name: Dolakha town, role: heritage_hub}
+  - {name: Jiri, role: eastern_hill_and_trekking_hub}
+  - {name: Singati, role: northern_road_gateway}
+
+permit_framework:
+  gaurishankar_conservation_area:
+    required_for_foreign_visitors: true
+    applies_to: [Kalinchowk, Rolwaling, Tsho Rolpa, Gaurishankar routes, Lapchi-related GCA travel]
+    fee_status: dynamic
+    source: NTNC_GCAP_epermit
+  restricted_area:
+    required: conditional
+    current_rule: "Dolakha restricted area applies to Gaurishankar Rural Municipality ward 9 and Bigu Rural Municipality ward 1."
+    current_fee: "USD 20 per person per week"
+    source: Department_of_Immigration
+    note: "Do not apply this restricted-area permit to the whole district. Check the exact route and ward."
+  climbing:
+    required: conditional
+    note: "Technical peaks use separate current mountaineering/peak authorization where applicable."
+
+visitor_areas:
+  - {name: Kalinchowk Bhagwati Temple, type: pilgrimage_viewpoint_site, geometry: point_and_small_ridge_site, intro: "High-altitude Bhagwati shrine at about 3,842 m, combining pilgrimage with Himalayan views and winter snow tourism.", things_to_do: [pilgrimage, mountain_views, snow_experience, photography], permits: "GCAP for foreign visitors; cable-car ticket separate/dynamic", access: "Kathmandu or Charikot to Kuri by road, then cable car or steep hike", safety: "high altitude, cold, snow/ice"}
+  - {name: Kuri Village, type: tourism_settlement_area, center: {lat: 27.6805, lng: 86.0378}, radius_m: 1000, intro: "Main accommodation and activity base below Kalinchowk.", things_to_do: [overnight_stay, local_food, snow_play], permits: "GCAP for foreign visitors", access: "Road from Charikot; conditions seasonal"}
+  - {name: Kalinchowk Cable Car, type: transport_facility, geometry: line_between_stations, intro: "Cable-car link between Kuri and Kalinchowk ridge.", permits: "dynamic operator ticket; GCAP applies in area", access: "Board at Kuri after checking current operation"}
+  - {name: Dolakha Bhimsen Temple, type: temple, coordinate: {lat: 27.677941, lng: 86.076433}, intro: "Nationally known Bhimsen shrine in historic Dolakha.", things_to_do: [temple_visit, heritage_walk], permits: "no special tourism permit", access: "Short road trip east from Charikot, then walk through old town"}
+  - {name: Historic Dolakha Town, type: heritage_settlement_area, center: {lat: 27.6800, lng: 86.0750}, radius_m: 900, intro: "Old Newar town of lanes, shrines and trade-era architecture.", things_to_do: [heritage_walk, temples, local_food], permits: "none", access: "Drive from Charikot and explore the old core on foot"}
+  - {name: Charikot, type: district_hub_area, center: {lat: 27.6667, lng: 86.0333}, radius_m: 1800, intro: "District headquarters and main service/transport base.", things_to_do: [local_market, mountain_views, overnight_base], permits: "none", access: "Road from Kathmandu"}
+  - {name: Charikot viewpoints, type: viewpoint_cluster, center: {lat: 27.67, lng: 86.03}, radius_m: 4000, intro: "Ridges around Charikot used for mountain, valley and sunrise views.", things_to_do: [sunrise, photography, short_walks], permits: "none", access: "Local roads/short walks; exact viewpoint pins still need GIS"}
+  - {name: Gaurishankar Conservation Area, type: protected_area, geometry: polygon_required, intro: "2,179 sq km protected mountain landscape spanning Dolakha, Ramechhap and Sindhupalchok.", things_to_do: [trekking, wildlife_observation, village_culture], permits: "GCAP entry; restricted-area permit only on specified wards/routes", access: "Route to verified gateways, never polygon centre"}
+  - {name: Rolwaling Valley, type: trekking_valley_corridor, intro: "Remote Sherpa valley leading toward Beding, Na and Tsho Rolpa.", things_to_do: [multi_day_trekking, village_stays, mountain_photography], permits: "GCAP; restricted-area check by exact route/ward; current trekking rules dynamic", access: "Kathmandu-Charikot-Singati to trek gateway, then multi-day trek", safety: "remote high altitude, landslide, snow, limited rescue"}
+  - {name: Tsho Rolpa Lake, type: glacial_lake, reference_center: {lat: 27.864, lng: 86.486}, intro: "Large glacial lake and major Rolwaling trekking objective.", things_to_do: [trekking, glacial_landscape, photography], permits: "GCAP; restricted-area check by route", access: "Trek via Rolwaling, Beding and Na; not road-accessible", safety: "high altitude and mountain weather"}
+  - {name: Beding Village, type: mountain_settlement, center: {lat: 27.897, lng: 86.378}, radius_m: 600, intro: "Principal Sherpa settlement and acclimatisation stop in Rolwaling.", things_to_do: [village_stay, Sherpa_culture, acclimatisation], permits: "GCAP; route-based restricted check", access: "On foot along Rolwaling trail"}
+  - {name: Na Village, type: seasonal_high_altitude_settlement, center: {lat: 27.899, lng: 86.430}, radius_m: 500, intro: "Seasonal high settlement and staging point for Tsho Rolpa.", things_to_do: [acclimatisation, upper_valley_hikes], permits: "GCAP; route-based restricted check", access: "On foot above Beding"}
+  - {name: Yalung Ri trekking area, type: high_altitude_mountaineering_objective, intro: "High-altitude objective above Rolwaling used for acclimatisation and mountaineering.", things_to_do: [mountaineering, high_altitude_training], permits: "GCAP plus separate climbing authorization where current rules require", access: "Organized high-altitude access from upper Rolwaling"}
+  - {name: Gaurishankar mountain viewpoints, type: viewpoint_cluster, intro: "Multiple ridges and valley openings with views toward sacred Mount Gaurishankar.", things_to_do: [mountain_viewing, photography], permits: "depends on exact location", access: "Use a verified local viewpoint, not a generic mountain pin"}
+  - {name: Lamabagar, type: northern_gateway_settlement, center: {lat: 27.936, lng: 86.218}, radius_m: 900, intro: "Northern road and trekking settlement on approach toward Lapchi and border mountains.", things_to_do: [gateway_stop, valley_scenery, trekking_departure], permits: "GCAP; restricted-area route check important", access: "Road north via Singati/Bigu-Lamabagar; highly seasonal"}
+  - {name: Lapchi Valley, type: sacred_remote_valley, intro: "Remote Buddhist sacred valley associated with Milarepa traditions.", things_to_do: [pilgrimage, monastery_visit, remote_trekking], permits: "GCAP plus restricted-area permit if route enters Bigu RM ward 1", access: "Road toward Lamabagar then remote multi-day trek", safety: "very remote, limited services, border-zone controls"}
+  - {name: Lapchi Monastery and Milarepa meditation sites, type: religious_landscape_cluster, intro: "Buddhist monastery and meditation heritage in the sacred Lapchi landscape.", things_to_do: [pilgrimage, religious_heritage], permits: "GCAP and route-sensitive restricted-area rules", access: "Multi-day walk from Lamabagar side; exact pins need local verification"}
+  - {name: Bigu Gompa, type: buddhist_nunnery_site, intro: "Important Buddhist nunnery and cultural site in Bigu.", things_to_do: [religious_visit, cultural_learning], permits: "no special tourism permit unless route crosses controlled zone", access: "Road toward Bigu; final local access should be confirmed"}
+  - {name: Tamakoshi River valley, type: river_corridor, intro: "Major river corridor shaping central and northern Dolakha.", things_to_do: [river_views, road_touring, photography], permits: "none on public-road sections", access: "Reach named bridge/town sections by road; never route to river midpoint"}
+  - {name: Bigu valley landscapes, type: mountain_valley_area, center: {lat: 27.86, lng: 86.17}, radius_m: 10000, intro: "Northern Dolakha landscape of river valleys, villages and mountain roads.", things_to_do: [village_touring, mountain_scenery], permits: "restricted-area rule conditional in Bigu RM ward 1", access: "Road north via Singati; road condition dynamic"}
+  - {name: Jiri, type: hill_town_area, center: {lat: 27.633, lng: 86.233}, radius_m: 2200, intro: "Historic classic Everest gateway and scenic hill town with Jirel cultural identity.", things_to_do: [town_walk, Jirel_culture, local_food, hiking_base], permits: "none", access: "Road from Kathmandu via Dolakha corridor"}
+  - {name: Cherdung Danda, type: hiking_viewpoint_ridge, intro: "High ridge above Jiri known for broad mountain and hill views.", things_to_do: [day_hike, sunrise, mountain_views], permits: "none", access: "Day hike from verified Jiri trailhead; exact GIS still needed"}
+  - {name: Kalo Bhir, type: cliff_viewpoint, intro: "Cliff/viewpoint on the Cherdung hiking side of Jiri.", things_to_do: [hiking, viewpoint], permits: "none", access: "Routing HOLD until exact trail/pin is verified"}
+  - {name: Tony Hagen Park / Ramite Danda, type: local_viewpoint_recreation_area, intro: "Accessible Jiri-area viewpoint and recreation stop.", things_to_do: [short_walk, town_views], permits: "none", access: "Short local road/walk; exact entrance pending verification"}
+  - {name: Jiri Fish Pond and Linkan area, type: local_recreation_area, intro: "Local pond and town-landscape recreation attraction.", things_to_do: [local_recreation, town_walk], permits: "ticket dynamic if operated", access: "Local Jiri/Linkan access; current facility check required"}
+  - {name: Jiri Buddhist heritage circuit, type: religious_cluster, intro: "Local monasteries, stupas and Guru Rinpoche-related sites around Jiri.", things_to_do: [monastery_visits, cultural_learning], permits: "none", access: "Routing HOLD until individual sites are verified"}
+  - {name: Sailung hills, type: cross_district_highland_area, reference_center: {lat: 27.55, lng: 86.13}, intro: "Broad grassland and pilgrimage landscape shared with Ramechhap.", things_to_do: [sunrise, grassland_walks, pilgrimage, photography], permits: "none", access: "Use nearest verified road/trail approach; seasonal"}
+  - {name: Kalinag Temple, type: local_temple, intro: "Locally important shrine in the Sunkhani/Kalinchowk area.", things_to_do: [pilgrimage, local_culture], permits: "none", access: "Road toward Sunkhani; exact pin pending"}
+  - {name: Chaughara heritage area, type: emerging_heritage_cluster, intro: "Local heritage cluster associated with Chaughara Darbar and Ganesh Pati traditions.", things_to_do: [heritage_interest], permits: "none", access: "Routing HOLD pending surviving-structure and public-access verification"}
+
+publication_rules:
+  - "GCAP entry and restricted-area permits are separate controls."
+  - "Apply restricted-area rules only to exact listed wards/routes, never the whole district."
+  - "Road conditions to Kuri, Rolwaling gateways, Bigu, Lamabagar and Lapchi are dynamic."
+  - "Do not route users to Tsho Rolpa, Rolwaling, Sailung or GCA using a generic centre pin."
+  - "Climbing objectives require separate current authorization checks."
+  - "Local/emerging records stay on routing HOLD until exact public access is verified."
+
+sources:
+  - "Nepal Tourism Board - Bagmati Province / Dolakha / Jiri"
+  - "Nepal Tourism Board - Dolakha Bhimsen"
+  - "National Trust for Nature Conservation - Gaurishankar Conservation Area Project"
+  - "NTNC ePermit support - GCAP destination coverage"
+  - "Department of Immigration - current restricted-area trekking routes and fees"
+  - "Bhimeshwor Municipality tourism records"
+  - "Kalinchowk Rural Municipality records"
