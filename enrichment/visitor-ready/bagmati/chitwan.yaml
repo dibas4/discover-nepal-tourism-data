@@ -1,0 +1,385 @@
+district: Chitwan
+province: Bagmati
+status: visitor_ready_enrichment_v1
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Chitwan is one of Nepal's most varied travel districts, combining the subtropical forests and grasslands of Chitwan National Park with the Rapti and Narayani river systems, Tharu cultural areas, pilgrimage sites, wetlands, hill trails, historic forts, waterfalls and urban gateways such as Bharatpur and Narayangarh.
+  why_visit:
+    - wildlife and jungle experiences
+    - birdwatching and wetlands
+    - Tharu culture and local food
+    - riverside sunsets and canoeing
+    - pilgrimage and sacred river confluences
+    - hill trekking, viewpoints and historic forts
+
+history:
+  short: >
+    Chitwan has long been shaped by the forests, rivers and Indigenous Tharu communities of Nepal's Inner Terai. The modern tourism identity of the district is closely tied to conservation: Chitwan National Park was established in 1973 as Nepal's first national park and was inscribed on the UNESCO World Heritage List in 1984. The district also contains older religious and political landscapes, including Devghat, Balmiki Ashram and Uppardang Gadi, the former Chitwan administrative centre.
+
+map_model_rules:
+  large_area: "Use an approximate center plus radius/polygon; never present one pin as the whole place."
+  point_poi: "Use a precise pin only for specific buildings, gates, monuments, museums or facilities."
+  corridor: "Use line/polygon geometry for rivers, trails and long protected landscapes."
+  coordinate_quality:
+    verified: "good first-party or mapped POI reference"
+    approximate: "useful visitor-area centre, not a legal boundary"
+    pending: "do not route directly until verified"
+
+visitor_areas:
+  - id: chitwan-national-park
+    name: Chitwan National Park
+    type: protected_area
+    intro: >
+      Nepal's first national park and a UNESCO World Heritage property, famous for one-horned rhinoceros, Bengal tiger habitat, riverine forest, sal forest, grasslands, gharial and rich birdlife.
+    geometry:
+      type: polygon_preferred
+      reference_center: {lat: 27.5000, lng: 84.33333}
+      coordinate_quality: official_world_heritage_reference
+      note: "Reference centre only; route users to verified park gates, not this coordinate."
+    things_to_do:
+      - jungle safari
+      - jeep drive where permitted
+      - guided nature walk where permitted
+      - canoe ride from authorized departure points
+      - birdwatching
+      - wildlife photography
+      - conservation interpretation
+    best_for: [wildlife, nature, birding, photography]
+    child_pois:
+      - name: Sauraha park entrance / visitor-ticket area
+        type: park_gateway
+        coordinate: {lat: 27.57391, lng: 84.49533}
+        coordinate_quality: mapped_poi
+        intro: "Main visitor-facing eastern gateway area used for park information, ticketing and access to regulated activities around Sauraha."
+      - name: Chitwan National Park Info Office, Sauraha
+        type: visitor_information
+        coordinate: {lat: 27.57411, lng: 84.49379}
+        coordinate_quality: mapped_poi
+        intro: "Information office near the Sauraha visitor zone for park-related visitor guidance."
+      - name: Kasara / Park Headquarters
+        type: park_headquarters_area
+        coordinate: {lat: 27.5494, lng: 84.3308}
+        coordinate_quality: official_map_reference
+        intro: "Administrative headquarters and a major park access area reached via Jagatpur; nearby attractions include the park museum, Bikram Baba and the gharial breeding centre."
+      - name: Kasara Museum
+        type: museum
+        coordinate_status: pending_exact_pin
+        intro: "Park museum at headquarters with displays about Chitwan's wildlife, conservation and natural history."
+      - name: Gharial Breeding Center
+        type: conservation_facility
+        coordinate: {lat: 27.55337, lng: 84.33903}
+        coordinate_quality: mapped_poi
+        intro: "Conservation breeding facility near Kasara where visitors can learn about gharial crocodiles; marsh mugger crocodiles and turtles are also kept in the facility area."
+      - name: Bikram Baba
+        type: religious_site
+        coordinate_status: pending_exact_pin
+        intro: "Hindu religious site near Kasara headquarters that is also recognized by UNESCO as part of the park's cultural landscape."
+      - name: Khorsor Elephant Breeding Center
+        type: conservation_facility
+        coordinate_status: pending_exact_pin
+        intro: "Government-recognized elephant breeding facility near Sauraha/Khorsor that explains domesticated elephant care and breeding."
+    current_operation_fields:
+      park_fee: dynamic
+      safari_rules: dynamic
+      canoe_operation: dynamic
+      gate_opening: dynamic
+      guide_requirements: dynamic
+
+  - id: sauraha
+    name: Sauraha
+    type: tourism_town_area
+    municipality: Ratnanagar Municipality
+    intro: >
+      Sauraha is Chitwan's best-known wildlife tourism town and the main eastern visitor gateway to Chitwan National Park, with hotels, restaurants, park services, Tharu cultural attractions and the Rapti riverside.
+    geometry:
+      type: circle_first_pass
+      center: {lat: 27.58016, lng: 84.50231}
+      radius_m: 2200
+      coordinate_quality: approximate_settlement_area
+      note: "Circle represents the practical Sauraha visitor zone, not an administrative boundary."
+    things_to_do:
+      - activity: Rapti riverside sunset
+        location: Sauraha riverside zone
+        geometry: area
+        coordinate_hint: {lat: 27.5740, lng: 84.4938}
+        intro: "Open river-edge visitor area used for sunset views, photography and observing the forested park bank across the Rapti."
+      - activity: canoe trip
+        location: authorized Sauraha canoe departure area
+        geometry: point_pending_exact_operator_pin
+        intro: "Canoe trips operate on permitted river sections; the exact departure point and operator should be checked on the day of travel."
+      - activity: Tharu culture
+        location: Tharu Cultural Museum and active cultural programs
+        geometry: point_and_area
+      - activity: park entry and wildlife excursions
+        location: Sauraha park entrance / visitor-ticket area
+        geometry: point
+    child_pois:
+      - name: Tharu Cultural Museum
+        type: museum
+        coordinate: {lat: 27.58144, lng: 84.50849}
+        coordinate_quality: mapped_poi
+        intro: "Museum focused on Tharu material culture, traditional household life, customs and local heritage."
+      - name: Sauraha Tourist Bus Terminal
+        type: transport
+        coordinate_status: mapped_but_not_needed_for_attraction_routing
+        intro: "Main tourist-bus arrival area for many visitors staying in Sauraha."
+
+  - id: beeshazar-lakes
+    name: Beeshazar and Associated Lakes
+    aliases: [Bish Hazari, Bish Hajari, Beeshhazar, Twenty Thousand Lakes]
+    type: ramsar_wetland_area
+    intro: >
+      A 3,200-hectare Ramsar wetland complex inside the Chitwan National Park buffer zone, made up of oxbow lakes, forest and wildlife habitat important for birds, rhinoceros, crocodilians and other species.
+    geometry:
+      type: polygon_preferred
+      reference_center: {lat: 27.6167, lng: 84.4331}
+      coordinate_quality: ramsar_reference_coordinate
+      note: "Do not use this as the visitor entrance pin; map actual access points separately."
+    things_to_do:
+      - birdwatching
+      - wetland photography
+      - forest-edge nature observation
+      - guided nature visits where allowed
+    access_status: dynamic
+    child_areas:
+      - name: Barandabhar-Beeshazar forest and birdwatching landscape
+        type: forest_wetland_landscape
+        intro: "The forest surrounding the lake system forms an important wildlife corridor and birding landscape; use area geometry rather than a duplicate lake pin."
+
+  - id: narayani-waterfront
+    name: Narayani River waterfront, Bharatpur-Narayangarh
+    type: urban_riverfront_corridor
+    intro: >
+      The Narayani riverfront is Chitwan's major urban riverside landscape around Narayangarh and Bharatpur, used for evening walks, river views, local gatherings and access toward Devghat.
+    geometry:
+      type: corridor
+      anchor_center: {lat: 27.69562, lng: 84.42320}
+      coordinate_quality: approximate_narayangarh_center
+    things_to_do:
+      - riverside walking
+      - sunset viewing
+      - city and river photography
+      - local food nearby
+    safety_note: "River level and current vary seasonally; do not imply swimming is safe."
+
+  - id: rapti-river-sauraha
+    name: Rapti River - Sauraha section
+    type: river_corridor
+    intro: >
+      The Rapti forms the natural edge between Sauraha and Chitwan National Park and is one of the district's most important wildlife-viewing and sunset landscapes.
+    geometry:
+      type: line_or_river_polygon
+      anchor_center: {lat: 27.5740, lng: 84.4940}
+      coordinate_quality: approximate_visitor_section
+    things_to_do:
+      - authorized canoeing
+      - sunset viewing
+      - crocodile and bird observation from safe areas
+      - photography
+    safety_note: "Wildlife, deep water and changing current make this a view/activity corridor, not a casual swimming site."
+
+  - id: meghauli
+    name: Meghauli
+    type: wildlife_tourism_area
+    municipality: Bharatpur Metropolitan City
+    intro: >
+      Meghauli is the western gateway area of Chitwan National Park, positioned around the Rapti and Narayani river landscape and known for wildlife viewing, birdwatching, community forests, Tharu culture and river sunsets.
+    geometry:
+      type: circle_first_pass
+      center: {lat: 27.58123, lng: 84.23486}
+      radius_m: 3500
+      coordinate_quality: approximate_settlement_area
+    things_to_do:
+      - wildlife viewing
+      - birdwatching
+      - community forest visits
+      - Tharu cultural experiences
+      - river sunset viewing
+    child_areas:
+      - name: Bhimle / Meghauli park gateway
+        type: park_gateway
+        coordinate_status: pending_exact_pin
+        intro: "Official western entrance route to Chitwan National Park via Meghauli."
+      - name: Golaghat / river-confluence sunset area
+        type: riverside_view_area
+        coordinate_status: pending_exact_pin
+        intro: "Popular river-confluence viewing area associated with Meghauli, especially for sunset and open river scenery."
+
+  - id: devghat
+    name: Devghat
+    type: pilgrimage_landscape
+    intro: >
+      Devghat is one of Nepal's major Hindu pilgrimage landscapes, centered on the sacred confluence where the Kali Gandaki and Trishuli form the Narayani. Temples, shrines, ashrams and ritual-bathing areas spread across both Chitwan and Tanahun sides.
+    geometry:
+      type: cross_district_area
+      chitwan_side_center: {lat: 27.73919, lng: 84.42543}
+      coordinate_quality: approximate_chitwan_side_area
+      note: "Do not duplicate Devghat as separate destinations by district; model district-side access under one parent landscape."
+    things_to_do:
+      - temple visits
+      - river-confluence viewing
+      - pilgrimage
+      - Makar Sankranti religious fair
+      - ashram visits
+    child_pois:
+      - name: Chakreshwar Temple
+        type: temple
+        coordinate_status: pending_exact_pin
+        intro: "One of the most prominent sacred sites in the Devghat complex, associated in tradition with King Mukunda Sen of Palpa."
+
+  - id: jalbire-waterfall
+    name: Jalbire Waterfall
+    type: waterfall_adventure_site
+    municipality: Ichchhakamana Rural Municipality
+    intro: >
+      Jalbire is a waterfall and adventure destination in northern Chitwan, known for its forested setting and canyoning activity.
+    geometry:
+      type: point_or_small_area
+      coordinate_status: pending_verified_waterfall_pin
+    things_to_do:
+      - waterfall viewing
+      - photography
+      - canyoning with qualified operators when operating
+      - short hiking
+    safety_note: "Water flow, slippery rock and canyoning conditions are seasonal; do not publish swimming/canyoning as automatically safe."
+
+  - id: chepang-hill-trail
+    name: Chitwan Chepang Hill Trail
+    type: cross_district_trekking_route
+    intro: >
+      A cultural and scenic mid-hill trek linking Chepang, Magar and other communities with forest walking, birdwatching, viewpoints and village stays. The official route runs between Hugdi in Dhading and Shaktikhor in Chitwan.
+    geometry:
+      type: route
+      start_end:
+        shaktikhor: {lat: 27.72625, lng: 84.59959}
+        hugdi: {coordinate_status: cross_district_pending_exact_pin}
+    route_nodes:
+      - name: Shaktikhor
+        type: route_gateway_settlement
+        coordinate: {lat: 27.72625, lng: 84.59959}
+        intro: "Chitwan-side gateway to the Chepang Hill Trail with community and cultural-tourism connections."
+      - name: Hattibang
+        type: trekking_stop
+        coordinate_status: pending_verified_pin
+        intro: "Major trail stop known for hill scenery, forest walking and community-based stays."
+      - name: Siraichuli
+        type: viewpoint_hill
+        elevation_m: 1945
+        coordinate_status: pending_verified_summit_pin
+        intro: "High Mahabharat-range viewpoint on the trail, known for sunrise, sunset and broad Himalayan views."
+      - name: Jyandala
+        type: cultural_village
+        coordinate_status: pending_verified_pin
+        intro: "Chepang settlement where the trail emphasizes village culture and community-based stays."
+      - name: Chisapanitar
+        type: birdwatching_area
+        coordinate_status: pending_verified_area_center
+        intro: "Forest and birdwatching stop on the official Chepang Hill Trail."
+      - name: Uppardang Gadi
+        type: historic_fort
+        coordinate: {lat: 27.76198, lng: 84.58278}
+        coordinate_quality: mapped_attraction
+        intro: "Historic hill fort and former Chitwan headquarters area, now visited for fort remains and views."
+
+  - id: uppardang-gadi
+    name: Uppardang Gadi
+    aliases: [Upper Dang Gadhi, Upardangadhi, Uppardang Gadhi]
+    type: historic_fort
+    intro: >
+      A hill fort that served as the headquarters of Chitwan until the early 1960s and remains an important historical stop on the Chepang Hill Trail.
+    geometry:
+      type: point_and_small_site
+      coordinate: {lat: 27.76198, lng: 84.58278}
+      coordinate_quality: mapped_attraction
+    things_to_do:
+      - explore fort remains
+      - hill views
+      - photography
+      - connect with Chepang Hill Trail
+
+  - id: madi-valley
+    name: Madi Valley
+    type: valley_destination_area
+    municipality: Madi Municipality
+    intro: >
+      Madi is a broad rural valley south of Chitwan National Park, framed by protected forests, Chure hills and the Someshwar range, with village landscapes, religious sites and access toward Balmiki Ashram.
+    geometry:
+      type: large_area
+      center: {lat: 27.4542, lng: 84.3232}
+      radius_m: 12000
+      coordinate_quality: approximate_municipal_valley_center
+      note: "Radius is for visitor orientation only, not municipal boundary geometry."
+    things_to_do:
+      - rural landscape exploration
+      - cycling/road touring where conditions allow
+      - village and local-food experiences
+      - religious-site visits
+      - nature viewing
+    child_areas:
+      - name: Someshwar hills / range
+        type: ridge_landscape
+        coordinate_status: polygon_or_ridge_geometry_needed
+        intro: "Southern ridge system defining the Madi landscape; individual temples, viewpoints and trails should be separate child POIs."
+      - name: Balmiki Ashram access relationship
+        type: pilgrimage_route_relationship
+        coordinate_status: access_route_dynamic
+        intro: "Madi is one of the Nepal-side gateway landscapes for travel toward Balmiki Ashram; the sacred site itself should remain its own destination object."
+
+  - id: balmiki-ashram
+    name: Balmiki Ashram
+    type: religious_heritage_site
+    intro: >
+      A forest pilgrimage site associated with sage Valmiki and the Ramayana tradition, situated near the Tribeni river landscape at the southwestern side of Chitwan National Park.
+    geometry:
+      type: point_site
+      coordinate_status: pending_authoritative_pin
+    things_to_do:
+      - pilgrimage
+      - religious heritage visit
+      - forest landscape experience
+    access_note: "Route and border/park access conditions should be verified before navigation is published."
+
+things_to_do_index:
+  - activity: jungle safari
+    primary_locations: [Sauraha park gateway, Meghauli/Bhimle gateway, Kasara]
+    map_behavior: route_to_verified_gateway
+  - activity: canoeing
+    primary_locations: [Sauraha Rapti section]
+    map_behavior: route_to_current_authorized_departure
+  - activity: birdwatching
+    primary_locations: [Beeshazar and Associated Lakes, Barandabhar forest, Meghauli, Chepang Hill Trail]
+    map_behavior: area_or_trail
+  - activity: Tharu culture
+    primary_locations: [Sauraha/Bachhauli, Meghauli community areas]
+    map_behavior: museum_pin_plus_cultural_area
+  - activity: sunset
+    primary_locations: [Sauraha riverside, Meghauli/Golaghat, Narayani waterfront]
+    map_behavior: viewing_area
+  - activity: trekking
+    primary_locations: [Chepang Hill Trail, Siraichuli, Uppardang Gadi]
+    map_behavior: route
+  - activity: pilgrimage
+    primary_locations: [Devghat, Balmiki Ashram, Bikram Baba]
+    map_behavior: parent_area_plus_exact_temple_pins
+  - activity: museum_and_conservation_learning
+    primary_locations: [Tharu Cultural Museum, Kasara Museum, Gharial Breeding Center, Khorsor Elephant Breeding Center]
+    map_behavior: exact_pins_when_verified
+
+publication_rules:
+  - "Never describe park fees, safari schedules, canoe departures, homestays or transport timetables as permanent facts."
+  - "Do not create a fake center pin for Chitwan National Park, Beeshazar, Rapti, Narayani, Madi Valley or Chepang Hill Trail when routing users."
+  - "Use exact pins for museums, gates, forts and conservation facilities only when location is independently mapped or first-party verified."
+  - "For area circles in this file, radius is a visitor-orientation aid, not a legal/administrative boundary."
+  - "Safety-sensitive activities require current local/operator verification."
+
+sources:
+  - "UNESCO World Heritage Centre - Chitwan National Park"
+  - "Chitwan National Park official website - services, gates, regulations and visitor facilities"
+  - "Nepal Tourism Board - Chitwan"
+  - "Nepal Tourism Board - Meghauli"
+  - "Nepal Tourism Board - Devghat"
+  - "Nepal Tourism Board - Chepang Hill Trail"
+  - "Ramsar Sites Information Service - Beeshazar and Associated Lakes"
+  - "OpenStreetMap/GeoNames-derived mapped references used only for practical approximate centers and mapped POIs; authoritative GIS should replace them where available"
