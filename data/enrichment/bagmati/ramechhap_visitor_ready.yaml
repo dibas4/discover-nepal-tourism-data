@@ -1,0 +1,284 @@
+district: Ramechhap
+province: Bagmati
+version: visitor-ready-v2
+canonical_record_count: 29
+
+introduction:
+  short: >
+    Ramechhap stretches from the warm Tamakoshi valley around Manthali to remote alpine country beneath Numbur Himal. It is both an important road-air gateway toward the Everest region and a destination for cultural hill travel, sacred lakes, highland trekking and rural landscapes.
+history:
+  short: >
+    Historic Ramechhap developed around hill bazaars, trade routes and culturally diverse settlements. Older approaches toward the Everest region crossed communities such as Bamti Bhandar, while Doramba, Sailung and the district's temples preserve important Tamang, Buddhist and Hindu cultural landscapes.
+
+main_hubs:
+  - Kathmandu
+  - Manthali
+  - Ramechhap Bazaar
+  - Doramba
+  - Bamti Bhandar
+
+map_rules:
+  large_settlements: area_center_and_radius
+  mountain_regions: polygon_or_area
+  trekking_routes: route_or_corridor
+  rivers: corridor
+  exact_buildings_and_transport: point_when_verified
+  uncertain_local_sites: routing_hold
+
+permit_policy:
+  restricted_area: >
+    Ramechhap is not listed in Nepal Immigration's current restricted-area trekking table. Do not invent a district restricted-area permit.
+  trekking: >
+    Check current TIMS/guide rules for the specific published trekking itinerary before travel; requirements can change and cross-district routes may inherit rules from adjoining areas.
+  climbing: >
+    Any mountaineering objective requiring climbing authorization must use current Government of Nepal rules; trekking access does not imply climbing permission.
+  fees: dynamic
+
+visitor_systems:
+  - name: Manthali gateway
+    geometry: area
+    introduction: District headquarters and the principal road-air gateway for many visitors moving toward the Everest region.
+    how_to_visit:
+      from: Kathmandu
+      mode: road
+      notes: Use current highway conditions and seasonal traffic information; travel times are dynamic.
+  - name: Numbur highlands
+    geometry: mountain_area_and_route_network
+    introduction: Remote northern trekking country linking Sherpa settlements, alpine pastures, sacred lakes and the Numbur Himal landscape.
+    how_to_visit:
+      from: Manthali
+      via: northern Ramechhap / Umakunda access roads and trailheads
+      notes: Final approaches are remote and can involve rough roads followed by multi-day trekking.
+  - name: Sailung-Doramba cultural highlands
+    geometry: area_and_route_network
+    introduction: Hill country shared with the wider Sailung landscape, combining panoramic ridges, Tamang settlements, monasteries and cultural trekking.
+    how_to_visit:
+      from: Kathmandu or Manthali
+      via: Doramba/Sailung road approaches
+      notes: Confirm road condition in monsoon and winter.
+
+places:
+  - name: Numbur Cheese Circuit
+    type: trekking_route
+    geometry: route
+    introduction: Multi-day trekking circuit through northern Ramechhap linking Sherpa settlements, cheese-producing areas, alpine landscapes and high mountain scenery.
+    things_to_do: [multi-day trekking, village stays, mountain scenery, cultural observation]
+    how_to_visit: {from: Manthali, via: Umakunda-side road access then trail, final_access: trekking}
+    permits: {restricted_area_permit: false, trekking_rules: dynamic, climbing_permission_if_leaving_trekking_route: conditional}
+    safety: [altitude, remote terrain, weather, limited accommodation]
+  - name: Numbur Himal region
+    type: mountain_region
+    geometry: area
+    introduction: High-mountain landscape forming the dramatic northern skyline and principal alpine focus of Ramechhap.
+    things_to_do: [trekking, mountain viewing, photography]
+    how_to_visit: {from: Manthali, via: northern trekking approaches, final_access: trekking}
+    permits: {climbing: required_for_regulated_climbing_objectives, trekking: dynamic}
+  - name: Jata Pokhari
+    type: sacred_alpine_lake
+    geometry: area
+    introduction: Remote sacred lake visited by trekkers and pilgrims in the high country of Umakunda.
+    things_to_do: [pilgrimage, trekking, alpine scenery]
+    how_to_visit: {from: northern Ramechhap trailheads, final_access: multi_day_trek}
+    permits: {special_local_entry: verify_current, restricted_area_permit: false}
+    safety: [high_altitude, snow, weather]
+  - name: Panch Pokhari, Ramechhap
+    type: alpine_lake_group
+    geometry: area
+    introduction: Group of high-altitude lakes associated with local pilgrimage and remote trekking in northern Ramechhap; keep separate from other Panch Pokhari destinations in Nepal.
+    things_to_do: [pilgrimage, trekking, photography]
+    how_to_visit: {from: Umakunda-side trail network, final_access: multi_day_trek}
+    permits: {restricted_area_permit: false, current_trekking_rules: verify}
+  - name: Thulo Sailung
+    type: highland_viewpoint_landscape
+    geometry: area
+    cross_district: [Ramechhap, Dolakha]
+    introduction: Broad high ridge famous for sunrise, Himalayan panoramas and religious-cultural significance.
+    things_to_do: [sunrise, hiking, panorama viewing, pilgrimage]
+    how_to_visit: {from: Kathmandu or Manthali, via: Doramba-Sailung approach, final_access: road_plus_walk}
+    permits: {special_tourism_permit: false}
+  - name: Sailung sunrise viewpoint
+    type: viewpoint
+    geometry: point_or_small_area
+    parent: Thulo Sailung
+    introduction: Practical sunrise-viewing objective on the Sailung ridge rather than a separate mountain destination.
+    things_to_do: [sunrise, photography, Himalayan panorama]
+    how_to_visit: {from: Sailung visitor area, final_access: walk}
+    permits: {special_tourism_permit: false}
+  - name: Sunapati Hill
+    type: hill_landscape
+    geometry: area
+    introduction: Scenic hill and pilgrimage landscape in Sunapati Rural Municipality with broad middle-hill views.
+    things_to_do: [hiking, local pilgrimage, landscape photography]
+    how_to_visit: {from: Manthali or Kathmandu, via: Sunapati road network, final_access: road_plus_walk}
+    permits: {special_tourism_permit: false}
+  - name: Khandadevi Temple
+    type: temple
+    geometry: point_pending_verified_pin
+    introduction: Important hilltop Hindu pilgrimage destination and viewpoint in Khandadevi Rural Municipality.
+    things_to_do: [worship, pilgrimage, hill views]
+    how_to_visit: {from: Manthali, via: Khandadevi road approach, final_access: road_plus_walk}
+    permits: {special_tourism_permit: false, temple_entry_or_donation: dynamic}
+  - name: Thodung Monastery
+    type: monastery
+    geometry: point_pending_verified_pin
+    introduction: Buddhist monastery and cultural stop in the Sailung-Doramba highland travel system.
+    things_to_do: [monastery visit, cultural learning, photography]
+    how_to_visit: {from: Doramba/Sailung side, final_access: local_road_plus_walk}
+    permits: {special_tourism_permit: false, monastery_access: respect_local_rules}
+  - name: Doramba cultural village
+    type: settlement_area
+    geometry: area_center
+    introduction: Tamang settlement known for cultural heritage, hill scenery and its role in the Sailung travel landscape.
+    things_to_do: [village walk, cultural observation, local food, hill scenery]
+    how_to_visit: {from: Kathmandu or Manthali, via: Doramba road, final_access: road}
+    permits: {special_tourism_permit: false}
+  - name: Doramba memorial area
+    type: memorial
+    geometry: point_pending_verified_pin
+    introduction: Conflict-era memorial landscape connected with a significant episode of Nepal's recent history.
+    things_to_do: [memorial visit, historical learning]
+    how_to_visit: {from: Doramba, final_access: local_road_or_walk}
+    permits: {special_tourism_permit: false}
+  - name: Manthali
+    type: town_gateway
+    geometry: area_center_and_radius
+    introduction: District headquarters, transport hub and practical base for road journeys and seasonal air connections toward Lukla.
+    things_to_do: [overnight stop, transport connections, local market, river landscape]
+    how_to_visit: {from: Kathmandu, final_access: road}
+    permits: {town_entry: none}
+  - name: Ramechhap Airport
+    type: airport
+    geometry: exact_transport_poi
+    introduction: Domestic airport at Manthali used particularly when airlines operate Lukla services from Ramechhap.
+    things_to_do: [flight_connection]
+    how_to_visit: {from: Manthali, final_access: local_vehicle}
+    permits: {airport_entry: ticket_and_security_rules}
+    operations: dynamic
+  - name: Ramechhap Bazaar
+    type: historic_settlement
+    geometry: area_center
+    introduction: Historic hill bazaar and former district centre with older settlement character and local heritage.
+    things_to_do: [heritage walk, local market, village photography]
+    how_to_visit: {from: Manthali, final_access: road}
+    permits: {special_tourism_permit: false}
+  - name: Tamakoshi River corridor
+    type: river_corridor
+    geometry: corridor
+    introduction: Major river landscape through Ramechhap, shaping the Manthali valley and providing scenery, fishing and potential managed river activities.
+    things_to_do: [river scenery, photography, fishing_where_legal, rafting_only_with_current_operator]
+    how_to_visit: {from: Manthali, routing: use_verified_river_access_not_midstream_coordinate}
+    permits: {rafting: operator_and_current_regulation_dependent, fishing: local_rules_apply}
+  - name: Likhu River valley
+    type: valley_corridor
+    geometry: corridor
+    introduction: Eastern river valley functioning as both a scenic landscape and access corridor toward northern settlements.
+    things_to_do: [road journey, village travel, landscape photography]
+    how_to_visit: {from: Manthali, via: eastern_Ramechhap_road_network}
+    permits: {special_tourism_permit: false}
+  - name: Khimti valley
+    type: valley_area
+    geometry: corridor
+    introduction: Forested and agricultural valley shaped by the Khimti river system and hydro landscape.
+    things_to_do: [scenic drive, rural landscape, photography]
+    how_to_visit: {from: Manthali, via: eastern highway/road corridor}
+    permits: {special_tourism_permit: false, infrastructure_restricted_zones: obey_signage}
+  - name: Gumdel Village
+    type: settlement_area
+    geometry: area_center_pending_precision
+    introduction: Sherpa settlement and important cultural stop on northern Ramechhap trekking approaches.
+    things_to_do: [village stay, cultural observation, trekking]
+    how_to_visit: {from: Manthali, via: northern road/trail system, final_access: road_plus_trail}
+    permits: {special_tourism_permit: false, trekking_rules: dynamic}
+  - name: Bamti Bhandar
+    type: historic_mountain_settlement
+    geometry: area_center
+    introduction: Historic mountain settlement associated with older overland approaches toward the Everest region.
+    things_to_do: [village walk, trekking history, cultural observation]
+    how_to_visit: {from: Manthali, via: northern/eastern road network, final_access: road_or_trail}
+    permits: {special_tourism_permit: false}
+  - name: Chuchure
+    type: settlement_area
+    geometry: area_center_pending_precision
+    introduction: Northern approach settlement used in the broader trekking landscape toward Ramechhap's alpine country.
+    things_to_do: [village travel, trekking]
+    how_to_visit: {from: Manthali, via: Umakunda-side access, final_access: rough_road_or_trail}
+    permits: {special_tourism_permit: false}
+  - name: Those
+    type: historic_settlement
+    geometry: area_center
+    introduction: Historic market settlement known locally for its former mining heritage and hill-country setting.
+    things_to_do: [heritage exploration, village walk, local history]
+    how_to_visit: {from: Manthali, via: Gokulganga road network}
+    permits: {special_tourism_permit: false}
+  - name: Bethali
+    type: rural_settlement
+    geometry: routing_hold
+    introduction: Hill settlement with potential cultural and viewpoint interest, but exact visitor-ready access still needs local verification.
+    things_to_do: [community_visit_if_locally_arranged]
+    how_to_visit: {status: HOLD_until_local_access_verified}
+    permits: {unknown_local_conditions: verify}
+  - name: Rakathum
+    type: rural_settlement
+    geometry: area_center_pending_precision
+    introduction: Traditional hill settlement in Khandadevi with rural-tourism and cultural landscape potential.
+    things_to_do: [village walk, rural culture, scenery]
+    how_to_visit: {from: Manthali, via: Khandadevi local roads, final_access: road_plus_walk}
+    permits: {special_tourism_permit: false}
+  - name: Bhaleshwor Mahadev area
+    type: religious_site
+    geometry: routing_hold
+    introduction: Locally identified Shiva pilgrimage site whose exact mapped identity and public visitor pin still require verification.
+    things_to_do: [pilgrimage_if_verified]
+    how_to_visit: {status: HOLD_do_not_route_yet}
+    permits: {unknown: verify}
+  - name: Umatirtha
+    type: sacred_site
+    geometry: routing_hold
+    introduction: Sacred place associated with northern pilgrimage traditions; exact visitor location requires stronger local verification.
+    things_to_do: [pilgrimage_if_verified]
+    how_to_visit: {status: HOLD_do_not_route_yet}
+    permits: {unknown: verify}
+  - name: Indigenous Peoples Trail - Ramechhap sector
+    type: cultural_trekking_route
+    geometry: route
+    introduction: Cultural trekking system crossing communities in the Doramba-Sailung, Sunapati and Khandadevi hills.
+    things_to_do: [trekking, homestay, cultural learning, village travel]
+    how_to_visit: {from: Kathmandu_or_Manthali, via: verified_current_trailhead, final_access: trekking}
+    permits: {restricted_area_permit: false, trekking_rules: verify_current}
+  - name: Numbur alpine meadows
+    type: alpine_landscape
+    geometry: area
+    introduction: Seasonal high pastures along northern trekking routes, best treated as a landscape rather than a single attraction pin.
+    things_to_do: [trekking, landscape photography]
+    how_to_visit: {from: Numbur_trekking_route, final_access: trek_only}
+    permits: {inherits_route_rules: true}
+  - name: Khimti waterfalls and cascades
+    type: waterfall_cluster
+    geometry: routing_hold
+    introduction: Seasonal cascades reported along the Khimti corridor; individual safe public-access waterfalls need exact verification before routing.
+    things_to_do: [waterfall_viewing_after_verification]
+    how_to_visit: {status: HOLD_no_generic_river_pin}
+    permits: {unknown_local_access: verify}
+  - name: Manthali riverbank recreation area
+    type: riverfront_area
+    geometry: area_pending_safe_access
+    introduction: Local recreation landscape beside the Tamakoshi around Manthali; use only verified public riverbank access rather than routing to the river itself.
+    things_to_do: [evening_walk, river_views, local_recreation]
+    how_to_visit: {from: Manthali, final_access: walk_or_local_vehicle, routing: verified_public_access_only}
+    permits: {special_tourism_permit: false}
+
+qa:
+  canonical_records_covered: 29
+  rules:
+    - Thulo Sailung is shared with Dolakha and must not be duplicated as two unrelated attractions.
+    - Ramechhap Airport is transport infrastructure, not the coordinate for Manthali town.
+    - Jata Pokhari and Panch Pokhari remain separate lake destinations.
+    - Numbur Himal and Numbur Cheese Circuit are a mountain region and a trekking route respectively.
+    - Weak local sites remain HOLD rather than receiving guessed coordinates.
+    - River records use corridors and verified access nodes, never midstream pins.
+
+sources:
+  - Nepal Department of Immigration restricted-area trekking table
+  - Civil Aviation Authority of Nepal airport profiles
+  - Ramechhap district canonical research inventory
+  - Local-government and tourism sources to be attached record-by-record during coordinate hardening
