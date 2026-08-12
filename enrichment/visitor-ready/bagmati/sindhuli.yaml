@@ -1,0 +1,469 @@
+district: Sindhuli
+province: Bagmati
+status: visitor_ready_enrichment_v1
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Sindhuli is a mid-hill district east of Kathmandu where military history, scenic highways, orchard country, river valleys, pilgrimage sites and rural landscapes meet. The district is best known for Sindhuligadhi, the BP Highway, junar orchards and the transition from Mahabharat ridges into the warmer Kamala and Marin valleys.
+  why_visit:
+    - historic forts and battle heritage
+    - scenic BP Highway road trips
+    - junar orchard and farm tourism
+    - hill viewpoints and ridge walks
+    - Hindu pilgrimage sites
+    - Sunkoshi and Kamala river landscapes
+
+history:
+  short: >
+    Sindhuli occupies an important place in Nepal's military and political history. Sindhuligadhi is associated with the 1767 battle in which Gorkhali forces resisted an East India Company expedition. The district also contains older fort and pilgrimage landscapes such as Hariharpurgadhi and Kusheshwar Mahadev, while Dumja is linked with the Koirala family and Nepal's modern democratic history.
+
+main_hubs:
+  - name: Sindhulimadhi / Kamalamai
+    role: district_headquarters_and_primary_hub
+    map_behavior: area
+  - name: Khurkot
+    role: northern_bp_highway_and_sunkoshi_gateway
+    map_behavior: area
+  - name: BP Highway corridor
+    role: main_road_access_from_kathmandu_and_terai
+    map_behavior: corridor
+
+permit_overview:
+  restricted_area_permit: false
+  district_tourism_permit: false
+  note: >
+    Sindhuli is not listed as a restricted trekking district in the current Department of Immigration restricted-area permit system. Individual temples, memorials, private attractions, rafting services or local facilities may still charge current entry or activity fees.
+  dynamic_fields:
+    - local_entry_fees
+    - rafting_operator_fees
+    - event_or_festival_access
+    - road_conditions
+
+map_model_rules:
+  large_area: use approximate center plus practical visitor radius or polygon
+  point_poi: use precise pin only for verified forts, temples, memorials or facilities
+  corridor: use line or polygon geometry for rivers, highways and long trails
+  hold: do not route users directly to weakly verified local sites
+
+visitor_areas:
+  - id: sindhuligadhi-heritage-landscape
+    name: Sindhuligadhi Fort and heritage landscape
+    type: heritage_area
+    municipality: Kamalamai Municipality
+    intro: >
+      Sindhuligadhi is Sindhuli's signature historic destination, combining fort remains, battle-history interpretation, memorial spaces and broad views over the BP Highway and surrounding hills.
+    geometry:
+      type: area_with_child_pois
+      coordinate_status: use_verified_fort_or_memorial_pin_when_available
+    things_to_do:
+      - explore fort remains
+      - learn about the 1767 battle
+      - visit the war memorial
+      - hill and highway viewpoints
+      - short heritage walks
+      - photography
+    permits_and_entry:
+      special_permit_required: false
+      entry_fee_status: dynamic
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle, local_taxi, private_vehicle]
+      route_summary: >
+        Travel from Sindhulimadhi toward the Sindhuligadhi section of the BP Highway, then use the signed/local access road to the heritage hill. Route users to a verified fort or memorial access point, not to a generic hill-center coordinate.
+      final_access: short_walks_between_heritage_nodes
+      road_condition: dynamic
+    child_pois:
+      - name: Sindhuligadhi Fort
+        type: historic_fort
+        intro: "Core defensive site associated with the 1767 Gorkhali victory over the East India Company expedition."
+      - name: Sindhuligadhi viewpoint
+        type: viewpoint_area
+        intro: "Hilltop panorama over the highway, valleys and Mahabharat hills."
+      - name: Sindhuligadhi War Memorial
+        type: memorial
+        intro: "Modern memorial landscape interpreting the battle and defensive history."
+
+  - id: hariharpurgadhi
+    name: Hariharpurgadhi
+    type: historic_fort_and_hill_settlement
+    municipality: Hariharpurgadhi Rural Municipality
+    intro: >
+      A historic fort landscape in western Sindhuli, associated with older defensive routes and a hill settlement overlooking the surrounding countryside.
+    geometry:
+      type: point_and_small_area
+      coordinate_status: pending_strong_public_access_pin
+    things_to_do: [fort_history, hill_views, village_landscape, photography]
+    permits_and_entry:
+      special_permit_required: false
+      local_entry_status: dynamic
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle, local_jeep]
+      route_summary: "Approach via the western Sindhuli road network toward Hariharpurgadhi Rural Municipality; final fort access should use a locally verified road/trail node."
+      final_access: road_plus_possible_walk
+      road_condition: dynamic
+
+  - id: bp-highway
+    name: BP Highway scenic corridor
+    type: scenic_road_corridor
+    intro: >
+      The BP Highway is one of Nepal's most dramatic hill-road journeys, cutting through steep slopes, river valleys and viewpoints between the Kathmandu side and eastern Terai.
+    geometry:
+      type: road_corridor
+      route_to_road_not_midpoint: true
+    things_to_do: [scenic_drive, roadside_viewpoints, photography, food_stops]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Kathmandu
+      transport: [bus, car, motorcycle]
+      route_summary: "Travel east toward Sindhuli via the BP Highway. Treat the highway itself as the route and attach stops such as Sindhuligadhi, Khurkot and verified viewpoints as child nodes."
+      road_condition: dynamic
+    child_pois:
+      - name: Selfie Danda
+        type: roadside_viewpoint
+        coordinate_status: pending_exact_verified_pin
+        intro: "Popular roadside panorama stop on the BP Highway; keep direct routing on HOLD until the exact standard location is verified."
+
+  - id: phikkal-hill
+    name: Phikkal Hill
+    type: ridge_viewpoint_area
+    municipality: Phikkal Rural Municipality
+    intro: >
+      A high ridge destination valued for broad hill scenery and Himalayan views in clear weather.
+    geometry:
+      type: ridge_area
+      coordinate_status: approximate_area_until_summit_pin_verified
+    things_to_do: [sunrise, mountain_views, ridge_walks, photography]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle, local_jeep, hiking]
+      route_summary: "Travel toward Phikkal Rural Municipality and continue by local road toward the ridge; final viewpoint access may require walking."
+      road_condition: dynamic
+
+  - id: kamalamai-temple
+    name: Kamalamai Temple
+    type: religious_site
+    municipality: Kamalamai Municipality
+    intro: >
+      An important local goddess shrine associated with the Kamala river landscape and district religious traditions.
+    geometry:
+      type: exact_poi_when_verified
+      coordinate_status: pending_final_pin_check
+    things_to_do: [pilgrimage, temple_visit, festival_visit]
+    permits_and_entry:
+      special_permit_required: false
+      temple_entry_fee: usually_none_or_dynamic
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [local_taxi, private_vehicle, walking]
+      route_summary: "Use the verified temple location from Kamalamai rather than a river-center coordinate."
+
+  - id: kusheshwar-mahadev-dumja
+    name: Kusheshwar Mahadev, Dumja
+    type: religious_heritage_site
+    municipality: Sunkoshi Rural Municipality
+    intro: >
+      A historic Shiva pilgrimage site in the Dumja-Sunkoshi landscape, combining religious importance with the heritage of an old settlement corridor.
+    geometry:
+      type: point_site
+      coordinate_status: pending_final_verified_pin
+    things_to_do: [pilgrimage, temple_visit, heritage_walk, river_landscape]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Khurkot
+      transport: [road_vehicle, local_taxi]
+      route_summary: "Use the Sunkoshi corridor road toward Dumja, then route to the verified temple access point."
+      road_condition: dynamic
+
+  - id: dumja-heritage
+    name: Dumja heritage area
+    type: heritage_settlement_area
+    municipality: Sunkoshi Rural Municipality
+    intro: >
+      A cultural landscape associated with traditional settlement history and the Koirala family, important to Nepal's modern political story.
+    geometry:
+      type: settlement_area
+      map_behavior: area_not_single_pin
+    things_to_do: [heritage_walk, political_history, village_landscape]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Khurkot
+      transport: [road_vehicle, local_taxi]
+      route_summary: "Travel along the Sunkoshi-side road to Dumja and use the settlement as an area; individual memorial buildings should be separate child pins once verified."
+    child_pois:
+      - name: BP Koirala ancestral / memorial area
+        type: political_history_site
+        coordinate_status: routing_hold_pending_exact_public_site
+        intro: "Political-history record tied to the Koirala family; publish an exact pin only after confirming the current public memorial/ancestral site."
+
+  - id: marin-valley
+    name: Marin Valley
+    type: large_valley_area
+    municipality: Marin Rural Municipality
+    intro: >
+      A broad inner valley of farms, forest edges, villages and river scenery in southern-central Sindhuli.
+    geometry:
+      type: large_area
+      coordinate_status: approximate_valley_center_only
+    things_to_do: [rural_drive, village_landscape, cycling_where_suitable, photography]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle, local_bus]
+      route_summary: "Travel south/west toward Marin Rural Municipality. The valley should display as an area; route visitors to named settlements or attractions within it."
+      road_condition: dynamic
+
+  - id: kamala-river-valley
+    name: Kamala River valley
+    type: river_corridor
+    intro: >
+      Major river landscape shaping eastern and southern Sindhuli, with pilgrimage, agriculture, forests and lowland scenery along its course.
+    geometry:
+      type: river_corridor
+    things_to_do: [river_views, landscape_photography, local_culture]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle]
+      route_summary: "Route users to verified riverbank villages, bridges or temples rather than the geometric center of the river."
+    safety_note: "River depth and current change seasonally; do not imply unsupervised swimming is safe."
+
+  - id: sunkoshi-river
+    name: Sunkoshi River corridor - Sindhuli side
+    type: cross_district_river_corridor
+    intro: >
+      The Sunkoshi forms a major northern travel and recreation corridor, with highway access, rafting, fishing and river scenery around places such as Khurkot and Dumja.
+    geometry:
+      type: river_corridor
+    things_to_do: [rafting_with_operator, river_views, fishing_where_permitted, photography]
+    permits_and_entry:
+      special_permit_required: false
+      rafting_fee: operator_dynamic
+    how_to_visit:
+      from_main_hub: Khurkot
+      transport: [road_vehicle, rafting_operator_transfer]
+      route_summary: "Use Khurkot or another verified launch/access node. Never route visitors to the middle of the Sunkoshi."
+    safety_note: "Rafting and river access depend on season, water level and licensed/current operators."
+
+  - id: khurkot
+    name: Khurkot
+    type: highway_river_gateway_town
+    municipality: Sunkoshi Rural Municipality
+    intro: >
+      A strategic junction and visitor gateway on the BP Highway beside the Sunkoshi, useful for accessing northern Sindhuli, Ramechhap and river activities.
+    geometry:
+      type: settlement_area
+    things_to_do: [road_trip_stop, river_views, local_food, onward_travel]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Kathmandu
+      transport: [bus, car, motorcycle]
+      route_summary: "Follow the BP Highway east to Khurkot; treat the town as an area and route onward from specific junctions or river access points."
+      road_condition: dynamic
+
+  - id: ratanchura-junar
+    name: Ratanchura junar orchards
+    type: agro_tourism_area
+    intro: >
+      One of Sindhuli's signature sweet-orange producing landscapes, best experienced as a seasonal orchard and village area rather than a single attraction pin.
+    geometry:
+      type: orchard_landscape_area
+      coordinate_status: principal_villages_need_mapping
+    things_to_do: [orchard_visit, local_fruit_tasting, farm_photography, village_walk]
+    permits_and_entry:
+      special_permit_required: false
+      farm_access: owner_or_local_permission_may_apply
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [local_road_vehicle, walking]
+      route_summary: "Travel toward Ratanchura and route visitors to participating orchards/villages once individual farm access is verified."
+      best_season_status: dynamic
+
+  - id: sindhuli-junar-trail
+    name: Sindhuli junar trail
+    type: seasonal_agro_route
+    intro: >
+      A concept route linking orchard villages, hill scenery and local fruit production in Sindhuli's junar belt.
+    geometry:
+      type: route
+      route_status: first_pass_not_single_official_trail
+    things_to_do: [cycling, orchard_visits, village_walks, local_food]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [private_vehicle, bicycle, walking]
+      route_summary: "Use verified orchard villages as route nodes; do not publish one fixed line until the preferred tourism route is locally confirmed."
+
+  - id: tinpatan-valley
+    name: Tinpatan Valley
+    type: rural_valley_area
+    municipality: Tinpatan Rural Municipality
+    intro: >
+      An agricultural mid-hill valley with terraced landscapes, villages and a quieter rural travel character.
+    geometry:
+      type: area
+    things_to_do: [rural_touring, village_landscape, photography, cycling_where_suitable]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      transport: [road_vehicle, local_bus]
+      route_summary: "Travel toward Tinpatan Rural Municipality and use named settlements as navigation nodes within the wider valley."
+      road_condition: dynamic
+
+  - id: dudhauli-wetland
+    name: Dudhauli wetland and river landscape
+    type: seasonal_wetland_landscape
+    municipality: Dudhauli Municipality
+    intro: >
+      A lowland river, forest-edge and seasonal wetland environment with ecological value, but not yet one cleanly verified tourism POI.
+    geometry:
+      type: area
+      coordinate_status: routing_hold_pending_site_level_mapping
+    things_to_do: [nature_viewing, birdwatching_if_locally_verified, landscape_photography]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Dudhauli
+      route_summary: "Do not route to a generic wetland center. Publish only after a safe public access point or named wetland is verified."
+
+  - id: chure-corridor
+    name: Chure forest corridor - Sindhuli
+    type: ecological_landscape
+    intro: >
+      Southern Sindhuli's Chure forests form an important ecological corridor of fragile hills, forest and wildlife habitat.
+    geometry:
+      type: broad_area
+    things_to_do: [landscape_viewing, guided_nature_visit_where_locally_authorized]
+    permits_and_entry:
+      special_permit_required: false
+      forest_access_rules: local_dynamic
+    how_to_visit:
+      from_main_hub: Dudhauli_or_Marin
+      route_summary: "Treat as an ecological landscape, not a free-access recreation zone. Route only to verified public roads, community forests or designated visitor points."
+    safety_note: "Do not promote off-road or unsupervised forest access without local permission."
+
+  - id: mahabharat-ridge-trails
+    name: Mahabharat ridge trails
+    type: hiking_and_cycling_landscape
+    intro: >
+      A network concept for hill walking and cycling across Sindhuli's higher Mahabharat ridges, connecting viewpoints, villages and forest roads.
+    geometry:
+      type: route_network
+      route_status: partial
+    things_to_do: [hiking, cycling, ridge_views, village_visits]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Sindhulimadhi / Kamalamai
+      route_summary: "Use verified trailheads such as Sindhuligadhi, Phikkal or local ridge settlements; do not publish one continuous route without trail-level verification."
+
+  - id: hariharpurgadhi-trail
+    name: Hariharpurgadhi heritage trail
+    type: heritage_hiking_route
+    intro: "Local walking concept linking the fort, nearby villages and viewpoints in the Hariharpurgadhi landscape."
+    geometry:
+      type: route
+      route_status: partial
+    things_to_do: [heritage_hike, village_visit, viewpoints]
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      from_main_hub: Hariharpurgadhi_local_gateway
+      route_summary: "Start from the locally verified fort/village access point; exact trail line remains pending field verification."
+
+  - id: sindhuligadhi-trail
+    name: Sindhuligadhi heritage trail
+    type: short_heritage_walking_route
+    intro: "Short walking route connecting fort remains, memorial areas and viewpoints around Sindhuligadhi."
+    geometry:
+      type: route
+    things_to_do: [walking, battle_history, viewpoints, photography]
+    permits_and_entry:
+      special_permit_required: false
+      entry_fee_status: dynamic
+    how_to_visit:
+      from_main_hub: Sindhuligadhi_main_access
+      route_summary: "Begin from the verified heritage-site parking/entry area and walk between the fort, memorial and viewpoints."
+
+  - id: majhi-communities
+    name: Majhi riverside communities - Sunkoshi corridor
+    type: cultural_community_cluster
+    intro: >
+      Majhi communities along the river corridor represent an important river-based cultural tradition, but tourism should be mapped through specific participating villages rather than a generic ethnic-community pin.
+    geometry:
+      type: community_cluster
+      coordinate_status: settlement_level_mapping_needed
+    things_to_do: [community_culture_where_invited, river_life_interpretation, local_food]
+    permits_and_entry:
+      special_permit_required: false
+      community_visit: consent_and_local_arrangement_recommended
+    how_to_visit:
+      from_main_hub: Khurkot
+      route_summary: "Publish only participating villages or homestays with verified local consent and access."
+
+  - id: bhadrakali-hill
+    name: Bhadrakali hill area
+    type: religious_viewpoint_landscape
+    intro: "Local shrine and hill-view landscape recorded in district research but not yet mapped strongly enough for direct public navigation."
+    geometry:
+      type: routing_hold
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      status: hold_until_municipality_and_access_verified
+
+  - id: betini-tal
+    name: Betini Tal
+    type: local_lake_or_pond
+    intro: "Reported local lake/pond destination whose exact identity, coordinates and visitor value still need local verification."
+    geometry:
+      type: routing_hold
+    permits_and_entry:
+      special_permit_required: false
+    how_to_visit:
+      status: hold_until_exact_site_and_public_access_verified
+
+things_to_do_index:
+  - activity: military_history
+    primary_locations: [Sindhuligadhi, Hariharpurgadhi]
+  - activity: scenic_drive
+    primary_locations: [BP Highway, Khurkot]
+  - activity: pilgrimage
+    primary_locations: [Kamalamai Temple, Kusheshwar Mahadev]
+  - activity: agro_tourism
+    primary_locations: [Ratanchura junar orchards, Sindhuli junar trail]
+  - activity: rafting
+    primary_locations: [Sunkoshi River corridor]
+    map_behavior: route_to_verified_operator_launch
+  - activity: viewpoints
+    primary_locations: [Sindhuligadhi viewpoint, Phikkal Hill, verified BP Highway stops]
+  - activity: heritage_walks
+    primary_locations: [Sindhuligadhi heritage trail, Dumja heritage area, Hariharpurgadhi]
+
+publication_rules:
+  - "Do not publish Selfie Danda, Betini Tal or Bhadrakali hill as exact navigation pins until their standard locations are verified."
+  - "Treat BP Highway, Sunkoshi, Kamala River, Chure forest and Mahabharat ridges as corridors/areas, not point attractions."
+  - "Farm visits, rafting, local fees, festival access and road conditions are dynamic."
+  - "Community tourism should point to a named participating village, homestay or local program, not an ethnic-community centroid."
+  - "No Sindhuli-wide restricted-area trekking permit is required under the current Immigration restricted-area system."
+
+canonical_coverage:
+  total_records: 26
+  coverage_status: all_records_represented_or_held
+
+sources:
+  - "research/sindhuli-deep-research canonical district inventory"
+  - "Nepal Tourism Board references for Nepal mid-hill and road-tourism context"
+  - "Department of Immigration current restricted-area permit system checked 2026-08-12"
+  - "local and municipal verification remains required for HOLD records and exact access points"
