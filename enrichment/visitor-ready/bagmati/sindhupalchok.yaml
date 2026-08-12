@@ -1,0 +1,401 @@
+district: Sindhupalchok
+province: Bagmati
+status: visitor_ready_enrichment_v2
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Sindhupalchok stretches from the middle hills east of Kathmandu to the high Himalaya and Nepal-Tibet border. It combines Yolmo and Tamang cultural villages, sacred alpine lakes, trekking routes, hot springs, dramatic river gorges, rafting and bungee corridors, pilgrimage sites and gateway towns such as Melamchi, Chautara and Bahrabise.
+  why_visit:
+    - Helambu village trekking and Yolmo culture
+    - Panch Pokhari and high-altitude pilgrimage
+    - Jugal Himal mountain landscapes
+    - Bhote Koshi rafting, canyoning and commercial adventure
+    - Tatopani and the historic Kodari border corridor
+    - Sunkoshi riverside recreation and rafting
+    - hill temples, festivals and heritage villages
+
+history:
+  short: >
+    Sindhupalchok has long linked the Kathmandu Valley with Himalayan communities and trans-Himalayan trade routes toward Tibet. The Kodari-Tatopani corridor became one of Nepal's best-known northern road links, while Helambu developed a distinct Yolmo Buddhist cultural landscape. The district also contains old pilgrimage traditions around Panch Pokhari, Bhairav Kunda, Ama Yangri and major hill temples. Earthquakes, floods and landslides have repeatedly reshaped settlements and road access, so current-route verification is essential.
+
+main_hubs:
+  - name: Kathmandu
+    role: primary_origin
+    coordinate: {lat: 27.7172, lng: 85.3240}
+  - name: Melamchi
+    role: western_district_gateway
+    coordinate: {lat: 27.8287, lng: 85.5847}
+  - name: Chautara
+    role: district_headquarters
+    coordinate: {lat: 27.7748, lng: 85.7150}
+  - name: Bahrabise
+    role: eastern_highway_gateway
+    coordinate: {lat: 27.7900, lng: 85.8930}
+
+permit_rules:
+  district_restricted_area_permit: false
+  tims:
+    helambu_trek: required_under_current_ntb_rule
+    panch_pokhari_trek: required_under_current_ntb_rule
+    note: "NTB currently lists Helambu Trek and Panchpokhari Trek among routes requiring a licensed trekking guide and trekking-agency-issued TIMS card."
+  langtang_national_park:
+    applies_when_entering_park_sector: true
+    current_entry_fee:
+      nepali_npr: 25
+      saarc_npr: 1500
+      foreigner_npr: 3000
+    dynamic: true
+  border_access:
+    kodari_tatopani: "International border rules, customs procedures and road access are dynamic. Do not imply tourists may cross merely because they can visit the Nepal-side corridor."
+  adventure_operators:
+    rafting_bungee_canyoning: "Use only currently licensed/operating providers; prices, schedules and safety rules are dynamic."
+
+map_model_rules:
+  large_area: "Use polygon/area or an approximate center with radius."
+  settlement: "Use a practical settlement area, not a single-building pin."
+  point_poi: "Use exact pin only for specific temples, bridges, commercial sites or facilities when independently verified."
+  route: "Use line/corridor geometry for trekking routes, rivers and border-road landscapes."
+  weak_record: "Keep route_to_user false until exact identity/access is locally verified."
+
+visitor_areas:
+  - id: helambu
+    name: Helambu trekking region
+    type: cultural_trekking_region
+    intro: "Highland trekking region north-east of Kathmandu known for Yolmo villages, Buddhist monasteries, orchards, forest ridges and mountain views."
+    geometry: {type: polygon_preferred, reference_center: {lat: 28.0000, lng: 85.5900}, coordinate_quality: approximate_region_center}
+    things_to_do: [trekking, village stays, monastery visits, cultural experiences, mountain viewing]
+    permits_and_entry: {tims: required_under_current_ntb_rule, licensed_guide: required_under_current_ntb_rule, national_park_entry: conditional_if_route_enters_langtang_np}
+    how_to_visit:
+      from_kathmandu: "Travel by road toward Melamchi and the Helambu roadheads; exact roadhead depends on itinerary."
+      from_melamchi: "Continue by local jeep/bus toward Helambu settlements such as Sermathang or Tarkeghyang where road conditions allow; many itineraries then continue on foot."
+      access_dynamic: true
+
+  - id: tarkeghyang
+    name: Tarkeghyang Village
+    type: settlement_area
+    intro: "One of Helambu's major Yolmo cultural villages, with traditional settlement patterns, Buddhist heritage and a central role in trekking itineraries."
+    geometry: {type: circle_first_pass, center: {lat: 28.0340, lng: 85.5900}, radius_m: 900, coordinate_quality: approximate_settlement_area}
+    things_to_do: [village walk, monastery visits, cultural stay, mountain views]
+    permits_and_entry: {local_entry: none_known, trek_rules: inherit_helambu_rule}
+    how_to_visit: {from_melamchi: "Road/jeep access toward Helambu depending on current conditions, then walk or continue by local vehicle to the village.", from_kathmandu: "Kathmandu-Melamchi-Helambu corridor."}
+
+  - id: sermathang
+    name: Sermathang Village
+    type: settlement_area
+    intro: "Scenic Yolmo village in Helambu known for monasteries, orchards, cultural stays and broad views from the surrounding ridges."
+    geometry: {type: circle_first_pass, center: {lat: 28.0120, lng: 85.5730}, radius_m: 900, coordinate_quality: approximate_settlement_area}
+    things_to_do: [village walk, monastery visit, local food, ridge views]
+    permits_and_entry: {local_entry: none_known, trek_rules: inherit_helambu_rule}
+    how_to_visit: {from_melamchi: "Continue uphill by local road toward Sermathang when road conditions permit; walking may be required for the final approach."}
+
+  - id: melamchi-ghyang
+    name: Melamchi Ghyang
+    type: monastery_settlement_area
+    intro: "Historic Helambu settlement centered on Buddhist culture and monastery traditions, commonly used as an overnight trekking stop."
+    geometry: {type: circle_first_pass, center: {lat: 28.0310, lng: 85.5550}, radius_m: 800, coordinate_quality: approximate_settlement_area}
+    things_to_do: [monastery visit, village walk, cultural experience, trekking]
+    permits_and_entry: {trek_rules: inherit_helambu_rule}
+    how_to_visit: {from_melamchi: "Approach through the Helambu road/trail network; route and final walking section vary by season and road condition."}
+
+  - id: ama-yangri
+    name: Ama Yangri
+    type: pilgrimage_viewpoint_ridge
+    intro: "High sacred ridge above Helambu villages, visited for pilgrimage, sunrise and sweeping Himalayan views."
+    geometry: {type: summit_or_ridge_area, center: {lat: 28.0430, lng: 85.6260}, radius_m: 700, coordinate_quality: approximate_ridge_center}
+    things_to_do: [pilgrimage, sunrise, mountain viewing, hiking, photography]
+    permits_and_entry: {special_permit: none_known, trek_rules: inherit_helambu_rule}
+    how_to_visit: {from_tarkeghyang: "Typically reached by a steep uphill hike from the Tarkeghyang side; weather and trail conditions should be checked locally.", from_melamchi: "Reach Helambu first, then hike from a local village base."}
+    safety: [high_altitude, exposed_weather, snow_possible]
+
+  - id: palchok-bhagwati
+    name: Palchok Bhagwati Temple
+    type: temple
+    intro: "Important Bhagwati shrine serving local and regional pilgrims in the Helambu area."
+    geometry: {type: point_pending_exact_pin}
+    things_to_do: [pilgrimage, temple visit, festival visit]
+    permits_and_entry: {special_permit: false, temple_fee: dynamic_or_none}
+    how_to_visit: {from_melamchi: "Travel toward the Palchok/Helambu side by local road; final temple approach should use a verified local pin before public routing."}
+    route_to_user: false
+
+  - id: larke-ghyang
+    name: Larke Ghyang religious area
+    type: religious_cultural_area
+    intro: "Buddhist religious and cultural area in the Helambu region; exact modern naming and public visitor node still need local confirmation."
+    geometry: {type: area_pending_local_mapping}
+    things_to_do: [religious_cultural_visit]
+    permits_and_entry: {special_permit: none_known}
+    how_to_visit: {status: hold_until_exact_settlement_and_access_verified}
+    route_to_user: false
+
+  - id: panch-pokhari
+    name: Panch Pokhari
+    type: sacred_alpine_lake_group
+    intro: "Group of five sacred high-altitude lakes beneath the Jugal Himal, especially important during Janai Purnima and increasingly popular as a remote trekking destination."
+    geometry: {type: polygon_preferred, reference_center: {lat: 28.1100, lng: 85.8450}, coordinate_quality: approximate_lake_group_center}
+    things_to_do: [pilgrimage, trekking, mountain viewing, camping_where_permitted, photography]
+    permits_and_entry: {tims: required_under_current_ntb_rule, licensed_guide: required_under_current_ntb_rule, restricted_area_permit: false}
+    how_to_visit: {from_kathmandu: "Road travel toward Melamchi and Panchpokhari Thangpal roadheads, commonly through Bhotang/Chhimti-side approaches, followed by multi-day trekking.", from_melamchi: "Continue toward the current trekking roadhead; final stages are on foot."}
+    safety: [high_altitude, cold, snow, remote_rescue, monsoon_landslides]
+
+  - id: panch-pokhari-route
+    name: Panch Pokhari trekking route
+    type: trekking_route
+    intro: "Multi-stage trail linking lower Tamang settlements with the sacred Panch Pokhari lake basin and Jugal Himal viewpoints."
+    geometry: {type: route, geometry_status: detailed_gpx_pending}
+    things_to_do: [multi_day_trek, village stays, pilgrimage, landscape photography]
+    permits_and_entry: {tims: required_under_current_ntb_rule, licensed_guide: required_under_current_ntb_rule}
+    how_to_visit: {from_kathmandu: "Drive to the current Panch Pokhari roadhead via Melamchi-side roads, then begin the trekking itinerary.", routehead_dynamic: true}
+
+  - id: bhotang
+    name: Bhotang Village
+    type: trekking_gateway_settlement
+    intro: "Lower gateway settlement associated with approaches toward Panch Pokhari and surrounding Tamang hill country."
+    geometry: {type: circle_first_pass, center: {lat: 27.9810, lng: 85.7410}, radius_m: 1200, coordinate_quality: approximate_settlement_area}
+    things_to_do: [trekking_start, village stop, local food]
+    permits_and_entry: {special_local_permit: none_known, trek_rules: inherit_panch_pokhari_when_starting_trek}
+    how_to_visit: {from_melamchi: "Continue by local road toward Panchpokhari Thangpal/Bhotang; road condition and vehicle availability are seasonal."}
+
+  - id: jugal-himal
+    name: Jugal Himal trekking region
+    type: mountain_region
+    intro: "Remote Himalayan region east of Panch Pokhari containing Dorje Lhakpa and other Jugal peaks, with emerging trekking and sacred-valley routes."
+    geometry: {type: polygon_preferred, reference_center: {lat: 28.1700, lng: 85.8000}, coordinate_quality: approximate_region_center}
+    things_to_do: [trekking, mountain viewing, expedition_approach, remote_village_travel]
+    permits_and_entry: {restricted_area_permit: false_known, climbing_permit: conditional_for_climbing_objectives, local_route_rules: dynamic}
+    how_to_visit: {from_kathmandu: "Reach Jugal/Panchpokhari roadheads via Melamchi or Chautara-side roads, then continue by trek; exact approach depends on itinerary."}
+    safety: [remote, high_altitude, limited_rescue, weather]
+
+  - id: ne-pemasal
+    name: Ne-Pemasal sacred valley
+    type: emerging_sacred_trekking_area
+    intro: "Emerging sacred-valley concept promoted in the Jugal Himal region, combining mountain, pilgrimage and cultural narratives."
+    geometry: {type: area_pending_authoritative_mapping}
+    things_to_do: [trekking, pilgrimage, cultural_landscape]
+    permits_and_entry: {status: verify_current_route_and_local_rules}
+    how_to_visit: {status: hold_until_formal_routehead_and_area_identity_verified}
+    route_to_user: false
+
+  - id: langtang-np-sector
+    name: Langtang National Park - Sindhupalchok sector
+    type: protected_area_sector
+    intro: "Cross-district protected landscape adjoining Helambu and northern Sindhupalchok; it should link to the single Langtang National Park destination object rather than appear as a separate park."
+    geometry: {type: polygon_sector, routing: use_verified_trail_or_park_entry_not_sector_center}
+    things_to_do: [trekking, wildlife_observation, forest_walks]
+    permits_and_entry: {national_park_entry: required_when_entering, current_fee_dynamic: true, tims: depends_on_trek}
+    how_to_visit: {from_helambu: "Enter only via established trails/park boundaries used by the chosen trekking itinerary."}
+
+  - id: bhairav-kunda
+    name: Bhairav Kunda
+    type: sacred_alpine_lake
+    intro: "Remote sacred alpine lake reached by a multi-day pilgrimage and trekking route in the north-eastern district."
+    geometry: {type: small_lake_area, reference_center: {lat: 28.1680, lng: 85.9660}, coordinate_quality: approximate_lake_reference}
+    things_to_do: [pilgrimage, trekking, camping_where_permitted, mountain_views]
+    permits_and_entry: {restricted_area_permit: false_known, guide_recommended: true, local_rules: dynamic}
+    how_to_visit: {from_bahrabise: "Use the Bhotekoshi/Listikot-side road approach to an appropriate village trailhead, then continue on foot over several days; exact trailhead should be confirmed locally."}
+    safety: [remote, high_altitude, snow, limited_rescue]
+
+  - id: tatopani
+    name: Tatopani hot springs
+    type: hot_spring_area
+    intro: "Natural hot-spring destination in the upper Bhote Koshi valley, historically used by pilgrims, traders and highway travelers."
+    geometry: {type: small_area, center: {lat: 27.9470, lng: 85.9520}, radius_m: 600, coordinate_quality: approximate_settlement_hot_spring_area}
+    things_to_do: [hot_spring_bathing_if_operating, pilgrimage, valley_scenery]
+    permits_and_entry: {special_permit: false_for_nepal_side_visit, facility_fee: dynamic}
+    how_to_visit: {from_bahrabise: "Follow the Arniko Highway/Bhote Koshi corridor north toward Tatopani; current road and hot-spring operating condition must be checked before travel.", from_kathmandu: "Kathmandu-Dhulikhel-Bahrabise-Tatopani corridor."}
+    operation_status: dynamic
+
+  - id: kodari-tatopani
+    name: Kodari-Tatopani border landscape
+    type: border_trade_corridor
+    intro: "Historic Nepal-Tibet trade and highway corridor around Kodari and Tatopani, defined by the Bhote Koshi gorge, border infrastructure and old cross-Himalayan movement."
+    geometry: {type: road_corridor, reference_center: {lat: 27.9730, lng: 85.9660}, coordinate_quality: approximate_border_corridor}
+    things_to_do: [border_landscape_viewing, road_trip, historical_context]
+    permits_and_entry: {nepal_side_visit: normally_no_special_trekking_permit, border_crossing: immigration_customs_rules_apply}
+    how_to_visit: {from_bahrabise: "Continue north on the Arniko Highway toward Tatopani/Kodari where open and permitted.", border_crossing_note: "Do not route across the international border without current immigration/customs eligibility."}
+
+  - id: bhote-koshi-rafting
+    name: Bhote Koshi rafting corridor
+    type: river_adventure_corridor
+    intro: "Steep, technical white-water river corridor known for rafting and kayaking through the dramatic Bhote Koshi gorge."
+    geometry: {type: river_corridor, anchor_center: {lat: 27.8200, lng: 85.9000}, coordinate_quality: approximate_adventure_corridor}
+    things_to_do: [rafting, kayaking, gorge_scenery]
+    permits_and_entry: {government_trekking_permit: false, commercial_operator_booking: required_for_activity, safety_rules: operator_and_river_condition_dynamic}
+    how_to_visit: {from_kathmandu: "Travel east on the Arniko Highway to the operator's current launch/meeting point in the Bhote Koshi/Bahrabise corridor.", routing: "Route to current operator base or verified put-in, never to river center."}
+
+  - id: bhote-koshi-canyoning
+    name: Bhote Koshi canyoning areas
+    type: adventure_area
+    intro: "Canyoning sites in tributary gorges of the Bhote Koshi valley, operated as guided commercial adventure activities."
+    geometry: {type: cluster_area, exact_canyon_pins: operator_dynamic}
+    things_to_do: [guided_canyoning]
+    permits_and_entry: {commercial_operator_required: true, equipment_and_guide: required, operation_dynamic: true}
+    how_to_visit: {from_kathmandu: "Book with a current operator and travel to its designated canyon base/meeting point along the Arniko Highway corridor."}
+
+  - id: bhote-koshi-bungee
+    name: Bhote Koshi bungee and canyon swing site
+    type: commercial_adventure_poi
+    intro: "Bridge/gorge-based commercial adventure site in the Bhote Koshi valley associated with bungee jumping and canyon-swing experiences."
+    geometry: {type: point_or_operator_site, coordinate_status: verify_current_operator_pin_before_publish}
+    things_to_do: [bungee_jump, canyon_swing]
+    permits_and_entry: {ticket_booking: required, government_trekking_permit: false, age_health_operator_rules: dynamic}
+    how_to_visit: {from_kathmandu: "Use the operator's current transport or travel by Arniko Highway to the verified site/meeting point.", current_operation_check: required}
+    route_to_user: false
+
+  - id: sukute
+    name: Sukute Beach and Sunkoshi rafting corridor
+    type: riverside_recreation_cluster
+    intro: "Popular Sunkoshi riverside cluster known for rafting, camping, resorts and easy weekend access from Kathmandu."
+    geometry: {type: corridor_and_cluster, center: {lat: 27.7260, lng: 85.7940}, radius_m: 3000, coordinate_quality: approximate_sukute_cluster}
+    things_to_do: [rafting, riverside_stay, camping, swimming_only_where_operator_deems_safe, group_trips]
+    permits_and_entry: {special_permit: false, commercial_activity_fee: operator_dynamic}
+    how_to_visit: {from_kathmandu: "Drive east via Dhulikhel and Dolalghat toward Sukute on the Arniko Highway; route to the booked resort/operator rather than to the river."}
+
+  - id: balephi-sunkoshi
+    name: Balephi-Sunkoshi river landscape
+    type: river_valley_area
+    intro: "River-confluence and valley landscape around Balephi and the Sunkoshi, useful as a scenic and transport node rather than a single attraction."
+    geometry: {type: corridor, anchor_center: {lat: 27.7450, lng: 85.8400}, coordinate_quality: approximate_valley_anchor}
+    things_to_do: [river_scenery, road_trip, local_stops]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Follow the Arniko Highway east toward Balephi; stop only at verified public access or commercial riverside locations."}
+
+  - id: gaurati-bhimsen
+    name: Gaurati Bhimsen Temple
+    type: temple
+    intro: "Major Bhimsen shrine near Chautara, especially important during the annual Gaurati festival and pilgrimage period."
+    geometry: {type: point_or_small_temple_area, coordinate_status: exact_pin_pending_primary_confirmation}
+    things_to_do: [pilgrimage, festival_visit, temple_visit]
+    permits_and_entry: {special_permit: false, festival_management: dynamic}
+    how_to_visit: {from_chautara: "Use local road/vehicle toward the Gaurati temple area; final exact pin should be verified before public turn-by-turn routing.", from_kathmandu: "Travel to Chautara first, then local access."}
+    route_to_user: false
+
+  - id: chautara
+    name: Chautara
+    type: hill_town_area
+    intro: "District headquarters and practical gateway to central Sindhupalchok, with hill-town culture, local markets and access toward Gaurati and eastern rural areas."
+    geometry: {type: circle_first_pass, center: {lat: 27.7748, lng: 85.7150}, radius_m: 2200, coordinate_quality: approximate_town_area}
+    things_to_do: [town_walk, local_food, mountain_views, onward_travel]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Road travel via the Kathmandu-Dhulikhel-Sindhupalchok network; current road choice may vary."}
+
+  - id: tauthali-tripurasundari
+    name: Tauthali Tripura Sundari Temple
+    type: temple
+    intro: "Historic goddess shrine in Tauthali associated with distinctive local festival traditions including Dahi Jatra."
+    geometry: {type: point_pending_exact_pin}
+    things_to_do: [pilgrimage, temple_visit, festival_culture]
+    permits_and_entry: {special_permit: false, festival_access: dynamic}
+    how_to_visit: {from_bahrabise: "Continue by local road toward Tripurasundari/Tauthali; exact final temple pin should be locally verified."}
+    route_to_user: false
+
+  - id: tauthali-village
+    name: Tauthali heritage village
+    type: heritage_settlement_area
+    intro: "Hill settlement with Newar-influenced built heritage, temple traditions and festival culture surrounding the Tripura Sundari landscape."
+    geometry: {type: circle_first_pass, center: {lat: 27.7900, lng: 85.8200}, radius_m: 1200, coordinate_quality: approximate_village_area}
+    things_to_do: [heritage_walk, temple_visit, local_festival, village_photography]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bahrabise: "Use local road into Tripurasundari Rural Municipality; village-road condition should be checked in monsoon."}
+
+  - id: kafeshwar-mahadev
+    name: Sunkoshi Kafeshwar Mahadev Temple
+    type: temple
+    intro: "District-listed Mahadev pilgrimage site in the Sunkoshi region whose exact standard spelling and visitor pin still require local confirmation."
+    geometry: {type: point_pending_exact_identity}
+    things_to_do: [pilgrimage]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {status: hold_until_municipality_ward_and_pin_verified}
+    route_to_user: false
+
+  - id: kshemadevi
+    name: Kshemadevi Temple
+    type: temple
+    intro: "Locally recognized religious destination in Sindhupalchok, but the exact formal site identity and location are not strong enough yet for route guidance."
+    geometry: {type: point_pending_exact_identity}
+    things_to_do: [pilgrimage]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {status: hold_until_exact_location_verified}
+    route_to_user: false
+
+  - id: melamchi-valley
+    name: Melamchi Valley
+    type: river_valley_corridor
+    intro: "Broad valley and road corridor connecting lower Sindhupalchok with Helambu and upper mountain watersheds."
+    geometry: {type: corridor, anchor_center: {lat: 27.8287, lng: 85.5847}, coordinate_quality: melamchi_town_anchor}
+    things_to_do: [road_trip, local_food, river_scenery, gateway_to_helambu]
+    permits_and_entry: {special_permit: false, upper_trek_rules: apply_when_joining_regulated_trek}
+    how_to_visit: {from_kathmandu: "Drive to Melamchi; continue north/up-valley for Helambu or Panch Pokhari approaches depending on itinerary."}
+    safety: [flood_and_landslide_history, monsoon_road_checks]
+
+  - id: indrawati-valley
+    name: Indrawati River valley
+    type: river_corridor
+    intro: "Major central Sindhupalchok river system draining the Panch Pokhari side and shaping farms, settlements and road corridors."
+    geometry: {type: river_corridor, anchor_center: {lat: 27.8300, lng: 85.7000}, coordinate_quality: approximate_mid_valley_anchor}
+    things_to_do: [scenic_driving, rural_landscape, photography]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_melamchi_or_chautara: "Use local valley roads; route to a verified village or viewpoint rather than to the river center."}
+
+  - id: bahrabise
+    name: Bahrabise hill and river gateway
+    type: highway_gateway_town
+    intro: "Arniko Highway town and key gateway for the Bhote Koshi valley, Tatopani/Kodari, Tripurasundari and eastern district side roads."
+    geometry: {type: circle_first_pass, center: {lat: 27.7900, lng: 85.8930}, radius_m: 1800, coordinate_quality: approximate_town_area}
+    things_to_do: [local_stop, onward_adventure_access, river_views, local_food]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_kathmandu: "Drive east via Dhulikhel and the Arniko Highway."}
+
+  - id: listikot
+    name: Listikot cultural landscape
+    type: cultural_highland_area
+    intro: "Highland village landscape in the Bhotekoshi area connected with religious traditions, border routes and adventure tourism."
+    geometry: {type: area_pending_better_boundary, reference_center: {lat: 27.9100, lng: 85.9400}, coordinate_quality: approximate_area_center}
+    things_to_do: [village_landscape, cultural_visit, trekking_approach]
+    permits_and_entry: {special_permit: false_known, border_proximity_rules: dynamic}
+    how_to_visit: {from_bahrabise: "Use Bhotekoshi-side local roads toward Listikot; exact road and village node should be confirmed locally."}
+    route_to_user: false
+
+things_to_do_index:
+  - activity: Helambu cultural trekking
+    primary_locations: [Helambu, Tarkeghyang, Sermathang, Melamchi Ghyang, Ama Yangri]
+    map_behavior: route_and_settlement_areas
+  - activity: Panch Pokhari pilgrimage trek
+    primary_locations: [Bhotang, Panch Pokhari trekking route, Panch Pokhari]
+    map_behavior: route_to_current_roadhead_then_trail
+  - activity: high_Himalayan trekking
+    primary_locations: [Jugal Himal, Bhairav Kunda]
+    map_behavior: region_and_route
+  - activity: rafting
+    primary_locations: [Bhote Koshi corridor, Sukute-Sunkoshi corridor]
+    map_behavior: route_to_current_operator_put_in
+  - activity: bungee_and_canyon_swing
+    primary_locations: [Bhote Koshi commercial site]
+    map_behavior: exact_operator_site_only
+  - activity: canyoning
+    primary_locations: [Bhote Koshi canyoning areas]
+    map_behavior: current_operator_meeting_point
+  - activity: hot_spring_visit
+    primary_locations: [Tatopani]
+    map_behavior: verified_hot_spring_facility
+  - activity: pilgrimage
+    primary_locations: [Panch Pokhari, Ama Yangri, Bhairav Kunda, Gaurati Bhimsen, Tauthali Tripura Sundari, Palchok Bhagwati]
+    map_behavior: lake_area_or_temple_pin
+  - activity: road_trip
+    primary_locations: [Bahrabise, Tatopani, Kodari-Tatopani corridor, Melamchi Valley]
+    map_behavior: road_corridor
+
+publication_rules:
+  - "TIMS/guide requirements are current-rule fields and must be rechecked before publishing trip-booking advice."
+  - "Park fees are dynamic and should come from the latest DNPWC/NTB source."
+  - "Do not publish border crossing availability from static tourism data."
+  - "Commercial adventure sites must use current operator location and safety status."
+  - "Keep Ne-Pemasal, Larke Ghyang, Kshemadevi, Kafeshwar Mahadev and uncertain Listikot micro-sites on routing HOLD until locally verified."
+  - "Use area/corridor geometry for Helambu, Jugal Himal, rivers and valleys; never create fake centre pins as final navigation destinations."
+
+sources:
+  - "Nepal Tourism Board - current TIMS Card rules (Helambu Trek and Panchpokhari Trek listed)"
+  - "Nepal Tourism Board - Langtang National Park visitor information and entry fees"
+  - "Nepal Tourism Board - Helambu and Langtang trekking material"
+  - "Sindhupalchok district research inventory and local-level references"
+  - "Mapped settlement references used for approximate visitor-area centers; replace with authoritative GIS where available"
