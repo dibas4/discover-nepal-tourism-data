@@ -1,0 +1,48 @@
+{
+  "province_stats": {
+    "Bagmati": {
+      "districts": 13,
+      "records": 328,
+      "expected_records": 328
+    },
+    "Koshi": {
+      "districts": 14,
+      "records": 302,
+      "expected_records": 302
+    },
+    "Madhesh": {
+      "districts": 8,
+      "records": 153,
+      "expected_records": 153
+    },
+    "Gandaki": {
+      "districts": 11,
+      "records": 237,
+      "expected_records": 237
+    },
+    "Lumbini": {
+      "districts": 12,
+      "records": 318,
+      "expected_records": 318
+    },
+    "Karnali": {
+      "districts": 10,
+      "records": 284,
+      "expected_records": 284
+    },
+    "Sudurpashchim": {
+      "districts": 9,
+      "records": 270,
+      "expected_records": 270
+    }
+  },
+  "district_count": 77,
+  "record_count": 1892,
+  "expected_district_count": 77,
+  "expected_record_count": 1892,
+  "district_count_ok": true,
+  "record_count_ok": true,
+  "province_record_counts_ok": true,
+  "routing_hold_count": 1467,
+  "visitor_ready_match_count": 425
+}
