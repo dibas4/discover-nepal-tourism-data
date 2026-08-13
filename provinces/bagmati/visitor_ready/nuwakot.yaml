@@ -1,0 +1,350 @@
+district: Nuwakot
+province: Bagmati
+status: visitor_ready_enrichment_v2
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Nuwakot is a historic hill district northwest of Kathmandu where palace-town heritage, sacred river confluences, Himalayan viewpoints, rural valleys and northern pilgrimage routes meet. Its strongest visitor anchors are the old Nuwakot palace town, Devighat, Kakani, Dupcheshwar and the Trishuli river corridor.
+  why_visit:
+    - unification-era palace and fort heritage
+    - Newar old-town streets and temples
+    - pilgrimage at Devighat and Dupcheshwar
+    - Himalayan viewpoints around Kakani and Suryachaur
+    - rafting and river landscapes
+    - village and rural-road exploration
+
+history:
+  short: >
+    Nuwakot became strategically important during the expansion of the Gorkha kingdom and the political unification of Nepal. The hilltop palace complex at Nuwakot is closely associated with Prithvi Narayan Shah and the consolidation of trade and military routes between Kathmandu, Tibet-facing valleys and the Trishuli corridor. Devighat later became an important memorial and pilgrimage landscape linked to the king's final days.
+
+main_hubs:
+  - name: Kathmandu
+    role: national_gateway
+    note: "Best starting hub for Kakani, Nuwakot old town, Bidur/Trishuli and onward travel north."
+  - name: Bidur / Trishuli
+    role: district_gateway
+    note: "Practical district hub for Nuwakot old town, Devighat, Betrawati and routes toward Kispang and Dupcheshwar."
+
+permit_policy:
+  restricted_area_permit:
+    required_for_nuwakot: false
+    note: "Nuwakot does not appear in the Department of Immigration restricted-area trekking table as of 2026-08-12."
+  national_park_entry:
+    rule: conditional
+    note: "Only applies when a route actually enters Shivapuri-Nagarjun or Langtang National Park; fees/rules are dynamic and should be checked with DNPWC/park offices."
+  rafting:
+    rule: operator_dependent
+    note: "Use a current licensed operator and current river-safety conditions rather than a permanent launch promise."
+
+visitor_areas:
+  - id: nuwakot-durbar-complex
+    name: Nuwakot Durbar Complex
+    type: heritage_cluster
+    intro: >
+      Hilltop palace-fort and temple complex associated with Nepal's unification period. The cluster includes the main palace, Bhairabi and Taleju shrines and the surrounding old town.
+    geometry:
+      type: area_with_child_pins
+      center: {lat: 27.9207, lng: 85.1635}
+      radius_m: 900
+      coordinate_quality: approximate_heritage_cluster_center
+    things_to_do: [palace-area walk, heritage photography, temple visits, old-town exploration, viewpoint stops]
+    permits_and_entry:
+      special_permit: false
+      admission_or_access: dynamic
+      note: "Restoration/public-access status of individual palace structures must be checked before routing inside buildings."
+    how_to_visit:
+      from_kathmandu: "Drive via Kakani/Osho Tapoban side or the main Trishuli road toward Bidur, then climb to the old Nuwakot heritage town."
+      from_bidur: "Short uphill road journey to the palace-town ridge; final heritage area is best explored on foot."
+    child_pois:
+      - name: Saat Tale Durbar
+        type: palace
+        intro: "Seven-storey Newari palace traditionally associated with Prithvi Narayan Shah and the Nuwakot court."
+        coordinate_status: pending_structure_level_pin
+        access_status: restoration_dynamic
+      - name: Bhairabi Temple, Nuwakot
+        type: temple
+        intro: "Principal shrine of the old palace town and a key centre of the Sindure Jatra tradition."
+        coordinate_status: pending_exact_pin
+      - name: Taleju Temple, Nuwakot
+        type: temple
+        intro: "Historic royal temple within the palace-town religious landscape."
+        coordinate_status: pending_exact_pin
+      - name: Nuwakot old town
+        type: historic_settlement
+        intro: "Traditional settlement lanes and houses surrounding the palace and temple cluster."
+        geometry: area
+
+  - id: devighat
+    name: Devighat
+    type: pilgrimage_and_memorial_area
+    intro: >
+      Sacred confluence area near the Trishuli-Tadi river system, known for pilgrimage, cremation traditions and memorial associations with Prithvi Narayan Shah.
+    geometry:
+      type: area
+      center: {lat: 27.9018, lng: 85.1260}
+      radius_m: 1200
+      coordinate_quality: approximate_confluence_area
+    things_to_do: [pilgrimage, river-confluence viewing, memorial visit, photography]
+    permits_and_entry: {special_permit: false, ticket: generally_no_special_tourism_permit, festival_access: dynamic}
+    how_to_visit:
+      from_bidur: "Drive south toward the Devighat confluence area; use the named temple/memorial access road rather than routing to the middle of the river."
+      from_kathmandu: "Travel toward Bidur/Trishuli and branch to Devighat before or after the district hub."
+    child_pois:
+      - name: Prithvi Narayan Shah memorial area
+        type: memorial_landscape
+        intro: "Memorial and cremation-associated heritage area linked to the final chapter of Prithvi Narayan Shah's life."
+        coordinate_status: pending_exact_pin
+
+  - id: dupcheshwar-mahadev
+    name: Dupcheshwar Mahadev Temple
+    type: cave_temple_and_pilgrimage_site
+    municipality: Dupcheshwar Rural Municipality
+    intro: >
+      Major Shiva pilgrimage destination set in a steep river-gorge and forest landscape in northern Nuwakot.
+    geometry:
+      type: point_and_small_area
+      coordinate_status: pending_authoritative_temple_pin
+    things_to_do: [temple visit, pilgrimage, gorge scenery, short walking]
+    permits_and_entry: {special_permit: false, temple_entry: usually_open_pilgrimage_site, festival_conditions: dynamic}
+    how_to_visit:
+      from_bidur: "Travel north/east through the Dupcheshwar rural road network; the final approach may include steep local road and walking sections depending on season."
+      from_kathmandu: "Reach Bidur/Trishuli first for the simplest district orientation, then continue toward Dupcheshwar."
+    safety_note: "Monsoon road conditions, landslides and river-gorge paths must be checked locally."
+
+  - id: betrawati
+    name: Betrawati
+    type: historic_river_settlement
+    intro: >
+      Historic settlement on the Nuwakot-Rasuwa corridor associated with the 1792 Nepal-Tibet settlement and the Trishuli river route.
+    geometry:
+      type: settlement_area
+      center: {lat: 27.9677, lng: 85.1630}
+      radius_m: 900
+      coordinate_quality: approximate_settlement_center
+    things_to_do: [historic-stop visit, river views, route break toward Rasuwa]
+    permits_and_entry: {special_permit: false}
+    how_to_visit:
+      from_bidur: "Drive north on the Trishuli-Rasuwa corridor."
+      from_kathmandu: "Follow the Trishuli/Rasuwa road via Bidur."
+    child_areas:
+      - name: Betrawati treaty area
+        type: heritage_landscape
+        intro: "Historical landscape associated with Nepal-Tibet diplomacy; exact interpretation point remains to be verified."
+        routing_status: hold_exact_pin
+
+  - id: kakani
+    name: Kakani
+    type: hill_station_area
+    municipality: Kakani Rural Municipality
+    intro: >
+      Popular hill station close to Kathmandu with Himalayan views, cool-climate farms, picnic areas and strawberry-growing landscapes.
+    geometry:
+      type: circle_first_pass
+      center: {lat: 27.8167, lng: 85.2500}
+      radius_m: 2500
+      coordinate_quality: approximate_hill_station_area
+    things_to_do: [mountain views, picnics, farm visits, cycling, short walks, sunrise/sunset]
+    permits_and_entry:
+      special_permit: false
+      park_entry: "Conditional only if entering Shivapuri-Nagarjun National Park land."
+    how_to_visit:
+      from_kathmandu: "Drive northwest via Balaju/Mudkhu toward Kakani; road condition and traffic are dynamic."
+    child_pois:
+      - name: Kakani memorial park
+        type: memorial_viewpoint_site
+        intro: "Memorial and recreation area with broad mountain-facing views."
+        coordinate_status: pending_exact_pin
+
+  - id: suryachaur
+    name: Suryachaur
+    type: ridge_viewpoint_area
+    intro: >
+      Ridge destination north of Kathmandu Valley used for day hiking, sunrise/sunset and Himalayan panorama viewing.
+    geometry:
+      type: ridge_area
+      coordinate_status: pending_verified_area_center
+    things_to_do: [hiking, ridge walking, views, photography]
+    permits_and_entry:
+      special_permit: false
+      park_rule: "Check if chosen trail enters Shivapuri-Nagarjun National Park."
+    how_to_visit:
+      from_kathmandu: "Approach via Tokha/Shivapuri-side roads or local Nuwakot ridge roads depending on the chosen trailhead."
+
+  - id: samari-bhanjyang
+    name: Samari Bhanjyang
+    type: road_pass_and_hill_settlement
+    intro: "Scenic hill pass/settlement on local Nuwakot roads; useful as a landscape stop rather than a single monument."
+    geometry: {type: area, coordinate_status: pending_verified_center}
+    things_to_do: [roadside views, village stop, photography]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bidur: "Use the current local road network after confirming the correct Samari Bhanjyang access."}
+    routing_status: partial_until_exact_location_verified
+
+  - id: trishuli-rafting-corridor
+    name: Trishuli River Rafting Corridor - Nuwakot Sector
+    type: river_activity_corridor
+    intro: >
+      Nuwakot forms part of the larger Trishuli rafting and kayaking corridor shared with Rasuwa and Dhading.
+    geometry:
+      type: river_corridor
+      anchor_center: {lat: 27.9400, lng: 85.1500}
+      coordinate_quality: orientation_only
+    things_to_do: [rafting, kayaking, river photography]
+    permits_and_entry:
+      special_trekking_permit: false
+      rafting: licensed_operator_and_current_conditions
+    how_to_visit:
+      from_kathmandu: "Travel toward the operator's confirmed launch point on the Trishuli corridor; never route to the river centreline."
+      from_bidur: "Use Bidur/Trishuli as the district staging point for northern river sections."
+    safety_note: "Launch points, grades, flow and operating sections change with season and operator."
+
+  - id: tadi-river-valley
+    name: Tadi River Valley
+    type: river_valley_corridor
+    intro: "Agricultural river valley connecting Bidur with eastern Nuwakot villages and farm landscapes."
+    geometry: {type: corridor, anchor_center: {lat: 27.9000, lng: 85.2400}, coordinate_quality: approximate}
+    things_to_do: [rural drives, cycling, farm landscapes, photography]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bidur: "Follow local eastbound valley roads; choose named villages as navigation targets rather than the river itself."}
+
+  - id: likhu-river-valley
+    name: Likhu River Valley
+    type: rural_river_corridor
+    intro: "Eastern Nuwakot river-and-terrace landscape with scattered villages and rural road touring potential."
+    geometry: {type: corridor, coordinate_status: route_geometry_needed}
+    things_to_do: [rural touring, cycling, village visits]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bidur: "Use verified village destinations in the Likhu area as route anchors."}
+
+  - id: chhahare-waterfall
+    name: Chhahare Waterfall Area
+    type: waterfall_site
+    intro: "Reported local waterfall destination in eastern Nuwakot; exact public access remains insufficiently verified."
+    geometry: {type: point_or_small_area, coordinate_status: pending_exact_pin}
+    things_to_do: [waterfall viewing, photography]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bidur: "Do not publish turn-by-turn routing until the exact waterfall and public approach are confirmed."}
+    routing_status: hold
+
+  - id: kispang
+    name: Kispang Village Landscape
+    type: cultural_village_area
+    municipality: Kispang Rural Municipality
+    intro: >
+      Tamang and Ghale hill-community landscape with village, farm and cultural-tourism potential north of central Nuwakot.
+    geometry: {type: area, center: {lat: 28.0000, lng: 85.2200}, radius_m: 5000, coordinate_quality: approximate_municipal_orientation}
+    things_to_do: [village walks, local food, cultural stays where operating, hill views]
+    permits_and_entry: {special_permit: false, homestay_status: dynamic}
+    how_to_visit: {from_bidur: "Use the current rural road toward Kispang and confirm the exact village/homestay before departure."}
+    child_areas:
+      - name: Ghale village landscapes
+        type: community_cluster
+        intro: "Cluster concept only; publish individual villages after settlement-level verification."
+        routing_status: area_only
+
+  - id: dupcheshwar-forest
+    name: Dupcheshwar Forest Landscape
+    type: forest_and_hill_area
+    intro: "Forested northern hills surrounding the Dupcheshwar pilgrimage and rural trail network."
+    geometry: {type: large_area, coordinate_status: polygon_needed}
+    things_to_do: [forest views, pilgrimage-route walking, birding where appropriate]
+    permits_and_entry: {special_permit: false, local_forest_rules: dynamic}
+    how_to_visit: {from_bidur: "Approach through Dupcheshwar's village road network and use named temples/villages as route endpoints."}
+
+  - id: shivapuri-nagarjun-nuwakot-sector
+    name: Shivapuri-Nagarjun National Park - Nuwakot Sector
+    type: protected_area_sector
+    intro: >
+      Southern Nuwakot touches the protected Shivapuri-Nagarjun forest and watershed landscape, which extends west toward Kakani.
+    geometry: {type: protected_polygon_sector, coordinate_status: official_gis_preferred}
+    things_to_do: [hiking where allowed, forest scenery, birdwatching, ridge views]
+    permits_and_entry:
+      special_restricted_permit: false
+      national_park_entry: required_when_entering_park
+      fee: dynamic
+    how_to_visit:
+      from_kathmandu: "Use an official current park entrance/trailhead; do not route through forest boundaries from an approximate centre."
+      from_kakani: "Confirm whether the chosen trail crosses the park boundary and use an official access point."
+
+  - id: langtang-nuwakot-sector
+    name: Langtang National Park - Nuwakot Sector
+    type: protected_area_sector
+    intro: "Small cross-district protected-area relationship linking northern/eastern Nuwakot with the larger Langtang landscape in Rasuwa and Sindhupalchok."
+    geometry: {type: protected_polygon_sector, coordinate_status: official_gis_preferred}
+    things_to_do: [landscape interpretation]
+    permits_and_entry:
+      special_restricted_permit: false_for_nuwakot
+      national_park_entry: required_if_entering_park
+      fee: dynamic
+    how_to_visit: {note: "For ordinary Langtang trekking, route visitors to established gateways in Rasuwa/Sindhupalchok rather than an arbitrary Nuwakot park-sector point."}
+
+  - id: kakani-nuwakot-heritage-trail
+    name: Kakani-Nuwakot Heritage Trail
+    type: hiking_and_cycling_route
+    intro: "Conceptual hill route linking Kakani viewpoints with the historic Nuwakot palace-town landscape."
+    geometry: {type: route, route_geometry_status: partial}
+    things_to_do: [hiking, cycling, village scenery, heritage arrival]
+    permits_and_entry: {special_permit: false, park_entry: conditional_by_exact_route}
+    how_to_visit: {from_kathmandu: "Start from Kakani or another verified trailhead and finish at Nuwakot old town; publish GPX only after route-level verification."}
+
+  - id: dupcheshwar-pilgrimage-trail
+    name: Dupcheshwar Pilgrimage Trail
+    type: walking_route
+    intro: "Walking approach through the river-gorge and temple landscape around Dupcheshwar Mahadev."
+    geometry: {type: route, route_geometry_status: pending}
+    things_to_do: [pilgrimage walk, gorge views]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_dupcheshwar_roadhead: "Use the locally confirmed temple approach; monsoon and landslide conditions are dynamic."}
+
+  - id: tadi-valley-cycling
+    name: Tadi Valley Cycling Route
+    type: emerging_cycling_route
+    intro: "Rural-road cycling concept through the Tadi valley's farms, rivers and villages."
+    geometry: {type: route, route_geometry_status: pending}
+    things_to_do: [cycling, farm landscapes, village stops]
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_bidur: "Build the route from verified public roads and named village stops; avoid publishing an unverified single GPX as canonical."}
+
+  - id: northern-tamang-villages
+    name: Northern Tamang Villages
+    type: community_tourism_cluster
+    intro: "Umbrella record for Tamang settlements across Dupcheshwar and Kispang that may support village and homestay tourism."
+    geometry: {type: multi_area_cluster, coordinate_status: settlement_level_mapping_needed}
+    things_to_do: [cultural stays where operating, local food, village walks]
+    permits_and_entry: {special_permit: false, homestay_operation: dynamic}
+    how_to_visit: {note: "Route only to individually verified villages/homestays, not this umbrella cluster."}
+
+things_to_do_index:
+  - activity: heritage_walk
+    primary_locations: [Nuwakot Durbar Complex, Nuwakot old town]
+    map_behavior: area_plus_child_pins
+  - activity: pilgrimage
+    primary_locations: [Devighat, Dupcheshwar Mahadev, Bhairabi Temple, Taleju Temple]
+    map_behavior: exact_site_or_small_area
+  - activity: viewpoints
+    primary_locations: [Kakani, Suryachaur, Samari Bhanjyang]
+    map_behavior: area_or_verified_viewpoint_pin
+  - activity: rafting
+    primary_locations: [Trishuli River rafting corridor]
+    map_behavior: current_operator_launch_point
+  - activity: village_culture
+    primary_locations: [Kispang, northern Tamang villages]
+    map_behavior: verified_settlement_area
+  - activity: cycling
+    primary_locations: [Tadi valley, Kakani-Nuwakot route]
+    map_behavior: verified_public_road_route
+
+publication_rules:
+  - "Large towns, valleys, rivers and protected sectors use area/corridor geometry, never a fake attraction pin."
+  - "Restoration/access status of palace structures must be checked before claiming indoor visitation."
+  - "National-park fees and opening rules are dynamic."
+  - "No Nuwakot-wide restricted-area permit should be invented; current DOI restricted-area rules do not list Nuwakot."
+  - "Weak local records such as Chhahare waterfall, Samari Bhanjyang exact centre and northern-village clusters stay PARTIAL/HOLD until mapped."
+
+sources:
+  - "Nepal Tourism Board - Bagmati Province / Nuwakot Durbar"
+  - "Department of National Parks and Wildlife Conservation - Shivapuri-Nagarjun National Park"
+  - "Department of Immigration - Trekking Route and Permit Fee (checked 2026-08-12)"
+  - "Nuwakot district research inventory branch"
+  - "Approximate settlement centres are orientation aids and should be replaced by authoritative GIS where available"

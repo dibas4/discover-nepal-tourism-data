@@ -1,0 +1,376 @@
+schema_version: visitor-ready-v2
+district: Rasuwa
+province: Bagmati
+status: COMPLETE_WITH_DYNAMIC_AND_HOLD_FIELDS
+canonical_record_count: 34
+
+introduction: >
+  Rasuwa is a Himalayan border district north of Kathmandu best known for Langtang Valley,
+  Gosainkunda, Tamang cultural landscapes and the historic Nepal–Tibet trade corridor at
+  Rasuwagadhi. Travel ranges from road-accessible gateways such as Dhunche and Syabrubesi
+  to multi-day high-altitude trekking areas where weather, landslides, snow and altitude
+  materially affect access.
+history: >
+  Rasuwa's visitor landscape combines long-established Tamang settlements, Buddhist and
+  Hindu sacred places, trans-Himalayan trade routes and modern conservation. Langtang
+  National Park protects much of the district's mountain environment. The 2015 earthquake
+  caused severe loss in Langtang Valley, including destruction of the old Langtang Village;
+  today's settlement and trekking economy were substantially rebuilt afterward.
+
+main_hubs:
+  - Kathmandu
+  - Dhunche
+  - Syabrubesi
+  - Kyanjin Gompa
+  - Gatlang
+
+map_rules:
+  settlements: area_center_with_approximate_radius
+  lakes_and_parks: polygon_or_area_geometry
+  viewpoints_temples_monasteries_forts: point_when_verified
+  trekking_routes_rivers_trade_routes: line_or_corridor
+  rule: Never route a visitor to a park centroid, lake centroid, river midpoint or guessed border point.
+
+permit_and_entry_framework:
+  langtang_national_park:
+    required: true
+    type: national_park_entry
+    fee: dynamic
+    instruction: Check current DNPWC/Langtang National Park entry fee and payment procedure before travel.
+  tims_and_guide:
+    status: dynamic
+    instruction: Check the current Nepal Tourism Board trekking rules for the exact itinerary before departure.
+  rasuwagadhi_border:
+    status: controlled_international_border
+    instruction: Border-crossing eligibility, immigration documents, opening status and foreign-visitor rules must be checked immediately before travel.
+  climbing:
+    status: route_specific
+    instruction: Trekking-peak or mountaineering objectives such as Yala Peak require the current climbing authorization and professional logistics applicable to that objective.
+  ordinary_villages_and_public_roads:
+    special_tourism_permit: normally_none
+    caveat: Protected-area entry or route-specific rules can still apply.
+
+places:
+  - name: Langtang National Park
+    type: protected_area
+    geometry: polygon
+    introduction: Protected Himalayan landscape containing Langtang Valley, Gosainkunda, forests, alpine habitat and important wildlife habitat.
+    things_to_do: [trekking, nature observation, birdwatching, mountain scenery, cultural trekking]
+    permit_entry: Langtang National Park entry required; current fee and trekking rules dynamic.
+    how_to_visit: Use Dhunche or Syabrubesi and a legitimate trailhead/gateway appropriate to the itinerary; never route to the park centroid.
+
+  - name: Langtang Valley
+    type: trekking_valley
+    geometry: corridor_area
+    introduction: Rasuwa's signature trekking valley, combining Tamang settlements, forests, alpine meadows, glaciers and high mountain scenery.
+    things_to_do: [multi-day trekking, village stays, photography, monastery visits, acclimatisation hikes]
+    permit_entry: Falls within Langtang National Park; current park/TIMS/guide requirements must be checked.
+    how_to_visit: Kathmandu -> road to Syabrubesi -> trek through the Langtang trail corridor toward Lama Hotel/Langtang Village/Kyanjin; road and trail status dynamic.
+
+  - name: Langtang Village
+    type: mountain_settlement
+    geometry: area
+    introduction: Rebuilt Tamang mountain settlement and major overnight stop in Langtang Valley, with a powerful connection to the 2015 earthquake history.
+    things_to_do: [village stay, cultural observation, trekking stop, mountain views]
+    permit_entry: National-park rules apply; no separate village tourism permit identified.
+    how_to_visit: Trek from Syabrubesi along the Langtang Valley route; normally reached as part of a multi-day itinerary rather than by road.
+
+  - name: Kyanjin Gompa Village
+    type: mountain_settlement
+    geometry: area
+    introduction: High-altitude lodge settlement at the upper end of the standard Langtang Valley trek and the base for Kyanjin Ri, Tserko Ri and Langshisha excursions.
+    things_to_do: [acclimatisation, mountain views, day hikes, monastery visit, village stay]
+    permit_entry: National-park and current trekking rules apply.
+    how_to_visit: Continue on foot from Langtang Village through the upper valley; treat Kyanjin as the practical hub for nearby day hikes.
+
+  - name: Kyanjin Gompa monastery
+    type: monastery
+    geometry: point_pending_verified_pin
+    introduction: Buddhist religious site forming part of Kyanjin's cultural identity.
+    things_to_do: [quiet cultural visit, architecture, religious observation]
+    permit_entry: No separate tourism permit identified; respectful local access rules apply.
+    how_to_visit: Walk locally from Kyanjin village; publish an exact pin only after entrance verification.
+
+  - name: Kyanjin Ri
+    type: viewpoint_peak
+    geometry: point_route
+    introduction: Steep acclimatisation and viewpoint hike above Kyanjin with broad views across the upper Langtang mountains.
+    things_to_do: [day hike, sunrise views, mountain photography]
+    permit_entry: Covered by park/trekking framework; no separate attraction ticket identified.
+    how_to_visit: Start on foot from Kyanjin; high altitude and weather make route conditions dynamic.
+
+  - name: Tserko Ri
+    type: viewpoint_peak
+    geometry: point_route
+    introduction: Higher and longer day-hike objective from Kyanjin offering extensive Langtang-range views.
+    things_to_do: [full-day hike, mountain panorama, photography]
+    permit_entry: Park/trekking framework applies.
+    how_to_visit: Out-and-back hike from Kyanjin; start early and assess altitude, snow and weather before departure.
+
+  - name: Langshisha Kharka
+    type: alpine_area
+    geometry: area_route
+    introduction: Remote alpine meadow destination deeper in the upper Langtang Valley beyond Kyanjin.
+    things_to_do: [long day hike, alpine scenery, trekking, photography]
+    permit_entry: Park rules apply; camping/logistics requirements depend on itinerary.
+    how_to_visit: Follow the upper-valley trail east from Kyanjin; do not treat it as road-accessible.
+
+  - name: Ganja La Pass trekking route
+    type: high_pass_route
+    geometry: line
+    introduction: Difficult high route linking the Langtang side with Helambu, significantly more demanding than the standard valley trek.
+    things_to_do: [advanced trekking, high-pass crossing]
+    permit_entry: Current park/TIMS/guide rules apply; technical logistics may be required depending on conditions.
+    how_to_visit: Approach through Langtang/Kyanjin and cross only with appropriate experience/support; snow and seasonal conditions can make the pass unsafe.
+
+  - name: Yala Peak approach area
+    type: climbing_approach
+    geometry: route_area
+    introduction: Upper-Langtang approach used for the Yala Peak climbing objective rather than an ordinary sightseeing POI.
+    things_to_do: [climbing expedition, acclimatisation, mountain trekking]
+    permit_entry: Current climbing authorization and professional logistics required where applicable.
+    how_to_visit: Approach from Kyanjin with a legitimate climbing itinerary; HOLD exact camp/route pins until expedition-grade geometry is verified.
+
+  - name: Gosainkunda Lake
+    type: sacred_alpine_lake
+    geometry: polygon
+    introduction: Sacred high-altitude lake and major pilgrimage destination within the wider Gosainkunda wetland system.
+    things_to_do: [pilgrimage, trekking, lake viewing, photography]
+    permit_entry: Langtang National Park and current trekking rules apply; festival arrangements are dynamic.
+    how_to_visit: Common approach is Dhunche -> Sing Gompa/Chandanbari -> Cholangpati/Lauribina -> Gosainkunda on foot; altitude and snow conditions matter.
+
+  - name: Gosainkunda lake system
+    type: wetland_complex
+    geometry: polygon_area
+    introduction: Wider sacred alpine basin containing Gosainkunda and multiple associated lakes rather than one isolated water body.
+    things_to_do: [trekking, pilgrimage, wetland viewing, landscape photography]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Use established Gosainkunda trekking trails; map the basin as an area and individual named lakes separately.
+
+  - name: Saraswati Kunda
+    type: alpine_lake
+    geometry: polygon
+    introduction: Sacred lake encountered in the Gosainkunda alpine landscape.
+    things_to_do: [lake viewing, pilgrimage, trekking]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Reach on foot along the Gosainkunda route; use lake polygon/shore access rather than a water-centre navigation pin.
+
+  - name: Bhairav Kunda, Rasuwa
+    type: alpine_lake
+    geometry: polygon
+    introduction: Sacred lake adjoining the Gosainkunda group; distinct from the separate Bhairav Kunda destination in Sindhupalchok.
+    things_to_do: [pilgrimage, lake viewing, trekking]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Visit on foot as part of the Gosainkunda basin; maintain explicit district disambiguation.
+
+  - name: Surya Kunda
+    type: alpine_lake
+    geometry: polygon
+    introduction: Alpine lake near the high route east of Gosainkunda toward the Lauribina/Helambu side.
+    things_to_do: [high-altitude trekking, lake viewing, photography]
+    permit_entry: Protected-area/trekking rules apply.
+    how_to_visit: Reach by high trail from the Gosainkunda area; snow and pass conditions dynamic.
+
+  - name: Lauribina Pass and ridge
+    type: high_ridge
+    geometry: corridor
+    introduction: Exposed high ridge and pass area on the Dhunche–Gosainkunda route with expansive Himalayan views.
+    things_to_do: [trekking, viewpoint stops, photography]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Trek above Cholangpati toward Gosainkunda; route condition and visibility vary sharply with weather.
+
+  - name: Cholangpati
+    type: lodge_settlement
+    geometry: area
+    introduction: Forest-ridge staging stop below Lauribina used on the Gosainkunda trek.
+    things_to_do: [overnight stop, trekking, forest scenery]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Trek upward from Sing Gompa/Chandanbari on the Gosainkunda route.
+
+  - name: Sing Gompa / Chandanbari
+    type: monastery_settlement
+    geometry: area
+    introduction: Monastery and lodge settlement that serves as a major overnight stage between Dhunche and Gosainkunda.
+    things_to_do: [monastery visit, overnight stay, trekking, forest views]
+    permit_entry: Protected-area rules apply.
+    how_to_visit: Trek from Dhunche on the established Gosainkunda route.
+
+  - name: Dhunche
+    type: gateway_town
+    geometry: area
+    introduction: District headquarters and practical road gateway for Gosainkunda, Langtang National Park administration and northern Rasuwa travel.
+    things_to_do: [trip staging, supplies, local exploration, trekking preparation]
+    permit_entry: No separate town permit; protected-area rules apply when entering park routes.
+    how_to_visit: Reach by road from Kathmandu; use Dhunche as the main hub for the Gosainkunda approach.
+
+  - name: Syabrubesi
+    type: gateway_town
+    geometry: area
+    introduction: Main roadhead and trekking gateway for Langtang Valley and an important starting point for Tamang-region routes.
+    things_to_do: [trek staging, supplies, village stay]
+    permit_entry: No separate town permit; route-specific park/trekking rules apply after departure.
+    how_to_visit: Road from Kathmandu via Trishuli/Dhunche corridor; landslide and road conditions are dynamic.
+
+  - name: Tamang Heritage Trail
+    type: cultural_trekking_route
+    geometry: line_network
+    introduction: Community-focused trekking circuit connecting Tamang villages, mountain viewpoints, agricultural landscapes and traditional cultural stops.
+    things_to_do: [village trekking, cultural stays, mountain views, local food]
+    permit_entry: Check current park/TIMS/guide requirements for the exact route; village accommodation is operationally dynamic.
+    how_to_visit: Commonly staged from Syabrubesi toward Gatlang and the Aamachhodingmo villages; route variants should be stored as trail geometry, not one pin.
+
+  - name: Gatlang Village
+    type: cultural_village
+    geometry: area
+    introduction: Large traditional Tamang settlement and one of the best-known cultural stops on the heritage trail.
+    things_to_do: [village walk, cultural stay, local food, photography]
+    permit_entry: No separate village tourism permit identified; route rules may apply.
+    how_to_visit: Reach from Syabrubesi/Goljung side by current road/trail connection; exact travel time is road-condition dependent.
+
+  - name: Parvati Kunda / Chhodingmo Kunda
+    type: sacred_wetland
+    geometry: polygon_area
+    introduction: Sacred freshwater lake/wetland near Gatlang with local religious and biodiversity significance.
+    things_to_do: [pilgrimage, wetland viewing, nature observation]
+    permit_entry: No separate attraction permit identified; local religious rules should be respected.
+    how_to_visit: Approach from Gatlang using the locally verified path; do not navigate to the lake centre.
+
+  - name: Goljung Village
+    type: cultural_village
+    geometry: area
+    introduction: Tamang settlement in the Gatlang–Chilime landscape with cultural-tourism potential.
+    things_to_do: [village exploration, cultural observation, landscape views]
+    permit_entry: No special tourism permit identified.
+    how_to_visit: Reach from Syabrubesi/Gatlang corridor by current local road; formal homestay availability remains dynamic.
+
+  - name: Tatopani, Rasuwa
+    type: hot_spring_site
+    geometry: point_pending_current_access
+    introduction: Historic hot-spring stop associated with the Tamang Heritage Trail.
+    things_to_do: [hot-spring visit if operating, trekking stop]
+    permit_entry: Route rules may apply; operating fee/status unknown.
+    how_to_visit: HOLD public routing until the current spring condition, access path and visitor operation are locally reverified.
+
+  - name: Nagthali Danda
+    type: ridge_viewpoint
+    geometry: area_point
+    introduction: High grassland ridge above the Thuman side and one of the major panoramic viewpoints on the heritage route.
+    things_to_do: [hiking, mountain views, photography]
+    permit_entry: Route-specific trekking rules apply.
+    how_to_visit: Trek from the Thuman/Tatopani side; weather and trail conditions dynamic.
+
+  - name: Thuman Village
+    type: cultural_village
+    geometry: area
+    introduction: Traditional Tamang settlement below Nagthali and an established cultural stop in northern Rasuwa.
+    things_to_do: [village stay, cultural observation, hiking]
+    permit_entry: No separate village permit identified.
+    how_to_visit: Approach through the Tamang Heritage Trail road/trail network from Syabrubesi/Gatlang side.
+
+  - name: Briddim Village
+    type: cultural_village
+    geometry: area
+    introduction: Tamang village near the Langtang route known for community-oriented cultural stays and mountain setting.
+    things_to_do: [homestay when operating, village walk, local culture, hiking]
+    permit_entry: Check route/park rules; homestay operation dynamic.
+    how_to_visit: Approach from Syabrubesi through the local trail/road network; map the settlement as an area.
+
+  - name: Chilime Valley
+    type: valley_landscape
+    geometry: corridor_area
+    introduction: River, forest and village landscape linking Gatlang, Goljung and northern Rasuwa infrastructure.
+    things_to_do: [scenic travel, village visits, landscape photography]
+    permit_entry: No standalone valley permit identified.
+    how_to_visit: Explore through current local roads from the Syabrubesi/Goljung/Gatlang side; avoid a single valley-centroid pin.
+
+  - name: Bhote Koshi–Trishuli headwater corridor
+    type: river_corridor
+    geometry: line
+    introduction: Major river corridor shaping Rasuwa's valleys, road alignment and trans-Himalayan landscape.
+    things_to_do: [scenic road travel, river landscape photography]
+    permit_entry: No river-viewing permit; border/protected-area rules may apply by section.
+    how_to_visit: Experience from established roads and settlements; never route to the river midpoint.
+
+  - name: Rasuwagadhi Fort
+    type: historic_fort
+    geometry: point_pending_border_safe_pin
+    introduction: Historic frontier fort associated with Nepal's northern border and trans-Himalayan history.
+    things_to_do: [heritage viewing where permitted, history]
+    permit_entry: Border-security and access rules dynamic.
+    how_to_visit: Travel north from Syabrubesi only to currently permitted public-access areas; HOLD exact visitor pin until border-safe access is confirmed.
+
+  - name: Rasuwagadhi border and old trade route
+    type: border_trade_corridor
+    geometry: line_corridor
+    introduction: Historic Nepal–Tibet trade corridor that remains an active international-border landscape.
+    things_to_do: [historical interpretation, scenic road journey where permitted]
+    permit_entry: Immigration, customs, nationality and border-opening rules apply and can change.
+    how_to_visit: Use the official Rasuwagadhi road corridor; never imply that a tourist may cross the border without the required documents and current permission.
+
+  - name: Naukunda lake area
+    type: highland_lake_cluster
+    geometry: area_hold
+    introduction: Highland pilgrimage/lake landscape associated with Naukunda Rural Municipality but still insufficiently mapped for precise visitor navigation.
+    things_to_do: [pilgrimage, trekking, landscape viewing]
+    permit_entry: Unknown route-specific requirements; verify locally.
+    how_to_visit: HOLD turn-by-turn public routing until the exact lake set, trailhead, seasonal access and safe visitor geometry are verified.
+
+  - name: Uttargaya Dham / Betrawati confluence
+    type: pilgrimage_confluence
+    geometry: area
+    introduction: Sacred confluence and cremation/pilgrimage landscape on the Rasuwa–Nuwakot boundary.
+    things_to_do: [pilgrimage, ritual observation, heritage visit]
+    permit_entry: No special tourism permit identified; festival traffic and ritual access dynamic.
+    how_to_visit: Approach via the Betrawati/Uttargaya road corridor; map the pilgrimage area rather than routing into the river confluence.
+
+things_to_do_index:
+  - activity: Langtang Valley trek
+    start_hub: Syabrubesi
+    location: Langtang Valley -> Langtang Village -> Kyanjin
+    permit: Langtang National Park plus current trekking requirements
+  - activity: Gosainkunda pilgrimage/trek
+    start_hub: Dhunche
+    location: Sing Gompa -> Cholangpati -> Lauribina -> Gosainkunda
+    permit: Langtang National Park plus current trekking requirements
+  - activity: Kyanjin day hikes
+    start_hub: Kyanjin Gompa
+    location: Kyanjin Ri / Tserko Ri / Langshisha corridor
+    permit: covered by applicable park/trekking framework
+  - activity: Tamang cultural trekking
+    start_hub: Syabrubesi
+    location: Gatlang–Goljung–Thuman–Briddim network
+    permit: current route rules must be checked
+  - activity: Sacred lake visits
+    start_hub: Gosainkunda route
+    location: Gosainkunda basin, Saraswati Kunda, Bhairav Kunda, Surya Kunda
+    permit: protected-area rules apply
+  - activity: Border heritage
+    start_hub: Syabrubesi
+    location: Rasuwagadhi road/fort/trade corridor
+    permit: border and immigration access dynamic
+
+safety:
+  - High altitude is a core risk at Gosainkunda, Kyanjin viewpoints, Ganja La and other upper routes; acclimatisation is part of route planning.
+  - Monsoon landslides and road disruption can affect Kathmandu–Dhunche–Syabrubesi access.
+  - Snow can close or make high passes dangerous.
+  - Border access at Rasuwagadhi must never be inferred from ordinary map accessibility.
+  - Remote trail geometry must be verified before turn-by-turn navigation is published.
+
+qa:
+  - Langtang National Park is an area, not one pin.
+  - Langtang Valley is a route/valley; Langtang Village is a separate settlement.
+  - Kyanjin village and Kyanjin Gompa monastery remain separate objects.
+  - Gosainkunda Lake remains separate from the wider Gosainkunda lake system and other named lakes.
+  - Bhairav Kunda is explicitly disambiguated from Sindhupalchok's Bhairav Kunda.
+  - Tamang Heritage Trail is a route network, not a single attraction coordinate.
+  - Tatopani and Naukunda remain routing HOLDs until current local verification.
+  - Rasuwagadhi border objects retain border-security caveats.
+
+source_policy:
+  primary_sources:
+    - Department of National Parks and Wildlife Conservation / Langtang National Park
+    - Nepal Tourism Board
+    - Department of Immigration for current border/restricted-area rules
+    - Nepal Mountaineering Association or competent authority for climbing authorization
+    - Rasuwa local governments for settlement and local-site verification
+  rule: Fees, TIMS/guide rules, border status, road conditions, homestays and seasonal trail access are dynamic and must be refreshed before publication or routing.
