@@ -51,7 +51,7 @@ GENERIC_NAME_TOKENS = {
     "jharana", "landscape", "lake", "mandir", "monastery", "museum", "national", "park",
     "peak", "place", "point", "precinct", "region", "reserve", "route", "settlement", "site",
     "statue", "stupa", "temple", "tourism", "tower", "town", "trail", "valley", "village",
-    "view", "viewpoint", "waterfall", "wetland", "wildlife",
+    "view", "viewpoint", "waterfall", "wetland", "wildlife", "pass", "tea", "estate", "religious", "shrine", "memorial", "system", "sector", "buffer", "trekking",
 }
 
 
@@ -185,7 +185,7 @@ def name_variants(name):
             return
         variants.append(value)
 
-    raw_parts = [clean(name)] + [clean(part) for part in re.split(r"\s*/\s*|\s+\bor\b\s+", clean(name), flags=re.I) if clean(part)]
+    raw_parts = [clean(name)] + [clean(part) for part in re.split(r"\s*/\s*|\s*,\s*|\s*\+\s*|\s+\band\b\s+|\s+\bor\b\s+", clean(name), flags=re.I) if clean(part)]
     for raw in raw_parts:
         normalized = norm(raw)
         if not normalized:
