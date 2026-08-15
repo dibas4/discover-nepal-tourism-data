@@ -1,0 +1,108 @@
+name: Apply province summary fallback
+
+on:
+  push:
+    branches:
+      - integration/nepal-visitor-ready-complete
+    paths:
+      - ".github/workflows/apply-province-summary-fallback.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch-and-regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out integration branch
+        uses: actions/checkout@v4
+        with:
+          ref: integration/nepal-visitor-ready-complete
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install data dependencies
+        run: python -m pip install --disable-pip-version-check PyYAML
+
+      - name: Add province-summary certification fallback
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("scripts/build_nepal_visitor_ready_master.py")
+          source = path.read_text(encoding="utf-8")
+          original = source
+
+          anchor = '''    return None\n\n\ndef name_variants(name):\n'''
+          insert = '''    return None\n\n\ndef province_visitor_summary(province_slug):\n    province = PROVINCE_NAMES[province_slug]\n    expected = EXPECTED[province]\n    for folder in ("visitor_ready", "visitor-ready"):\n        path = ROOT / f"provinces/{province_slug}/{folder}/README.md"\n        if not path.exists():\n            continue\n        text = path.read_text(encoding="utf-8")\n        match = re.search(r"Canonical visitor records covered:\\s*(\\d+)", text, re.I)\n        if match and int(match.group(1)) == expected:\n            return path\n    return None\n\n\ndef province_summary_eligible(record):\n    status = norm(record.get("research_status"))\n    if not status:\n        return False\n    blocked = (\n        "needs local verification", "needs specialist verification", "needs verification",\n        "first round", "partial", "hold", "unverified", "pending", "emerging",\n    )\n    if any(token in status for token in blocked):\n        return False\n    trusted = ("established", "government managed", "protected", "verified", "high confidence")\n    return any(token in status for token in trusted)\n\n\ndef province_summary_enrichment(record):\n    return {\n        "name": record["name"],\n        "geometry_hint": clean(f"{record['name']} {record['research_note']}"),\n        "status": "Province-level visitor-ready certification; exact public access remains dynamic.",\n        "raw": "Province-level visitor-ready certification; exact public access remains dynamic.",\n        "mention_only": True,\n        "mention_match_method": "province-certified",\n    }\n\n\ndef name_variants(name):\n'''
+          if anchor not in source:
+              raise SystemExit("Could not find visitor_file/name_variants anchor")
+          source = source.replace(anchor, insert, 1)
+
+          anchor = '''    for province_slug, district_slugs in DISTRICTS.items():\n        province = PROVINCE_NAMES[province_slug]\n        before = len(records)\n        for district_slug in district_slugs:\n'''
+          replacement = '''    for province_slug, district_slugs in DISTRICTS.items():\n        province = PROVINCE_NAMES[province_slug]\n        province_summary_path = province_visitor_summary(province_slug)\n        before = len(records)\n        for district_slug in district_slugs:\n'''
+          if anchor not in source:
+              raise SystemExit("Could not find province build-loop anchor")
+          source = source.replace(anchor, replacement, 1)
+
+          anchor = '''            enrichment_map = {}\n            if visitor_path:\n                enrichment_map = yaml_enrichment(visitor_path) if visitor_path.suffix.lower() in {".yaml", ".yml"} else md_enrichment(visitor_path, [record["name"] for record in canonical_records])\n\n            for canonical in canonical_records:\n'''
+          replacement = '''            enrichment_map = {}\n            if visitor_path:\n                enrichment_map = yaml_enrichment(visitor_path) if visitor_path.suffix.lower() in {".yaml", ".yml"} else md_enrichment(visitor_path, [record["name"] for record in canonical_records])\n            elif province_summary_path:\n                enrichment_map = {\n                    norm(record["name"]): province_summary_enrichment(record)\n                    for record in canonical_records\n                    if province_summary_eligible(record)\n                }\n                visitor_path = province_summary_path\n\n            for canonical in canonical_records:\n'''
+          if anchor not in source:
+              raise SystemExit("Could not find enrichment-map anchor")
+          source = source.replace(anchor, replacement, 1)
+
+          if source == original:
+              raise SystemExit("Province-summary patch was a no-op")
+          path.write_text(source, encoding="utf-8")
+          PY
+
+      - name: Regenerate and verify fallback safety
+        run: |
+          python scripts/build_nepal_visitor_ready_master.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          records = json.loads(Path("data/master/generated/nepal_master_visitor_ready.json").read_text())
+          report = json.loads(Path("data/master/generated/validation_report.json").read_text())
+
+          def find(name):
+              for record in records:
+                  if record.get("province") == "Sudurpashchim" and record.get("district") == "Achham" and record.get("name") == name:
+                      return record
+              raise SystemExit(f"Missing Achham known-case record: {name}")
+
+          mangalsen = find("Mangalsen")
+          ramaroshan = find("Ramaroshan Area")
+          lake_cluster = find("Ramaroshan lake cluster")
+          baidyanath = find("Baidyanath Dham")
+          homestay = find("Community homestay prospects in Achham")
+
+          assert report.get("district_count_ok") is True
+          assert report.get("record_count_ok") is True
+          assert report.get("explicit_hold_routed_ok") is True
+          assert report.get("routable_without_match_ok") is True
+          assert mangalsen.get("match_method") == "province-certified"
+          assert mangalsen.get("access_status") == "DYNAMIC_CHECK_REQUIRED"
+          assert ramaroshan.get("match_method") == "province-certified"
+          assert baidyanath.get("match_method") == "province-certified"
+          assert lake_cluster.get("access_status") == "ROUTING_HOLD"
+          assert homestay.get("access_status") == "ROUTING_HOLD"
+          PY
+
+      - name: Commit builder and regenerated artifacts
+        run: |
+          git add -- \
+            scripts/build_nepal_visitor_ready_master.py \
+            data/master/generated/nepal_master_visitor_ready.json \
+            data/master/generated/nepal_master_visitor_ready.csv \
+            data/master/generated/validation_report.json
+          git rm -- .github/workflows/apply-province-summary-fallback.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Support province-level visitor-ready certification"
+          git push origin HEAD:integration/nepal-visitor-ready-complete
