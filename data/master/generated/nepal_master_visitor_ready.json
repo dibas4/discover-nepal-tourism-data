@@ -18469,18 +18469,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Simraungadh earthen fortifications and moat system",
+    "match_method": "compact-list",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Simraungadh earthen fortifications and moat system"
   },
   {
     "id": "np-madhesh-bara-simraungadh-palace-ranivas-area",
@@ -18550,18 +18550,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Simraungadh archaeological sculpture-find landscape",
+    "match_method": "compact-list",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Simraungadh archaeological sculpture-find landscape"
   },
   {
     "id": "np-madhesh-bara-simraungadh-heritage-town-and-mithila-cultural-landscape",
@@ -21608,19 +21608,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "OPERATOR_DEPENDENT",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bharat Tal (Bharat Lake)",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Bharat Tal (Bharat Lake)"
   },
   {
     "id": "np-madhesh-sarlahi-nunthar-pilgrimage-and-riverside-area",
@@ -24074,21 +24074,21 @@
     "research_status": "Established",
     "research_note": "Adventure cave; safety/access verification required.",
     "canonical_source_file": "provinces/gandaki/districts/kaski.md",
-    "introduction": "visitor caves; current safety/opening status required.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
     "permit_layers": [
-      "DYNAMIC"
+      "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Bat Cave (Chamere Gufa)",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
-    "source_record_key": null
+    "source_record_key": "Bat Cave (Chamere Gufa)"
   },
   {
     "id": "np-gandaki-kaski-begnas-lake",
@@ -24463,7 +24463,7 @@
     ],
     "parent_entity_id": null,
     "visitor_ready_label": "Annapurna Base Camp route (Kaski section)",
-    "match_method": "root-mention",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
@@ -24571,7 +24571,7 @@
     ],
     "parent_entity_id": null,
     "visitor_ready_label": "Panchase landscape (Kaski sector)",
-    "match_method": "root-mention",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
@@ -25841,7 +25841,7 @@
     ],
     "parent_entity_id": null,
     "visitor_ready_label": "Tsarang (Charang)",
-    "match_method": "root-mention",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
@@ -26209,7 +26209,7 @@
     "research_status": "Established",
     "research_note": "Cross-district geological corridor.",
     "canonical_source_file": "provinces/gandaki/districts/mustang.md",
-    "introduction": "cross-district river/gorge system.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
     "source_routing_status": "routable",
@@ -26218,12 +26218,12 @@
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Kali Gandaki Gorge (Mustang sector)",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Kali Gandaki Gorge (Mustang sector)"
   },
   {
     "id": "np-gandaki-mustang-upper-mustang-trek",
@@ -32077,19 +32077,20 @@
     "canonical_source_file": "provinces/lumbini/districts/eastern-rukum.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Putha Hiunchuli (Dhaulagiri VII)",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/lumbini/visitor_ready/eastern-rukum.md",
-    "source_record_key": null
+    "source_record_key": "Putha Hiunchuli (Dhaulagiri VII)"
   },
   {
     "id": "np-lumbini-eastern-rukum-putha-hiunchuli-base-area-trekking-landscape",

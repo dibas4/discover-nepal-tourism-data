@@ -224,7 +224,10 @@ def name_variants(name):
             return
         variants.append(value)
 
-    raw_parts = [clean(name)] + [clean(part) for part in re.split(r"\s*/\s*|\s*,\s*|\s*\+\s*|\s+\band\b\s+|\s+\bor\b\s+", clean(name), flags=re.I) if clean(part)]
+    clean_name = clean(name)
+    parenthetical_parts = [clean(part) for part in re.findall(r"\(([^)]+)\)", clean_name) if clean(part)]
+    without_parenthetical = clean(re.sub(r"\s*\([^)]*\)\s*", " ", clean_name))
+    raw_parts = [clean_name, without_parenthetical, *parenthetical_parts] + [clean(part) for part in re.split(r"\s*/\s*|\s*,\s*|\s*\+\s*|\s+\band\b\s+|\s+\bor\b\s+", clean_name, flags=re.I) if clean(part)]
     for raw in raw_parts:
         normalized = norm(raw)
         if not normalized:
@@ -263,6 +266,34 @@ def paragraph_context(text, name):
                     return clause
             return paragraph
     return ""
+
+
+def compact_canonical_entries(text):
+    match = re.search(r"^##\s+Canonical visitor records\s*$([\s\S]*?)(?=^##\s+|\Z)", text, re.I | re.M)
+    if not match:
+        return []
+    section = clean(match.group(1))
+    return [clean(part).strip(" .") for part in section.split(";") if clean(part).strip(" .")]
+
+
+def compact_list_context(name, entries):
+    canonical_tokens = {token for token in norm(name).split() if token not in GENERIC_NAME_TOKENS}
+    if len(canonical_tokens) < 2:
+        return ""
+    candidates = []
+    for entry in entries:
+        entry_tokens = {token for token in norm(entry).split() if token not in GENERIC_NAME_TOKENS}
+        if len(entry_tokens) < 2:
+            continue
+        if entry_tokens.issubset(canonical_tokens):
+            candidates.append((len(entry_tokens), len(norm(entry)), entry))
+    if not candidates:
+        return ""
+    candidates.sort(reverse=True)
+    best = candidates[0]
+    if len(candidates) > 1 and candidates[1][:2] == best[:2]:
+        return ""
+    return best[2]
 
 
 def md_enrichment(path, canonical_names=()):
@@ -311,6 +342,7 @@ def md_enrichment(path, canonical_names=()):
         if field:
             current[norm(field.group(1))] = clean(field.group(2))
 
+    compact_entries = compact_canonical_entries(text)
     distinctive_roots = [first_distinctive_token(name) for name in canonical_names]
     root_counts = Counter(root for root in distinctive_roots if root)
     for name in canonical_names:
@@ -324,6 +356,10 @@ def md_enrichment(path, canonical_names=()):
             if root and root_counts[root] == 1:
                 context = paragraph_context(text, root)
                 match_method = "root-mention"
+        if not context:
+            context = compact_list_context(name, compact_entries)
+            if context:
+                match_method = "compact-list"
         if not context:
             continue
         out[key] = {
