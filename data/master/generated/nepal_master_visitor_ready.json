@@ -4305,26 +4305,21 @@
     "research_status": "",
     "research_note": "",
     "canonical_source_file": "provinces/bagmati/districts/lalitpur.md",
-    "introduction": "A distinctive Buddhist temple in Patan's old-city sacred landscape, best experienced as part of a walking circuit rather than as an isolated city attraction.",
-    "things_to_do": [
-      "Architecture",
-      "religious heritage",
-      "photography where permitted",
-      "old-city walking."
-    ],
+    "introduction": null,
+    "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "dynamic_check_required",
-    "access_status": "DYNAMIC_CHECK_REQUIRED",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": "Mahaboudha / Mahabuddha Temple",
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Mahaboudha Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
-    "how_to_visit": "Walk from Patan Durbar Square through the old-city lanes.",
+    "how_to_visit": null,
     "visitor_ready_source_file": "provinces/bagmati/visitor_ready/lalitpur.md",
-    "source_record_key": "Mahaboudha / Mahabuddha Temple"
+    "source_record_key": "Mahaboudha Temple"
   },
   {
     "id": "np-bagmati-lalitpur-kumbeshwar-temple",
@@ -4337,13 +4332,8 @@
     "research_status": "",
     "research_note": "",
     "canonical_source_file": "provinces/bagmati/districts/lalitpur.md",
-    "introduction": "Historic five-storey Shiva temple in Patan and an important living pilgrimage site, especially associated with Janai Purnima.",
-    "things_to_do": [
-      "Temple visit",
-      "architecture",
-      "festival observation when appropriate",
-      "connect with nearby Patan heritage sites."
-    ],
+    "introduction": null,
+    "things_to_do": [],
     "geometry_type": "POINT",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
@@ -4351,12 +4341,12 @@
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": "Kumbeshwar / Kumbheshwar Temple",
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Kumbeshwar Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
-    "how_to_visit": "Walk or take a short local ride from Patan Durbar Square, then approach the temple compound on foot.",
+    "how_to_visit": null,
     "visitor_ready_source_file": "provinces/bagmati/visitor_ready/lalitpur.md",
-    "source_record_key": "Kumbeshwar / Kumbheshwar Temple"
+    "source_record_key": "Kumbeshwar Temple"
   },
   {
     "id": "np-bagmati-lalitpur-bajrabarahi-temple-and-forest",
@@ -10393,19 +10383,19 @@
     "canonical_source_file": "provinces/koshi/districts/bhojpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Silichung Peak",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/bhojpur.md",
-    "source_record_key": null
+    "source_record_key": "Silichung Peak"
   },
   {
     "id": "np-koshi-bhojpur-temke-danda",
@@ -10501,19 +10491,19 @@
     "canonical_source_file": "provinces/koshi/districts/bhojpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chakhewa Danda",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/bhojpur.md",
-    "source_record_key": null
+    "source_record_key": "Chakhewa Danda"
   },
   {
     "id": "np-koshi-bhojpur-chamere-gufa",
@@ -10825,7 +10815,7 @@
     "canonical_source_file": "provinces/koshi/districts/bhojpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
+    "geometry_type": "AREA",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
     "permit_layers": [
@@ -10934,18 +10924,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Siddhakali Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/bhojpur.md",
-    "source_record_key": null
+    "source_record_key": "Siddhakali Temple"
   },
   {
     "id": "np-koshi-bhojpur-suntale-danda",
@@ -11177,18 +11167,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Namje Village",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Namje Village"
   },
   {
     "id": "np-koshi-dhankuta-namje-thumki-community-homestay",
@@ -11204,18 +11194,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Namje–Thumki Community Homestay",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Namje–Thumki Community Homestay"
   },
   {
     "id": "np-koshi-dhankuta-rajarani-wetland",
@@ -11258,18 +11248,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rani Tal / Rani Lake",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Rani Tal / Rani Lake"
   },
   {
     "id": "np-koshi-dhankuta-aathpahariya-baunna-chulo-ghar",
@@ -11285,18 +11275,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Aathpahariya Baunna Chulo Ghar",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Aathpahariya Baunna Chulo Ghar"
   },
   {
     "id": "np-koshi-dhankuta-banjhakri-park",
@@ -11339,18 +11329,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chintang Devi Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Chintang Devi Temple"
   },
   {
     "id": "np-koshi-dhankuta-chuliban-view-tower",
@@ -11366,18 +11356,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chuliban View Tower",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Chuliban View Tower"
   },
   {
     "id": "np-koshi-dhankuta-dhankuta-bazaar",
@@ -11420,18 +11410,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jitpur Bazaar",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Jitpur Bazaar"
   },
   {
     "id": "np-koshi-dhankuta-kopche-heritage-settlement",
@@ -11501,18 +11491,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Leguwa–Arun River Confluence Area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Leguwa–Arun River Confluence Area"
   },
   {
     "id": "np-koshi-dhankuta-nageshwar-temple",
@@ -11555,8 +11545,8 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routable",
-    "access_status": "ROUTABLE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
@@ -11609,18 +11599,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pathibhara Temple near Hile",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Pathibhara Temple near Hile"
   },
   {
     "id": "np-koshi-dhankuta-rajarani-valley",
@@ -11663,18 +11653,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sadam Tourism Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Sadam Tourism Area"
   },
   {
     "id": "np-koshi-dhankuta-syaule-sipting-aathpahariya-community-homestay",
@@ -11690,18 +11680,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Syaule–Sipting Aathpahariya Community Homestay",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/dhankuta.md",
-    "source_record_key": null
+    "source_record_key": "Syaule–Sipting Aathpahariya Community Homestay"
   },
   {
     "id": "np-koshi-dhankuta-thumki-hill",
@@ -12149,18 +12139,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Siddhithumka Chuli",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Siddhithumka Chuli"
   },
   {
     "id": "np-koshi-ilam-antu-pokhari",
@@ -12203,18 +12193,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Fikkal Bazaar",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Fikkal Bazaar"
   },
   {
     "id": "np-koshi-ilam-google-point",
@@ -12364,19 +12354,19 @@
     "canonical_source_file": "provinces/koshi/districts/ilam.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kuibhir Tourism Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Kuibhir Tourism Area"
   },
   {
     "id": "np-koshi-ilam-kuinetar-omkareshwar-temple",
@@ -12392,18 +12382,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kuinetar Omkareshwar Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Kuinetar Omkareshwar Temple"
   },
   {
     "id": "np-koshi-ilam-mahabhir-rock-climbing-area",
@@ -12418,19 +12408,19 @@
     "canonical_source_file": "provinces/koshi/districts/ilam.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahabhir Rock Climbing Area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Mahabhir Rock Climbing Area"
   },
   {
     "id": "np-koshi-ilam-mai-beni",
@@ -12472,19 +12462,19 @@
     "canonical_source_file": "provinces/koshi/districts/ilam.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Namsaling Village",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Namsaling Village"
   },
   {
     "id": "np-koshi-ilam-nayabazar",
@@ -12527,18 +12517,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Panchakanya Tourism Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Panchakanya Tourism Area"
   },
   {
     "id": "np-koshi-ilam-pashupatinagar",
@@ -12661,19 +12651,19 @@
     "canonical_source_file": "provinces/koshi/districts/ilam.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Suryodaya Tea Tasting and Promotion Centre",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/ilam.md",
-    "source_record_key": null
+    "source_record_key": "Suryodaya Tea Tasting and Promotion Centre"
   },
   {
     "id": "np-koshi-ilam-three-tier-waterfall",
@@ -12743,18 +12733,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Arjundhara Jaleshwar Dham",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Arjundhara Jaleshwar Dham"
   },
   {
     "id": "np-koshi-jhapa-bahundangi-elephant-corridor",
@@ -12797,18 +12787,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Domukha Tourism Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Domukha Tourism Area"
   },
   {
     "id": "np-koshi-jhapa-jamunkhadi-simsar",
@@ -12932,19 +12922,19 @@
     "canonical_source_file": "provinces/koshi/districts/jhapa.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kichakbadh Archaeological Site",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Kichakbadh Archaeological Site"
   },
   {
     "id": "np-koshi-jhapa-mini-mountain-bahundangi",
@@ -12960,18 +12950,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mini Mountain Bahundangi",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Mini Mountain Bahundangi"
   },
   {
     "id": "np-koshi-jhapa-satakshi-dham",
@@ -13176,18 +13166,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dharagola View Tower",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Dharagola View Tower"
   },
   {
     "id": "np-koshi-jhapa-dhulabari-tea-estate",
@@ -13230,18 +13220,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gauradaha Dah Pokhari",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Gauradaha Dah Pokhari"
   },
   {
     "id": "np-koshi-jhapa-kechana-jhil",
@@ -13311,18 +13301,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pau Pathibhara Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Pau Pathibhara Temple"
   },
   {
     "id": "np-koshi-jhapa-salbari-park",
@@ -13338,18 +13328,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Salbari Park",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/jhapa.md",
-    "source_record_key": null
+    "source_record_key": "Salbari Park"
   },
   {
     "id": "np-koshi-khotang-baraha-pokhari",
@@ -13392,18 +13382,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dhiplung Waterfall",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/khotang.md",
-    "source_record_key": null
+    "source_record_key": "Dhiplung Waterfall"
   },
   {
     "id": "np-koshi-khotang-halesi-cave-complex",
@@ -13554,18 +13544,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Maratika Cave",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/khotang.md",
-    "source_record_key": null
+    "source_record_key": "Maratika Cave"
   },
   {
     "id": "np-koshi-khotang-rupakot-danda",
@@ -13607,19 +13597,19 @@
     "canonical_source_file": "provinces/koshi/districts/khotang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tuwachung–Jayajum Hill",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/khotang.md",
-    "source_record_key": null
+    "source_record_key": "Tuwachung–Jayajum Hill"
   },
   {
     "id": "np-koshi-khotang-bhulbhule-dudhkunda-deudham",
@@ -13824,19 +13814,19 @@
     "canonical_source_file": "provinces/koshi/districts/khotang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Soldhunga Tourism Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/khotang.md",
-    "source_record_key": null
+    "source_record_key": "Soldhunga Tourism Area"
   },
   {
     "id": "np-koshi-khotang-yalambar-park",
@@ -13879,18 +13869,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "OPERATOR_DEPENDENT"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Betana Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Betana Wetland"
   },
   {
     "id": "np-koshi-morang-betini-wetland",
@@ -13906,18 +13896,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Betini Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Betini Wetland"
   },
   {
     "id": "np-koshi-morang-bhulke-wetland",
@@ -13933,18 +13923,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bhulke Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Bhulke Wetland"
   },
   {
     "id": "np-koshi-morang-birat-palace-archaeological-site-bhediyari-dhisko",
@@ -13959,19 +13949,19 @@
     "canonical_source_file": "provinces/koshi/districts/morang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Birat Palace Archaeological Site / Bhediyari Dhisko",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Birat Palace Archaeological Site / Bhediyari Dhisko"
   },
   {
     "id": "np-koshi-morang-dhanpalgadhi",
@@ -14014,18 +14004,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Hasina Wetland / Hasina Simsar",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Hasina Wetland / Hasina Simsar"
   },
   {
     "id": "np-koshi-morang-jefale-danda",
@@ -14068,18 +14058,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kanepokhari Lake",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Kanepokhari Lake"
   },
   {
     "id": "np-koshi-morang-rajarani-pond",
@@ -14095,18 +14085,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rajarani Pond",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Rajarani Pond"
   },
   {
     "id": "np-koshi-morang-baghjhora",
@@ -14203,18 +14193,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jhalajhali Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Jhalajhali Wetland"
   },
   {
     "id": "np-koshi-morang-kali-mandir",
@@ -14257,18 +14247,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lampate Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Lampate Wetland"
   },
   {
     "id": "np-koshi-morang-raniban-eco-tourism-area",
@@ -14284,18 +14274,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Raniban Eco-tourism Area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/morang.md",
-    "source_record_key": null
+    "source_record_key": "Raniban Eco-tourism Area"
   },
   {
     "id": "np-koshi-morang-sunawarshi-pond",
@@ -14419,18 +14409,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Patale Viewpoint",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/okhaldhunga.md",
-    "source_record_key": null
+    "source_record_key": "Patale Viewpoint"
   },
   {
     "id": "np-koshi-okhaldhunga-pokali-waterfall",
@@ -14500,18 +14490,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chandi Devi Temple and Chandisthan Cave",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/okhaldhunga.md",
-    "source_record_key": null
+    "source_record_key": "Chandi Devi Temple and Chandisthan Cave"
   },
   {
     "id": "np-koshi-okhaldhunga-chisankhugadhi",
@@ -14635,18 +14625,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Siddhicharan Shrestha Birthplace Area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/okhaldhunga.md",
-    "source_record_key": null
+    "source_record_key": "Siddhicharan Shrestha Birthplace Area"
   },
   {
     "id": "np-koshi-okhaldhunga-srijana-srasta-park",
@@ -14661,19 +14651,19 @@
     "canonical_source_file": "provinces/koshi/districts/okhaldhunga.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Srijana / Srasta Park",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/okhaldhunga.md",
-    "source_record_key": null
+    "source_record_key": "Srijana / Srasta Park"
   },
   {
     "id": "np-koshi-okhaldhunga-tolu-gumba",
@@ -15499,18 +15489,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tinjure–Milke–Jaljale Corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/sankhuwasabha.md",
-    "source_record_key": null
+    "source_record_key": "Tinjure–Milke–Jaljale Corridor"
   },
   {
     "id": "np-koshi-sankhuwasabha-chainpur-gadhi",
@@ -15714,7 +15704,7 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "AREA",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
@@ -15984,19 +15974,19 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Island Peak / Imja Tse",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Island Peak / Imja Tse"
   },
   {
     "id": "np-koshi-solukhumbu-junbesi-village",
@@ -16012,18 +16002,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Junbesi Village",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Junbesi Village"
   },
   {
     "id": "np-koshi-solukhumbu-kala-patthar",
@@ -16146,19 +16136,19 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khumjung Village",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Khumjung Village"
   },
   {
     "id": "np-koshi-solukhumbu-kongma-la-pass",
@@ -16173,7 +16163,7 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "AREA",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
@@ -16227,19 +16217,19 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "NONE"
+      "PROTECTED_AREA_ENTRY"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mount Everest / Sagarmatha",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Mount Everest / Sagarmatha"
   },
   {
     "id": "np-koshi-solukhumbu-namche-bazaar",
@@ -16308,19 +16298,19 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Panch Pokhari, Mahakulung",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Panch Pokhari, Mahakulung"
   },
   {
     "id": "np-koshi-solukhumbu-pikey-peak",
@@ -16362,7 +16352,7 @@
     "canonical_source_file": "provinces/koshi/districts/solukhumbu.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "AREA",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
@@ -16444,18 +16434,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tengboche Monastery",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Tengboche Monastery"
   },
   {
     "id": "np-koshi-solukhumbu-thupten-chholing-monastery",
@@ -16471,18 +16461,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Thupten Chholing Monastery",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Thupten Chholing Monastery"
   },
   {
     "id": "np-koshi-solukhumbu-lukla",
@@ -16525,18 +16515,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pangboche Monastery and Village",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/solukhumbu.md",
-    "source_record_key": null
+    "source_record_key": "Pangboche Monastery and Village"
   },
   {
     "id": "np-koshi-solukhumbu-phaplu",
@@ -16606,18 +16596,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Amha Simsar / Amaha Wetland",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/sunsari.md",
-    "source_record_key": null
+    "source_record_key": "Amha Simsar / Amaha Wetland"
   },
   {
     "id": "np-koshi-sunsari-barahakshetra-temple",
@@ -16660,18 +16650,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Budha Subba Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/sunsari.md",
-    "source_record_key": null
+    "source_record_key": "Budha Subba Temple"
   },
   {
     "id": "np-koshi-sunsari-chatara",
@@ -16741,18 +16731,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dantakali Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/sunsari.md",
-    "source_record_key": null
+    "source_record_key": "Dantakali Temple"
   },
   {
     "id": "np-koshi-sunsari-koshi-barrage-viewpoint",
@@ -16849,18 +16839,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pindeshwar Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/sunsari.md",
-    "source_record_key": null
+    "source_record_key": "Pindeshwar Temple"
   },
   {
     "id": "np-koshi-sunsari-ramdhuni-temple",
@@ -17202,19 +17192,20 @@
     "canonical_source_file": "provinces/koshi/districts/taplejung.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "NONE"
+      "PROTECTED_AREA_ENTRY",
+      "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kanchenjunga North Base Camp / Pang Pema",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/taplejung.md",
-    "source_record_key": null
+    "source_record_key": "Kanchenjunga North Base Camp / Pang Pema"
   },
   {
     "id": "np-koshi-taplejung-kanchenjunga-south-base-camp-oktang",
@@ -17229,19 +17220,19 @@
     "canonical_source_file": "provinces/koshi/districts/taplejung.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "CORRIDOR",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kanchenjunga South Base Camp / Oktang",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/taplejung.md",
-    "source_record_key": null
+    "source_record_key": "Kanchenjunga South Base Camp / Oktang"
   },
   {
     "id": "np-koshi-taplejung-lhonak-valley",
@@ -17422,19 +17413,20 @@
     "canonical_source_file": "provinces/koshi/districts/taplejung.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
+      "PROTECTED_AREA_ENTRY",
       "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tiptala / Tipta La Border Pass",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/taplejung.md",
-    "source_record_key": null
+    "source_record_key": "Tiptala / Tipta La Border Pass"
   },
   {
     "id": "np-koshi-taplejung-yalung-glacier",
@@ -17530,19 +17522,20 @@
     "canonical_source_file": "provinces/koshi/districts/taplejung.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "NONE"
+      "PROTECTED_AREA_ENTRY",
+      "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lelep Village",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/taplejung.md",
-    "source_record_key": null
+    "source_record_key": "Lelep Village"
   },
   {
     "id": "np-koshi-taplejung-limbu-museum-mamangkhe",
@@ -17828,18 +17821,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tinjure–Milke–Jaljale Corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/tehrathum.md",
-    "source_record_key": null
+    "source_record_key": "Tinjure–Milke–Jaljale Corridor"
   },
   {
     "id": "np-koshi-tehrathum-marga-pokhari",
@@ -18017,18 +18010,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chaudandigadhi Fort",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/udayapur.md",
-    "source_record_key": null
+    "source_record_key": "Chaudandigadhi Fort"
   },
   {
     "id": "np-koshi-udayapur-koshi-tappu-wildlife-reserve-udayapur-section",
@@ -18044,18 +18037,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Koshi Tappu Wildlife Reserve – Udayapur section",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/udayapur.md",
-    "source_record_key": null
+    "source_record_key": "Koshi Tappu Wildlife Reserve – Udayapur section"
   },
   {
     "id": "np-koshi-udayapur-limchungbung-everest-viewpoint-debate-danda",
@@ -18071,18 +18064,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Limchungbung Everest Viewpoint / Debate Danda",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/udayapur.md",
-    "source_record_key": null
+    "source_record_key": "Limchungbung Everest Viewpoint / Debate Danda"
   },
   {
     "id": "np-koshi-udayapur-rauta-pokhari-and-rauta-mahadev",
@@ -18232,19 +18225,19 @@
     "canonical_source_file": "provinces/koshi/districts/udayapur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dwardani Devi Sthan",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/koshi/visitor-ready/udayapur.md",
-    "source_record_key": null
+    "source_record_key": "Dwardani Devi Sthan"
   },
   {
     "id": "np-koshi-udayapur-kanya-aulshree-gumba",
@@ -18422,18 +18415,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bariyarpur pilgrimage and fair area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Bariyarpur pilgrimage and fair area"
   },
   {
     "id": "np-madhesh-bara-simraungadh-medieval-capital-site",
@@ -18449,18 +18442,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Simraungadh medieval capital site",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Simraungadh medieval capital site"
   },
   {
     "id": "np-madhesh-bara-simraungadh-earthen-fortifications-and-moat-system",
@@ -18503,18 +18496,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Simraungadh palace / Ranivas area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Simraungadh palace / Ranivas area"
   },
   {
     "id": "np-madhesh-bara-kankali-temple-simraungadh",
@@ -18530,18 +18523,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kankali Temple, Simraungadh",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Kankali Temple, Simraungadh"
   },
   {
     "id": "np-madhesh-bara-simraungadh-archaeological-sculpture-find-landscape",
@@ -18692,18 +18685,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nijgadh forest landscape",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Nijgadh forest landscape"
   },
   {
     "id": "np-madhesh-bara-nijgadh-chure-foothills",
@@ -18746,18 +18739,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tangiya Basti forest-edge landscape",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Tangiya Basti forest-edge landscape"
   },
   {
     "id": "np-madhesh-bara-pasaha-river-corridor",
@@ -18773,18 +18766,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pasaha River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Pasaha River corridor"
   },
   {
     "id": "np-madhesh-bara-dudhaura-dudhora-river-corridor",
@@ -18800,18 +18793,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dudhaura / Dudhora River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Dudhaura / Dudhora River corridor"
   },
   {
     "id": "np-madhesh-bara-lal-bakaiya-river-corridor-bara-sector",
@@ -18854,18 +18847,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bakaiya–Chure forest transition",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Bakaiya–Chure forest transition"
   },
   {
     "id": "np-madhesh-bara-kalaiya-historic-town-core",
@@ -18908,18 +18901,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jeetpur–Simara transport and industrial heritage corridor",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/bara.md",
-    "source_record_key": null
+    "source_record_key": "Jeetpur–Simara transport and industrial heritage corridor"
   },
   {
     "id": "np-madhesh-dhanusha-janaki-mandir",
@@ -19097,18 +19090,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kapileshwar Mahadev Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/dhanusha.md",
-    "source_record_key": null
+    "source_record_key": "Kapileshwar Mahadev Temple"
   },
   {
     "id": "np-madhesh-dhanusha-manimandap",
@@ -19232,18 +19225,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mithila Madhya Parikrama route – Dhanusha sector",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/dhanusha.md",
-    "source_record_key": null
+    "source_record_key": "Mithila Madhya Parikrama route – Dhanusha sector"
   },
   {
     "id": "np-madhesh-dhanusha-janakpur-inner-parikrama-route",
@@ -19259,18 +19252,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Janakpur inner Parikrama route",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/dhanusha.md",
-    "source_record_key": null
+    "source_record_key": "Janakpur inner Parikrama route"
   },
   {
     "id": "np-madhesh-dhanusha-dhanush-sagar",
@@ -19718,18 +19711,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pancheshwar Nath Mahadev Temple",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Pancheshwar Nath Mahadev Temple"
   },
   {
     "id": "np-madhesh-mahottari-mithila-madhya-parikrama-route-mahottari-sector",
@@ -19745,18 +19738,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mithila Madhya Parikrama route – Mahottari sector",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Mithila Madhya Parikrama route – Mahottari sector"
   },
   {
     "id": "np-madhesh-mahottari-marai-sthan",
@@ -19880,18 +19873,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tuteshwar Nath Mahadev Temple",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Tuteshwar Nath Mahadev Temple"
   },
   {
     "id": "np-madhesh-mahottari-raimandal-religious-site",
@@ -19907,18 +19900,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Raimandal religious site",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Raimandal religious site"
   },
   {
     "id": "np-madhesh-mahottari-thadeshwarnath-mahadev-temple",
@@ -19934,18 +19927,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Thadeshwarnath Mahadev Temple",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Thadeshwarnath Mahadev Temple"
   },
   {
     "id": "np-madhesh-mahottari-thadi-pokhari",
@@ -20042,18 +20035,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gauridanda / Gauribas hill settlement",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Gauridanda / Gauribas hill settlement"
   },
   {
     "id": "np-madhesh-mahottari-ratu-river-corridor",
@@ -20096,18 +20089,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gaushala forest and wetland belt",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/mahottari.md",
-    "source_record_key": null
+    "source_record_key": "Gaushala forest and wetland belt"
   },
   {
     "id": "np-madhesh-parsa-parsa-national-park",
@@ -20155,18 +20148,17 @@
     "access_status": "ROUTABLE",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY",
-      "BORDER_CONTROL",
       "OPERATOR_DEPENDENT",
       "ENTRY_FEE",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": "Parsa National Park",
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Parsa National Park safari and visitor zone",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": "Parsa National Park"
+    "source_record_key": "Parsa National Park safari and visitor zone"
   },
   {
     "id": "np-madhesh-parsa-thori-forest-and-chure-gateway",
@@ -20181,19 +20173,20 @@
     "canonical_source_file": "provinces/madhesh/districts/parsa.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
+      "PROTECTED_AREA_ENTRY",
       "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Thori forest and Chure gateway",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Thori forest and Chure gateway"
   },
   {
     "id": "np-madhesh-parsa-thori-village-and-border-heritage-landscape",
@@ -20236,19 +20229,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Thori river and forest corridors",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Thori river and forest corridors"
   },
   {
     "id": "np-madhesh-parsa-sita-cave-sita-gufa-thori",
@@ -20264,18 +20257,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sita Cave / Sita Gufa, Thori",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Sita Cave / Sita Gufa, Thori"
   },
   {
     "id": "np-madhesh-parsa-rai-dhara-local-spring-area-thori",
@@ -20291,18 +20284,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rai Dhara / local spring area, Thori",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Rai Dhara / local spring area, Thori"
   },
   {
     "id": "np-madhesh-parsa-birgunj-ghadiarwa-pokhari",
@@ -20615,19 +20608,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Oriya River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Oriya River corridor"
   },
   {
     "id": "np-madhesh-parsa-sikta-river-corridor",
@@ -20643,18 +20636,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sikta River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/parsa.md",
-    "source_record_key": null
+    "source_record_key": "Sikta River corridor"
   },
   {
     "id": "np-madhesh-parsa-parsa-forest-buffer-zone-communities",
@@ -20697,18 +20690,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "NONE"
+      "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nunthar pilgrimage and riverside area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Nunthar pilgrimage and riverside area"
   },
   {
     "id": "np-madhesh-rautahat-rajdevi-temple",
@@ -20778,18 +20771,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "NONE"
+      "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Maulapur archaeological and temple area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Maulapur archaeological and temple area"
   },
   {
     "id": "np-madhesh-rautahat-patoura-archaeological-site",
@@ -20886,18 +20879,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jungle Sahiya forest landscape",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Jungle Sahiya forest landscape"
   },
   {
     "id": "np-madhesh-rautahat-chure-forest-and-hill-belt",
@@ -20940,18 +20933,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bagmati River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Bagmati River corridor"
   },
   {
     "id": "np-madhesh-rautahat-bagmati-river-beaches-and-picnic-banks",
@@ -20994,18 +20987,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lal Bakaiya River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Lal Bakaiya River corridor"
   },
   {
     "id": "np-madhesh-rautahat-chandrapur-forest-gateway",
@@ -21048,18 +21041,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Maraghar wetland area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/rautahat.md",
-    "source_record_key": null
+    "source_record_key": "Maraghar wetland area"
   },
   {
     "id": "np-madhesh-rautahat-patharghat-historical-landscape",
@@ -21129,18 +21122,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "BORDER_CONTROL"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chinnamasta Bhagwati Temple / Sakhada Bhagwati",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/saptari.md",
-    "source_record_key": null
+    "source_record_key": "Chinnamasta Bhagwati Temple / Sakhada Bhagwati"
   },
   {
     "id": "np-madhesh-saptari-kankalini-temple-bhardaha",
@@ -21642,19 +21635,19 @@
     "canonical_source_file": "provinces/madhesh/districts/sarlahi.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nunthar pilgrimage and riverside area",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Nunthar pilgrimage and riverside area"
   },
   {
     "id": "np-madhesh-sarlahi-sagarnath-forest",
@@ -21831,19 +21824,19 @@
     "canonical_source_file": "provinces/madhesh/districts/sarlahi.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bihani Ban recreation forest",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Bihani Ban recreation forest"
   },
   {
     "id": "np-madhesh-sarlahi-rajdevi-temple-malangwa-area",
@@ -21859,18 +21852,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rajdevi Temple, Malangwa area",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Rajdevi Temple, Malangwa area"
   },
   {
     "id": "np-madhesh-sarlahi-lakhandehi-river-corridor",
@@ -21886,18 +21879,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lakhandehi River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Lakhandehi River corridor"
   },
   {
     "id": "np-madhesh-sarlahi-bagmati-river-corridor",
@@ -21913,18 +21906,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bagmati River corridor",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Bagmati River corridor"
   },
   {
     "id": "np-madhesh-sarlahi-chure-foothill-forest-belt",
@@ -21994,18 +21987,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ishwarpur forest and wetland belt",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Ishwarpur forest and wetland belt"
   },
   {
     "id": "np-madhesh-sarlahi-bagmati-lakeside-recreation-zone",
@@ -22048,18 +22041,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sarlahi sugarcane and rural agro-landscape",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/sarlahi.md",
-    "source_record_key": null
+    "source_record_key": "Sarlahi sugarcane and rural agro-landscape"
   },
   {
     "id": "np-madhesh-siraha-salahesh-fulbari",
@@ -22129,18 +22122,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Salahesh Temple / Salahesh Sthan",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/siraha.md",
-    "source_record_key": null
+    "source_record_key": "Salahesh Temple / Salahesh Sthan"
   },
   {
     "id": "np-madhesh-siraha-salahesh-palace-gadhi-area",
@@ -22480,18 +22473,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Northern Siraha forest and picnic landscapes",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/madhesh/visitor-ready/siraha.md",
-    "source_record_key": null
+    "source_record_key": "Northern Siraha forest and picnic landscapes"
   },
   {
     "id": "np-madhesh-siraha-thadi-historic-border-market",
@@ -23836,21 +23829,21 @@
     "research_status": "Established",
     "research_note": "Island temple reached by boat.",
     "canonical_source_file": "provinces/gandaki/districts/kaski.md",
-    "introduction": "island temple reached by authorized boat services; boat fares/hours dynamic.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "dynamic_check_required",
-    "access_status": "DYNAMIC_CHECK_REQUIRED",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "DYNAMIC"
+      "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Tal Barahi Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
-    "source_record_key": null
+    "source_record_key": "Tal Barahi Temple"
   },
   {
     "id": "np-gandaki-kaski-world-peace-pagoda",
@@ -24460,7 +24453,7 @@
     "research_status": "Protected / established",
     "research_note": "Cross-district route within ACAP.",
     "canonical_source_file": "provinces/gandaki/districts/kaski.md",
-    "introduction": "shared route within ACAP; connects villages and sanctuary, not a Kaski-only attraction.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
     "source_routing_status": "routable",
@@ -24469,12 +24462,12 @@
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Annapurna Base Camp route (Kaski section)",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
-    "source_record_key": null
+    "source_record_key": "Annapurna Base Camp route (Kaski section)"
   },
   {
     "id": "np-gandaki-kaski-machhapuchchhre-base-camp",
@@ -24568,21 +24561,21 @@
     "research_status": "Established",
     "research_note": "Cross-district protected-forest landscape.",
     "canonical_source_file": "provinces/gandaki/districts/kaski.md",
-    "introduction": "cross-district forest/viewpoint system shared with Syangja/Parbat.",
+    "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
+    "geometry_type": "POINT",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Panchase landscape (Kaski sector)",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/kaski.md",
-    "source_record_key": null
+    "source_record_key": "Panchase landscape (Kaski sector)"
   },
   {
     "id": "np-gandaki-kaski-pokhara-old-bazaar",
@@ -25624,7 +25617,7 @@
     "canonical_source_file": "provinces/gandaki/districts/manang.md",
     "introduction": "climbing permit/guide requirements dynamic.",
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "AREA",
     "source_routing_status": "dynamic_check_required",
     "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
@@ -25731,22 +25724,21 @@
     "research_status": "Established",
     "research_note": "Major historic monastery.",
     "canonical_source_file": "provinces/gandaki/districts/mustang.md",
-    "introduction": "major religious/art heritage; local hours/fees/photography rules dynamic.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "dynamic_check_required",
-    "access_status": "DYNAMIC_CHECK_REQUIRED",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "ENTRY_FEE",
-      "DYNAMIC"
+      "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Jampa Monastery",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Jampa Monastery"
   },
   {
     "id": "np-gandaki-mustang-thubchen-monastery",
@@ -25762,18 +25754,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Thubchen Monastery",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Thubchen Monastery"
   },
   {
     "id": "np-gandaki-mustang-chhoser-cave-complex",
@@ -25813,21 +25805,21 @@
     "research_status": "Established",
     "research_note": "Upper Mustang monastery cluster.",
     "canonical_source_file": "provinces/gandaki/districts/mustang.md",
-    "introduction": "Chhoser-side monastery circuit.",
+    "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "CORRIDOR",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Niphu and Garphu monasteries",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Niphu and Garphu monasteries"
   },
   {
     "id": "np-gandaki-mustang-tsarang-charang",
@@ -25840,21 +25832,21 @@
     "research_status": "Established",
     "research_note": "Palace, monastery and traditional settlement.",
     "canonical_source_file": "provinces/gandaki/districts/mustang.md",
-    "introduction": "heritage settlements on Upper Mustang routes.",
+    "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
+    "geometry_type": "ROUTE",
     "source_routing_status": "routable",
     "access_status": "ROUTABLE",
     "permit_layers": [
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Tsarang (Charang)",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Tsarang (Charang)"
   },
   {
     "id": "np-gandaki-mustang-ghami",
@@ -26029,7 +26021,7 @@
     "research_status": "Established",
     "research_note": "Natural-flame pilgrimage feature.",
     "canonical_source_file": "provinces/gandaki/districts/mustang.md",
-    "introduction": "natural-flame shrine inside Muktinath landscape.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
     "source_routing_status": "routable",
@@ -26038,12 +26030,12 @@
       "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Jwala Mai Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/mustang.md",
-    "source_record_key": null
+    "source_record_key": "Jwala Mai Temple"
   },
   {
     "id": "np-gandaki-mustang-kagbeni-old-village",
@@ -26382,21 +26374,21 @@
     "research_status": "Established",
     "research_note": "Major pilgrimage site.",
     "canonical_source_file": "provinces/gandaki/districts/myagdi.md",
-    "introduction": "major Shiva pilgrimage site near Beni; local temple rules dynamic.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "dynamic_check_required",
-    "access_status": "DYNAMIC_CHECK_REQUIRED",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "DYNAMIC"
+      "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Galeshwor Mahadev Temple",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/myagdi.md",
-    "source_record_key": null
+    "source_record_key": "Galeshwor Mahadev Temple"
   },
   {
     "id": "np-gandaki-myagdi-tatopani-hot-spring",
@@ -27226,7 +27218,7 @@
     "research_status": "First-round researched",
     "research_note": "Current visitor facilities need confirmation.",
     "canonical_source_file": "provinces/gandaki/districts/nawalpur.md",
-    "introduction": "retain until current visitor facilities and authorized entrances are confirmed.",
+    "introduction": null,
     "things_to_do": [],
     "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
@@ -27235,12 +27227,12 @@
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Gundrahi Dhakaha Buffer Zone",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/nawalpur.md",
-    "source_record_key": null
+    "source_record_key": "Gundrahi Dhakaha Buffer Zone"
   },
   {
     "id": "np-gandaki-nawalpur-namuna-buffer-zone-community-forest",
@@ -28577,21 +28569,21 @@
     "research_status": "Established",
     "research_note": "National literary heritage site.",
     "canonical_source_file": "provinces/gandaki/districts/tanahun.md",
-    "introduction": "national literary heritage; museum/site operations dynamic.",
+    "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "dynamic_check_required",
-    "access_status": "DYNAMIC_CHECK_REQUIRED",
+    "geometry_type": "POINT",
+    "source_routing_status": "routable",
+    "access_status": "ROUTABLE",
     "permit_layers": [
-      "DYNAMIC"
+      "NONE"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": "fuzzy",
+    "visitor_ready_label": "Bhanu Bhakta birthplace, Chundi Ramgha",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/gandaki/visitor_ready/tanahun.md",
-    "source_record_key": null
+    "source_record_key": "Bhanu Bhakta birthplace, Chundi Ramgha"
   },
   {
     "id": "np-gandaki-tanahun-devghat-pilgrimage-landscape-tanahun-side",
@@ -29283,19 +29275,19 @@
     "canonical_source_file": "provinces/lumbini/districts/arghakhanchi.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Durvaseshwar Cave / Durbasha Cave",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/lumbini/visitor_ready/arghakhanchi.md",
-    "source_record_key": null
+    "source_record_key": "Durvaseshwar Cave / Durbasha Cave"
   },
   {
     "id": "np-lumbini-arghakhanchi-chhatradev-temple-area",
@@ -30069,19 +30061,20 @@
     "canonical_source_file": "provinces/lumbini/districts/banke.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Eidgah and Muslim religious landscape of Nepalgunj",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/lumbini/visitor_ready/banke.md",
-    "source_record_key": null
+    "source_record_key": "Eidgah and Muslim religious landscape of Nepalgunj"
   },
   {
     "id": "np-lumbini-banke-gurudwara-and-sikh-heritage-of-nepalgunj",
@@ -30096,19 +30089,20 @@
     "canonical_source_file": "provinces/lumbini/districts/banke.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gurudwara and Sikh heritage of Nepalgunj",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/lumbini/visitor_ready/banke.md",
-    "source_record_key": null
+    "source_record_key": "Gurudwara and Sikh heritage of Nepalgunj"
   },
   {
     "id": "np-lumbini-banke-nepalgunj-civic-heritage-and-old-administrative-buildings",
@@ -38725,19 +38719,19 @@
     "canonical_source_file": "provinces/karnali/districts/dolpa.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Crystal Mountain (Shelri / Shey Ri)",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/dolpa.md",
-    "source_record_key": null
+    "source_record_key": "Crystal Mountain (Shelri / Shey Ri)"
   },
   {
     "id": "np-karnali-dolpa-shey-festival-landscape",
@@ -39541,18 +39535,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lapcha La / Lapcha Syar Viewpoint",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/humla.md",
-    "source_record_key": null
+    "source_record_key": "Lapcha La / Lapcha Syar Viewpoint"
   },
   {
     "id": "np-karnali-humla-hilsa-border-settlement",
@@ -39739,19 +39734,21 @@
     "canonical_source_file": "provinces/karnali/districts/humla.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
+      "BORDER_CONTROL",
+      "OPERATOR_DEPENDENT",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nyalu La / Nyalu Lagna Pass",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/humla.md",
-    "source_record_key": null
+    "source_record_key": "Nyalu La / Nyalu Lagna Pass"
   },
   {
     "id": "np-karnali-humla-nara-la-pass",
@@ -39766,7 +39763,7 @@
     "canonical_source_file": "provinces/karnali/districts/humla.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
+    "geometry_type": "AREA",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
@@ -39996,19 +39993,21 @@
     "canonical_source_file": "provinces/karnali/districts/humla.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "BORDER_CONTROL",
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tumkot Monastery / Dhungkar Choezom Monastery",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/humla.md",
-    "source_record_key": null
+    "source_record_key": "Tumkot Monastery / Dhungkar Choezom Monastery"
   },
   {
     "id": "np-karnali-humla-yari-village",
@@ -40081,19 +40080,21 @@
     "canonical_source_file": "provinces/karnali/districts/humla.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "BORDER_CONTROL",
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kharpunath Temple and Confluence Landscape",
+    "match_method": "mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/humla.md",
-    "source_record_key": null
+    "source_record_key": "Kharpunath Temple and Confluence Landscape"
   },
   {
     "id": "np-karnali-humla-raling-gompa",
@@ -43877,19 +43878,19 @@
     "canonical_source_file": "provinces/karnali/districts/salyan.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
+    "geometry_type": "HOLD",
     "source_routing_status": "routing_hold",
     "access_status": "ROUTING_HOLD",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Local seasonal waterfalls of Kumakh–Darma highlands",
+    "match_method": "root-mention",
     "permit_entry_text": null,
     "how_to_visit": null,
     "visitor_ready_source_file": "provinces/karnali/visitor_ready/salyan.md",
-    "source_record_key": null
+    "source_record_key": "Local seasonal waterfalls of Kumakh–Darma highlands"
   },
   {
     "id": "np-karnali-surkhet-birendranagar",
