@@ -43,6 +43,14 @@
   "district_count_ok": true,
   "record_count_ok": true,
   "province_record_counts_ok": true,
-  "routing_hold_count": 1467,
-  "visitor_ready_match_count": 425
+  "routing_hold_count": 1417,
+  "visitor_ready_match_count": 516,
+  "routable_record_count": 475,
+  "explicit_hold_routed_count": 0,
+  "explicit_hold_routed_ok": true,
+  "routable_without_match_count": 0,
+  "routable_without_match_ok": true,
+  "kavrepalanchok_visitor_ready_match_count": 32,
+  "kavrepalanchok_expected_visitor_ready_match_count": 32,
+  "kavrepalanchok_visitor_ready_ok": true
 }
