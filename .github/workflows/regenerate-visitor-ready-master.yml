@@ -1,0 +1,92 @@
+name: Regenerate visitor-ready master
+
+on:
+  push:
+    branches:
+      - integration/nepal-visitor-ready-complete
+    paths:
+      - "scripts/build_nepal_visitor_ready_master.py"
+      - "provinces/**"
+      - "data/master/nepal_shared_entities.json"
+      - ".github/workflows/regenerate-visitor-ready-master.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out integration branch
+        uses: actions/checkout@v4
+        with:
+          ref: integration/nepal-visitor-ready-complete
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install data dependencies
+        run: python -m pip install --disable-pip-version-check PyYAML
+
+      - name: Regenerate national visitor-ready master
+        run: python scripts/build_nepal_visitor_ready_master.py
+
+      - name: Verify known routing-safety cases
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          records = json.loads(Path("data/master/generated/nepal_master_visitor_ready.json").read_text())
+          report = json.loads(Path("data/master/generated/validation_report.json").read_text())
+
+          def find(province, district, name):
+              for record in records:
+                  if record.get("province") == province and record.get("district") == district and record.get("name") == name:
+                      return record
+              raise SystemExit(f"Missing known-case record: {province}/{district}/{name}")
+
+          namo = find("Bagmati", "Kavrepalanchok", "Namo Buddha")
+          bolde = find("Bagmati", "Kavrepalanchok", "Bolde viewpoint")
+          jalbire = find("Bagmati", "Chitwan", "Jalbire Waterfall")
+          kalo = find("Bagmati", "Dolakha", "Kalo Bhir")
+          burney = find("Koshi", "Jhapa", "Burney Tea Estate")
+          libju = find("Koshi", "Okhaldhunga", "Libju Religious Site")
+          cho_la = find("Koshi", "Solukhumbu", "Cho La Pass")
+          rauta = find("Koshi", "Udayapur", "Rauta Pokhari and Rauta Mahadev")
+
+          assert report.get("district_count_ok") is True
+          assert report.get("record_count_ok") is True
+          assert report.get("province_record_counts_ok") is True
+          assert report.get("explicit_hold_routed_ok") is True
+          assert report.get("routable_without_match_ok") is True
+          assert report.get("waterfall_geometry_ok") is True
+          assert report.get("kavrepalanchok_visitor_ready_ok") is True
+          assert namo.get("geometry_type") == "AREA" and namo.get("access_status") != "ROUTING_HOLD"
+          assert bolde.get("access_status") == "ROUTING_HOLD"
+          assert jalbire.get("geometry_type") == "POINT"
+          assert kalo.get("access_status") == "ROUTING_HOLD"
+          assert burney.get("match_method")
+          assert libju.get("match_method")
+          assert cho_la.get("match_method")
+          assert rauta.get("match_method")
+          PY
+
+      - name: Commit regenerated artifacts
+        run: |
+          git add -- \
+            data/master/generated/nepal_master_visitor_ready.json \
+            data/master/generated/nepal_master_visitor_ready.csv \
+            data/master/generated/validation_report.json
+          if git diff --cached --quiet; then
+            echo "Generated artifacts already match the validated builder output."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: regenerate validated visitor-ready master"
+          git push origin HEAD:integration/nepal-visitor-ready-complete

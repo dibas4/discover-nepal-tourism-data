@@ -1,0 +1,32 @@
+{
+  "schema_version": "nepal-visitor-ready-v1",
+  "status": "integrated_source_index",
+  "generated_on": "2026-08-13",
+  "country": "Nepal",
+  "province_count": 7,
+  "district_count": 77,
+  "canonical_record_count": 1892,
+  "source_of_truth": "integrated visitor-ready district files on this branch",
+  "province_sources": [
+    {"province":"Bagmati","districts":13,"records":328,"path":"provinces/bagmati/visitor_ready"},
+    {"province":"Koshi","districts":14,"records":302,"path":"provinces/koshi/visitor-ready"},
+    {"province":"Madhesh","districts":8,"records":153,"path":"provinces/madhesh/visitor-ready"},
+    {"province":"Gandaki","districts":11,"records":237,"path":"provinces/gandaki/visitor_ready"},
+    {"province":"Lumbini","districts":12,"records":318,"path":"provinces/lumbini/visitor_ready"},
+    {"province":"Karnali","districts":10,"records":284,"path":"provinces/karnali/visitor_ready"},
+    {"province":"Sudurpashchim","districts":9,"records":270,"path":"provinces/sudurpashchim/visitor_ready"}
+  ],
+  "normalization": {
+    "geometry_types": ["POINT","AREA","CORRIDOR","ROUTE","WATER","PROTECTED_AREA","HOLD"],
+    "access_status": ["ROUTABLE","HUB_ONLY","ROUTING_HOLD","DYNAMIC_CHECK_REQUIRED"],
+    "permit_layers": ["NONE","ENTRY_FEE","PROTECTED_AREA_ENTRY","RESTRICTED_AREA_PERMIT","CLIMBING_PERMIT","BORDER_CONTROL","OPERATOR_DEPENDENT","DYNAMIC"],
+    "coordinate_policy": "Only verified public access points may become exact POINT coordinates; broad landscapes remain geographic objects.",
+    "dynamic_policy": "Fees, roads, flights, border access, trail closures, boating, safari and operator status require dated verification."
+  },
+  "outputs": {
+    "builder": "scripts/build_nepal_visitor_ready_master.py",
+    "schema": "data/master/nepal_master_visitor_ready.schema.json",
+    "shared_entities": "data/master/nepal_shared_entities.json",
+    "quality_policy": "data/master/quality_flags.md"
+  }
+}

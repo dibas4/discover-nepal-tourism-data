@@ -1,0 +1,67 @@
+district: Kavrepalanchok
+province: Bagmati
+status: visitor_ready_enrichment_v2
+last_verified: 2026-08-12
+canonical_record_count: 32
+main_hubs: [Kathmandu, Dhulikhel, Banepa, Panauti]
+
+introduction:
+  short: >
+    Kavrepalanchok is one of the easiest mountain-and-heritage districts to explore from Kathmandu, combining Buddhist pilgrimage at Namo Buddha, medieval Newar towns such as Panauti, Himalayan viewpoints around Dhulikhel and Bethanchok, village hikes, temples, valleys, waterfalls and agricultural landscapes.
+
+history:
+  short: >
+    Kavrepalanchok has long linked Kathmandu with eastern Nepal through trade roads, Newar market towns and hill settlements. Panauti, Banepa and Dhulikhel preserve major urban and religious heritage, while Namo Buddha is one of Nepal's important Buddhist pilgrimage landscapes and Palanchok Bhagwati remains a major Hindu pilgrimage centre.
+
+permit_and_entry_defaults:
+  restricted_area_permit: false
+  note: "Kavrepalanchok is not in the current Department of Immigration restricted-area trekking list."
+  museum_fees: dynamic
+  monastery_hours_and_rules: dynamic
+  private_farm_access: permission_required
+
+visitor_records:
+  - {name: Namo Buddha, type: pilgrimage_area, geometry: area, intro: "Major Buddhist pilgrimage landscape with stupa, monastery and hill scenery.", things_to_do: [pilgrimage, meditation, hiking, views], permit: "no restricted permit", how_to_visit: "From Kathmandu reach Dhulikhel or Panauti, then continue by road or hike; NTB describes roughly a three-hour trek from Dhulikhel or Panauti."}
+  - {name: Thrangu Tashi Yangtse Monastery, type: monastery, geometry: point_or_compound, intro: "Large Tibetan Buddhist monastery above the Namo Buddha pilgrimage landscape.", things_to_do: [monastery visit, prayer, meditation], permit: "no special permit; visitor rules dynamic", how_to_visit: "Approach through the Namo Buddha road/trail system."}
+  - {name: Panauti heritage town, type: heritage_town_area, geometry: area, intro: "Historic Newar town of temples, courtyards, ritual ghats and traditional streets.", things_to_do: [heritage walk, temples, photography], permit: "none; individual site fees dynamic", how_to_visit: "Road from Kathmandu via Banepa; explore the heritage core on foot."}
+  - {name: Indreshwar Mahadev Temple, type: temple, geometry: point, intro: "Landmark Shiva temple and one of Panauti's defining religious monuments.", things_to_do: [temple visit, architecture], permit: "none", how_to_visit: "Walk from Panauti old town."}
+  - {name: Panauti Museum, type: museum, geometry: point, intro: "Local museum interpreting Panauti's history and culture.", things_to_do: [museum visit], permit: "ticket/hours dynamic", how_to_visit: "Walk within the heritage core."}
+  - {name: Panauti sacred confluence, type: pilgrimage_river_area, geometry: area, intro: "Ritual confluence and ghat landscape central to Panauti's religious identity.", things_to_do: [pilgrimage, ghat visit], permit: "none", how_to_visit: "Walk from the old-town core toward the riverside ghats."}
+  - {name: Dhulikhel, type: hill_town_area, geometry: area, intro: "Major hill town and tourism hub known for Himalayan views, hotels and an old Newar quarter.", things_to_do: [sunrise, heritage walk, cafes, short hikes], permit: "none", how_to_visit: "Direct road from Kathmandu via Banepa."}
+  - {name: Dhulikhel old town, type: heritage_area, geometry: area, intro: "Traditional Newar neighbourhood with temples, courtyards and narrow heritage streets.", things_to_do: [walking, architecture], permit: "none", how_to_visit: "Walk from central Dhulikhel."}
+  - {name: Dhulikhel viewpoints, type: viewpoint_cluster, geometry: area, intro: "Ridge and hill viewpoints around town used for sunrise and Himalayan panoramas.", things_to_do: [sunrise, photography], permit: "none unless private access applies", how_to_visit: "Use Dhulikhel as the access hub and route to a verified viewpoint node."}
+  - {name: Banepa old town, type: heritage_town_area, geometry: area, intro: "Historic Newar trading town with temples and traditional streets.", things_to_do: [heritage walk, local food, temples], permit: "none", how_to_visit: "Direct road from Kathmandu; explore the old core on foot."}
+  - {name: Chandeshwari Temple, type: temple, geometry: point_or_compound, intro: "Important goddess temple and pilgrimage destination near Banepa.", things_to_do: [pilgrimage, temple visit], permit: "none", how_to_visit: "Short road trip from Banepa."}
+  - {name: Palanchok Bhagwati Temple, type: temple, geometry: point_or_compound, intro: "Hilltop pagoda temple known for its historic Bhagwati image and mountain views.", things_to_do: [pilgrimage, architecture, views], permit: "none", how_to_visit: "From Banepa/Panchkhal take the side road from Arniko Highway toward Palanchok; NTB notes local transport from Banepa."}
+  - {name: Panchkhal Valley, type: agricultural_valley_area, geometry: area, intro: "Broad agricultural valley with farms, orchards and open mountain views.", things_to_do: [farm visits, cycling, rural photography], permit: "none; farm visits need permission", how_to_visit: "Road access via Arniko Highway from Banepa/Dhulikhel."}
+  - {name: Bethanchok Narayanthan, type: pilgrimage_site, geometry: point_or_small_area, intro: "High hilltop Narayan shrine and pilgrimage destination.", things_to_do: [pilgrimage, sunrise, hiking], permit: "none", how_to_visit: "From Panauti/Banepa continue toward Bethanchok, then local road and/or hike depending on conditions."}
+  - {name: Bethanchok Hill, type: ridge_viewpoint_area, geometry: ridge_area, intro: "High ridge with sunrise, sunset and Himalayan views.", things_to_do: [hiking, sunrise, photography], permit: "none; camping/local rules dynamic", how_to_visit: "Use Bethanchok/Panauti side roads; final access may require hiking."}
+  - {name: Balthali Village, type: village_area, geometry: area, intro: "Popular village-tourism stop with terraces, forests and short hiking links.", things_to_do: [village walks, hiking, rural stays], permit: "none", how_to_visit: "Road or hike from Panauti; commonly combined with Namo Buddha."}
+  - {name: Namo Buddha–Balthali trail, type: hiking_route, geometry: route, intro: "Short cultural and scenic hiking route linking Namo Buddha with Balthali.", things_to_do: [hiking, village visits], permit: "none", how_to_visit: "Start at Namo Buddha or Balthali and arrange return transport if needed."}
+  - {name: Dhulikhel–Namo Buddha trail, type: hiking_route, geometry: route, intro: "Popular day hike through ridges, villages and farmland.", things_to_do: [day hiking, views], permit: "none", how_to_visit: "Start in Dhulikhel and finish at Namo Buddha or reverse."}
+  - {name: Panauti–Balthali trail, type: hiking_route, geometry: route, intro: "Village and terrace hike connecting Panauti with Balthali.", things_to_do: [hiking, rural scenery], permit: "none", how_to_visit: "Start in Panauti and walk toward Balthali."}
+  - {name: Dapcha Bazaar, type: historic_bazaar_area, geometry: area, intro: "Historic hill bazaar on an old trade route.", things_to_do: [heritage walk, photography], permit: "none", how_to_visit: "Road access through Namobuddha Municipality from Dhulikhel/Namo Buddha."}
+  - {name: Timal region, type: cultural_landscape, geometry: large_area, intro: "Tamang cultural landscape of villages, monasteries and ridges overlooking the Sunkoshi side.", things_to_do: [village visits, cultural tourism, views], permit: "none", how_to_visit: "Approach by local roads from Panchkhal/Dhulikhel toward Temal Rural Municipality."}
+  - {name: Timal ridge viewpoints, type: ridge_area, geometry: area, intro: "Scenic ridge viewpoints over the Sunkoshi and surrounding hills.", things_to_do: [views, photography], permit: "none", how_to_visit: "Use Temal villages as local access points; exact viewpoint pins still need local verification."}
+  - {name: Sanga ridge, type: ridge_area, geometry: area, intro: "Gateway ridge between Kathmandu Valley and Kavre with broad valley and mountain views.", things_to_do: [views, roadside stop], permit: "none", how_to_visit: "Directly on the Kathmandu–Banepa corridor; route to a safe viewing node."}
+  - {name: Kailashnath Mahadev Statue, type: religious_recreation_site, geometry: point_or_compound, intro: "Large Shiva statue complex at Sanga combining pilgrimage and recreation.", things_to_do: [pilgrimage, statue visit, views], permit: "ticket/parking dynamic", how_to_visit: "Road access from Kathmandu or Banepa via Sanga."}
+  - {name: Nagarkot eastern ridge, type: cross_district_ridge, geometry: area, intro: "Eastern side of the Nagarkot ridge extending into Kavre.", things_to_do: [sunrise, hiking, photography], permit: "none", how_to_visit: "Approach from Nagarkot or Mandan Deupur; keep one shared Nagarkot parent destination."}
+  - {name: Roshi Valley, type: valley_area, geometry: area, intro: "Long valley with forests, farms, settlements and scenic road-trip landscapes.", things_to_do: [road trips, rural scenery], permit: "none", how_to_visit: "Travel south/east from Panauti/Dhulikhel along local and BP Highway-linked roads."}
+  - {name: Roshi River corridor, type: river_corridor, geometry: corridor, intro: "Major river landscape connecting central and southern Kavre.", things_to_do: [river scenery, photography], permit: "none", how_to_visit: "Route to verified roadside/riverside access nodes, never to the river centreline."}
+  - {name: Tindhare Waterfall, type: waterfall_site, geometry: point_or_small_area, intro: "Multi-tier waterfall in Roshi Rural Municipality and a growing local tourism stop.", things_to_do: [waterfall viewing, photography, short hike], permit: "local entry/parking dynamic", how_to_visit: "Approach through Roshi Rural Municipality; final road/walking conditions should be checked locally."}
+  - {name: Kushadevi forest landscape, type: forest_area, geometry: area, intro: "Forested hills and rural landscape south of Panauti.", things_to_do: [hiking, nature walks], permit: "community-forest rules may apply", how_to_visit: "Approach from Panauti/Kushadevi local roads; publish trailheads only after verification."}
+  - {name: Bolde viewpoint, type: viewpoint, geometry: hold, intro: "Reported local hill viewpoint in the Temal/Bolde area.", things_to_do: [views], permit: "unknown", how_to_visit: "ROUTING HOLD until exact public viewpoint identity and access are verified.", status: hold}
+  - {name: Kavre Bhanjyang, type: road_pass_area, geometry: area, intro: "Scenic road pass and rural viewpoint on the Dhulikhel–Namo Buddha corridor.", things_to_do: [roadside views, photography], permit: "none", how_to_visit: "Use the Dhulikhel–Namo Buddha road and route to a safe roadside stop."}
+  - {name: Panchkhal agro-tourism belt, type: farm_landscape, geometry: area, intro: "Farm and orchard belt with day-trip potential for rural and food-focused tourism.", things_to_do: [farm visits, seasonal produce, cycling], permit: "private farm permission required", how_to_visit: "Use Panchkhal as the hub, then route to participating farms once verified."}
+
+publication_rules:
+  - "Do not use one pin for Panauti, Dhulikhel, Panchkhal Valley, Timal, Roshi Valley or Nagarkot ridge."
+  - "Keep monastery hours, museum fees, private-farm access and road conditions dynamic."
+  - "Bolde viewpoint remains HOLD until exact access is verified."
+  - "Cross-district Nagarkot must link to one shared parent destination."
+
+sources:
+  - "Nepal Tourism Board - Namobuddha, Kavre"
+  - "Nepal Tourism Board - Palanchowk Bhagawati, Kavre"
+  - "Panauti Municipality - municipal introduction and heritage references"
+  - "Department of Immigration - current restricted-area trekking table"

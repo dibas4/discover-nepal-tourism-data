@@ -1,0 +1,368 @@
+district: Makwanpur
+province: Bagmati
+status: visitor_ready_enrichment_v1
+last_verified: 2026-08-12
+
+introduction:
+  short: >
+    Makwanpur links the Kathmandu Valley with Nepal's central Terai and combines cool hill stations, old trade routes, forts, reservoir landscapes, pilgrimage sites, agro-tourism and forest corridors. The district's tourism is split between the Daman-Chitlang-Kulekhani highlands in the north, Hetauda in the south-central valley, and protected/river landscapes toward Manahari and Parsa National Park.
+  why_visit:
+    - Himalayan panoramas from Daman and Sim Bhanjyang
+    - Chitlang village, farms and old Kathmandu-Terai route heritage
+    - Kulekhani/Indra Sarovar and Markhu lakeside scenery
+    - forts and transport history at Makwanpurgadhi, Chisapani and Bhimphedi
+    - Hetauda temples, memorials and city gateways
+    - pilgrimage sites such as Risheshwar and Bajrabarahi
+    - forest and wildlife-edge landscapes toward Parsa National Park
+
+history:
+  short: >
+    Makwanpur was historically important because routes between the Kathmandu Valley and the southern plains passed through its hills. Makwanpurgadhi was associated with the Sen rulers and later Gorkhali state expansion, while Bhimphedi and Chisapani controlled old trade and transport approaches to Kathmandu. The Chitlang-Tistung corridor preserves traces of the pre-highway route into the Valley, and Hetauda later grew into a major highway and industrial gateway linking Kathmandu, Chitwan and the eastern Terai.
+
+main_hubs:
+  - Hetauda
+  - Daman
+  - Chitlang
+  - Markhu/Kulekhani
+  - Bhimphedi
+  - Manahari
+
+map_model_rules:
+  large_area: "Use approximate center plus visitor radius/polygon for towns, valleys and landscapes."
+  point_poi: "Use exact pins only for temples, forts, memorials and specific facilities when verified."
+  corridor: "Use line/polygon geometry for rivers, scenic roads, ridge trails and wildlife corridors."
+  dynamic: "Road conditions, boating, park entry, homestays, fees and operating hours must be checked live/currently."
+
+visitor_areas:
+  - id: daman
+    name: Daman
+    type: hill_station_area
+    municipality: Thaha Municipality
+    intro: "Classic hill-station destination on the old Tribhuvan Highway, known for broad Himalayan views, cool weather, rhododendron forests and access to nearby Sim Bhanjyang, Risheshwar and Thaha villages."
+    geometry: {type: circle_first_pass, center: {lat: 27.608, lng: 85.087}, radius_m: 2200, coordinate_quality: approximate_settlement_area}
+    permits_and_entry: {area_entry: false, viewpoint_or_private_facility_fee: dynamic_if_any}
+    how_to_visit:
+      from_kathmandu: "Travel southwest by road via the old Tribhuvan Highway/Thaha corridor; current road condition should be checked before departure."
+      from_hetauda: "Travel north/uphill on Tribhuvan Rajpath toward Daman; buses and road vehicles use this corridor."
+    things_to_do: [Himalayan panorama, sunrise/sunset, village walks, rhododendron-season scenery, short ridge excursions]
+
+  - id: sim-bhanjyang
+    name: Sim Bhanjyang
+    type: mountain_pass_view_area
+    intro: "High road pass near Daman with cool forest scenery, winter snowfall potential and access to ridge walks and Risheshwar Mahadev."
+    geometry: {type: small_area, center: {lat: 27.594, lng: 85.071}, radius_m: 1200, coordinate_quality: approximate_pass_area}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_daman: "Short road trip along Tribhuvan Rajpath toward Sim Bhanjyang; use current weather/road conditions in winter and monsoon."}
+    things_to_do: [ridge views, forest walking, snowfall viewing when conditions allow, photography]
+
+  - id: daman-view-tower
+    name: Daman View Tower area
+    type: viewpoint
+    intro: "Traditional panorama point associated with Daman's long-distance Himalayan views; operational access to any tower structure should be checked before sending visitors."
+    geometry: {type: point_or_small_area, coordinate_status: pending_current_exact_pin}
+    permits_and_entry: {special_permit: false, entry_fee: dynamic_if_operating}
+    how_to_visit: {from_daman: "Local walk/short vehicle transfer from Daman settlement to the developed viewpoint area."}
+    things_to_do: [mountain panorama, sunrise, photography]
+
+  - id: chitlang
+    name: Chitlang Village
+    type: heritage_agro_tourism_area
+    municipality: Thaha Municipality
+    intro: "Historic valley settlement on the old route into Kathmandu, with Newar and other communities, farms, orchards, homestays, local food and access to Chandragiri and Kulekhani."
+    geometry: {type: elongated_settlement_area, center: {lat: 27.654, lng: 85.162}, radius_m: 2800, coordinate_quality: approximate_valley_settlement}
+    permits_and_entry: {village_entry: false, homestay_or_private_activity_fee: dynamic}
+    how_to_visit:
+      from_kathmandu: "NTB describes several approaches: via Chandragiri ridge/cable-car side and downhill hike, or by road via Pharping/Taukhel/Kulekhani depending on current service."
+      from_hetauda: "Road access via Kulekhani/Thaha corridor; public transport schedules are dynamic."
+    things_to_do: [village walk, farm visits, local food, homestay, historical-route interpretation, hike toward Kulekhani]
+
+  - id: tistung
+    name: Tistung heritage area
+    type: historic_settlement_corridor
+    intro: "Traditional settlement area on the old Kathmandu-Terai route, part of the same highland cultural landscape as Palung and Chitlang."
+    geometry: {type: area, center: {lat: 27.642, lng: 85.092}, radius_m: 2200, coordinate_quality: approximate_settlement_area}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_daman: "Road transfer east/southeast through Thaha's settlement corridor.", from_kathmandu: "Approach via the old Tribhuvan/Thaha road network."}
+    things_to_do: [heritage settlement walk, local culture, old-route interpretation, rural photography]
+
+  - id: indra-sarovar
+    name: Kulekhani Reservoir / Indra Sarovar
+    type: reservoir_landscape
+    municipality: Indrasarowar Rural Municipality
+    intro: "Large artificial reservoir and one of Makwanpur's best-known lakeside landscapes, used for scenic drives, lakeside stays and some boating/fishing activities when locally permitted."
+    geometry: {type: water_polygon_preferred, reference_center: {lat: 27.586, lng: 85.158}, coordinate_quality: approximate_reservoir_center}
+    permits_and_entry:
+      general_viewing: false
+      boating_fishing: "local permission/operator rules dynamic"
+      dam_infrastructure: "restricted-access zones may apply"
+    how_to_visit:
+      from_kathmandu: "Road access via Pharping/Dakshinkali or Thaha routes depending current road conditions; route to Markhu or a verified lakeside access point, not reservoir centre."
+      from_hetauda: "Drive north through Bhimphedi/Kulekhani corridor toward Markhu/Indra Sarovar."
+    things_to_do: [lakeside views, photography, fish meals, boating where officially operating, short hikes]
+
+  - id: markhu
+    name: Markhu
+    type: lakeside_tourism_village
+    intro: "Main visitor village on Indra Sarovar, used as a base for lakeside stays, food, reservoir views and short trips around Kulekhani."
+    geometry: {type: circle_first_pass, center: {lat: 27.578, lng: 85.154}, radius_m: 1600, coordinate_quality: approximate_settlement_area}
+    permits_and_entry: {village_entry: false, boating: dynamic_operator_rules}
+    how_to_visit:
+      from_kathmandu: "Reach by road via Pharping/Kulekhani or via Chitlang depending route conditions."
+      from_chitlang: "NTB describes a roughly two-hour hike by shortcut to Kulekhani/Markhu area, while the motor road is longer."
+      from_hetauda: "Road access via Bhimphedi/Kulekhani corridor."
+    things_to_do: [lakeside stay, reservoir views, local fish meals, boating when operating, walking]
+
+  - id: kulekhani-dam-view
+    name: Kulekhani Dam / outlet viewing area
+    type: infrastructure_view_area
+    intro: "Viewing area associated with the reservoir's dam and engineering landscape; visitors should remain in publicly permitted zones."
+    geometry: {type: point_or_small_area, coordinate_status: pending_verified_public_view_pin}
+    permits_and_entry: {special_permit: false_for_public_viewing, restricted_infrastructure_access: true}
+    how_to_visit: {from_markhu: "Short road transfer toward the dam/outlet side; route only to a verified public viewing point."}
+    things_to_do: [engineering-landscape viewing, photography]
+
+  - id: mohini-jharana
+    name: Mohini Jharana
+    type: waterfall
+    intro: "Popular waterfall excursion in the Kulekhani-Markhu landscape, especially attractive in wetter periods."
+    geometry: {type: point_site, coordinate_status: pending_verified_exact_pin}
+    permits_and_entry: {special_permit: false, local_entry_or_parking_fee: dynamic_if_any}
+    how_to_visit: {from_markhu_kulekhani: "Use the current local road/trail approach from the reservoir area; final access and vehicle reach vary with season."}
+    things_to_do: [waterfall viewing, photography, short hike]
+    safety_note: "Wet rock, flash flow and slippery access require seasonal caution."
+
+  - id: makwanpurgadhi-fort
+    name: Makwanpurgadhi Fort
+    type: historic_fort
+    municipality: Makwanpurgadhi Rural Municipality
+    intro: "Historic hill-fort landscape associated with the Sen-era Makwanpur kingdom and later Gorkhali military history."
+    geometry: {type: point_and_small_site, coordinate_status: pending_authoritative_pin}
+    permits_and_entry: {special_permit: false, local_site_fee: dynamic_if_any}
+    how_to_visit: {from_hetauda: "Road transfer east/northeast toward Makwanpurgadhi Rural Municipality, followed by local access to the fort hill; current final-road condition should be checked."}
+    things_to_do: [fort remains, history, hill views, photography]
+
+  - id: makwanpurgadhi-village
+    name: Makwanpurgadhi heritage village
+    type: heritage_settlement_area
+    intro: "Settlement landscape around the fort with cultural potential; active homestays or formal heritage programs must be verified before recommendation."
+    geometry: {type: area, coordinate_status: pending_verified_area_center}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_hetauda: "Use the same Makwanpurgadhi access corridor as the fort, then navigate to verified village/community nodes."}
+    things_to_do: [village walk, local culture, fort-linked heritage]
+
+  - id: chisapani-gadhi
+    name: Chisapani Gadhi
+    type: historic_fort
+    intro: "Historic fort controlling one of the old Kathmandu-Terai approaches above the Bhimphedi corridor."
+    geometry: {type: point_site, coordinate_status: pending_authoritative_pin}
+    permits_and_entry: {special_permit: false, access_condition: dynamic}
+    how_to_visit: {from_bhimphedi: "Reach through the old hill-route network above Bhimphedi; exact drive/walk split should be checked locally."}
+    things_to_do: [fort heritage, hill views, old-route history]
+
+  - id: bhimphedi
+    name: Bhimphedi heritage town
+    type: historic_gateway_town
+    intro: "Historic transport and trade town below the Kathmandu Valley, once a major staging point before modern highways bypassed the old route."
+    geometry: {type: circle_first_pass, center: {lat: 27.550, lng: 85.130}, radius_m: 1800, coordinate_quality: approximate_town_area}
+    permits_and_entry: {town_entry: false}
+    how_to_visit: {from_hetauda: "Road north toward Bhimphedi; this is the main local gateway for Kulekhani and old-route heritage."}
+    things_to_do: [heritage-town walk, old transport history, gateway stop for Chisapani/Kulekhani]
+
+  - id: bhimphedi-ropeway
+    name: Bhimphedi old ropeway heritage
+    type: industrial_transport_heritage_landscape
+    intro: "Memory and surviving-remnant landscape of Nepal's historic cargo ropeway system that linked the southern approach toward Kathmandu."
+    geometry: {type: multi_point_corridor, coordinate_status: surviving_structures_need_mapping}
+    permits_and_entry: {special_permit: false, private_or_infrastructure_land_access: dynamic}
+    how_to_visit: {from_bhimphedi: "Explore only individually verified surviving structures; do not route users to an invented single 'ropeway' pin."}
+    things_to_do: [transport-history interpretation, photography of verified remnants]
+
+  - id: shahid-smarak
+    name: Martyr Memorial Park / Shahid Smarak
+    type: memorial_recreation_park
+    municipality: Hetauda Sub-Metropolitan City
+    intro: "Large memorial and recreation park in Hetauda combining national-martyr commemoration, landscaped grounds and family recreation."
+    geometry: {type: point_and_park_area, coordinate_status: pending_verified_exact_pin}
+    permits_and_entry: {entry_fee: dynamic_if_any}
+    how_to_visit: {from_hetauda_center: "Short local road/taxi/bus transfer within the Hetauda urban area."}
+    things_to_do: [memorial visit, park walk, family recreation, photography]
+
+  - id: hetauda
+    name: Hetauda
+    type: city_gateway_area
+    intro: "Makwanpur's district headquarters and major road junction connecting Kathmandu, Chitwan and the eastern/southern Terai."
+    geometry: {type: large_city_area, center: {lat: 27.428, lng: 85.032}, radius_m: 6500, coordinate_quality: approximate_city_center}
+    permits_and_entry: {city_entry: false}
+    how_to_visit: {from_kathmandu: "Road travel via Tribhuvan Highway/Kanti Rajpath or current preferred highway connection.", from_bharatpur: "Road east/northeast via the central Terai highway corridor."}
+    things_to_do: [temple visits, memorial park, city food, gateway trips to Daman/Bhimphedi/Manahari]
+
+  - id: bhutandevi
+    name: Bhutandevi Temple
+    type: temple
+    intro: "Important goddess shrine in central Hetauda and one of the municipality's officially listed tourism sites."
+    geometry: {type: point_site, coordinate: {lat: 27.424, lng: 85.023}, coordinate_quality: hetauda_municipality}
+    permits_and_entry: {special_permit: false, religious_donation: optional, festival_access: dynamic}
+    how_to_visit: {from_hetauda_center: "Short urban walk/taxi/tempo ride to the temple."}
+    things_to_do: [worship, local religious culture, festival visit]
+
+  - id: manakamana-hetauda
+    name: Manakamana Temple, Hetauda
+    type: temple_viewpoint
+    intro: "Hill temple above Hetauda combining pilgrimage with city and hill views."
+    geometry: {type: point_site, coordinate: {lat: 27.431, lng: 85.056}, coordinate_quality: hetauda_municipality}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {from_hetauda_center: "Short local road approach uphill from the city; final walk may be required depending vehicle access."}
+    things_to_do: [temple visit, viewpoint, photography]
+
+  - id: pashupatinath-hetauda
+    name: Pashupatinath Temple, Hetauda
+    type: religious_site
+    intro: "Urban Shiva-temple record retained in the district inventory, but exact identity/location still needs stronger first-party verification."
+    geometry: {type: point_site, coordinate_status: hold_identity_and_pin}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {routing_status: hold_until_identity_verified}
+    things_to_do: [worship]
+
+  - id: risheshwar-mahadev
+    name: Risheshwar Mahadev
+    type: cave_temple_pilgrimage_site
+    intro: "Sacred Shiva site below Sim Bhanjyang in the Daman forest landscape, revered in both Hindu and Buddhist local traditions."
+    geometry: {type: point_and_small_area, coordinate_status: pending_authoritative_pin}
+    permits_and_entry: {special_permit: false, festival_access: dynamic}
+    how_to_visit: {from_daman: "Travel toward Sim Bhanjyang along Tribhuvan Rajpath and use the local forest/temple approach; NTB notes buses between Kathmandu/Hetauda pass Daman."}
+    things_to_do: [pilgrimage, forest walk, meditation, festival visit]
+
+  - id: bajrabarahi
+    name: Bajrabarahi Temple, Thaha
+    type: temple
+    intro: "Important local shrine in the Thaha valley with active religious-festival significance."
+    geometry: {type: point_site, coordinate_status: pending_verified_exact_pin}
+    permits_and_entry: {special_permit: false, festival_conditions: dynamic}
+    how_to_visit: {from_daman_palung: "Local road transfer within Thaha Municipality toward Bajrabarahi/Barahi temple area."}
+    things_to_do: [worship, local festival culture, rural valley visit]
+
+  - id: gumba-danda
+    name: Gumba Danda
+    type: buddhist_hill_view_area
+    intro: "Hilltop Buddhist/viewpoint record in the Hetauda area; exact official identity and visitor pin remain insufficiently verified."
+    geometry: {type: area, coordinate_status: hold_exact_identity}
+    permits_and_entry: {special_permit: false}
+    how_to_visit: {routing_status: hold_until_exact_site_verified}
+    things_to_do: [viewpoint, Buddhist cultural visit]
+
+  - id: rapti-river-makwanpur
+    name: Rapti River corridor
+    type: river_corridor
+    intro: "Major river landscape through Hetauda and western Makwanpur with ecological, settlement and recreation value."
+    geometry: {type: line_or_river_polygon, anchor_center: {lat: 27.425, lng: 85.010}, coordinate_quality: approximate_hetauda_section}
+    permits_and_entry: {general_riverside_access: false, fishing_boating: dynamic_local_rules}
+    how_to_visit: {from_hetauda: "Choose a verified public riverbank/park/bridge access point; do not route to a river-centre coordinate."}
+    things_to_do: [river views, photography, local riverside recreation where safe]
+
+  - id: manahari-river-forest
+    name: Manahari River and forest landscape
+    type: riverine_forest_area
+    intro: "River and forest landscape on the western side of Makwanpur, near Chitwan and Parsa protected-area ecosystems."
+    geometry: {type: landscape_polygon, center: {lat: 27.466, lng: 84.818}, radius_m: 7000, coordinate_quality: approximate_manahari_landscape}
+    permits_and_entry: {general_settlement_access: false, forest_or_protected_zone_rules: dynamic}
+    how_to_visit: {from_hetauda: "Travel west by highway toward Manahari, then use verified village/community-forest/river access points."}
+    things_to_do: [forest-edge nature viewing, community tourism, river landscape photography]
+
+  - id: parsa-national-park-makwanpur
+    name: Parsa National Park sector - Makwanpur
+    type: protected_area_sector
+    intro: "Makwanpur-facing part of Parsa National Park, a cross-district sal-forest and wildlife landscape connected westward to Chitwan National Park."
+    geometry: {type: polygon_sector, coordinate_status: official_gis_boundary_needed}
+    permits_and_entry:
+      park_entry_required: true
+      current_fee: dynamic_check_official_park
+      activities: "only through official/authorized park access and current rules"
+    how_to_visit:
+      from_hetauda: "Travel toward the southern Makwanpur/Parsa park edge, but use only an official current gate/post; do not route to the middle of the Makwanpur sector."
+      primary_park_hq: "Aadhabhar, Bara — not Makwanpur"
+    things_to_do: [authorized safari, wildlife viewing, birding, forest interpretation]
+
+  - id: chitwan-parsa-corridor
+    name: Chitwan-Parsa wildlife corridor
+    type: ecological_corridor
+    intro: "Forest connectivity landscape between the Chitwan and Parsa protected systems; important ecologically but not a free-access tourist attraction."
+    geometry: {type: ecological_polygon_or_corridor, coordinate_status: gis_required}
+    permits_and_entry: {tourist_free_access: false, protected_forest_rules: required_where_applicable}
+    how_to_visit: {navigation_rule: "Do not route tourists into an ecological corridor; direct them to official park/community-forest visitor nodes instead."}
+    things_to_do: [conservation interpretation from authorized sites]
+
+  - id: chitlang-markhu-hike
+    name: Chitlang-Markhu hiking route
+    type: hiking_route
+    intro: "Popular short hill walk linking Chitlang Valley with the Kulekhani/Markhu lakeside landscape."
+    geometry: {type: route, start_area: Chitlang, end_area: Markhu, exact_gpx_status: pending}
+    permits_and_entry: {special_trekking_permit: false, local_private_land_or_activity_rules: dynamic}
+    how_to_visit:
+      from_chitlang: "Start in Chitlang and use the local shortcut trail toward Kulekhani/Markhu; NTB describes about two hours on the shortcut, while the motor road is longer."
+      from_markhu: "Can be walked in reverse toward Chitlang; confirm current trail junctions locally."
+    things_to_do: [hiking, village scenery, farm landscapes, reservoir views]
+
+  - id: daman-sim-ridge
+    name: Daman-Simbhanjyang ridge trail
+    type: scenic_ridge_walk
+    intro: "Scenic forest/ridge connection between two verified highland destinations; not yet treated as a formally surveyed single trail product."
+    geometry: {type: route_or_ridge, exact_gpx_status: pending}
+    permits_and_entry: {special_trekking_permit: false}
+    how_to_visit: {from_daman: "Follow locally verified ridge/road-side walking connections toward Sim Bhanjyang; avoid publishing an invented GPX until surveyed."}
+    things_to_do: [forest walking, Himalayan views, photography]
+
+  - id: kanti-rajpath
+    name: Kanti Rajpath scenic corridor
+    type: historic_scenic_road
+    intro: "Historic and scenic road corridor connecting Hetauda/Makwanpur toward Lalitpur, with hill roads, villages and viewpoints."
+    geometry: {type: road_corridor, exact_line: road_network_required}
+    permits_and_entry: {special_permit: false, road_status: dynamic}
+    how_to_visit:
+      from_hetauda: "Use the Kanti Rajpath northward only after checking current road/landslide condition; stops should be individual verified viewpoints/villages."
+      from_lalitpur: "Can be approached southbound from the Kathmandu Valley side; current road advisories matter."
+    things_to_do: [scenic drive, road-history interpretation, rural stops, photography]
+
+  - id: chitlang-agro
+    name: Chitlang agro-tourism cluster
+    type: agro_tourism_area
+    intro: "Cluster of orchards, farms, local food experiences and goat-cheese production associated with Chitlang rather than one single attraction."
+    geometry: {type: cluster_area, parent_area: Chitlang}
+    permits_and_entry: {area_entry: false, private_farm_visit: permission_or_booking_dynamic}
+    how_to_visit: {from_chitlang_center: "Walk or take local transport to individually verified farms/cheese producers; do not route to a fake cluster pin."}
+    things_to_do: [farm visit, orchard walk, cheese tasting, local food]
+
+  - id: manahari-community
+    name: Manahari community tourism cluster
+    type: community_tourism_area
+    intro: "Emerging rural/community-tourism landscape linking settlements, parks, temples and forest-edge experiences in Manahari Rural Municipality."
+    geometry: {type: cluster_area, center: {lat: 27.466, lng: 84.818}, radius_m: 6500, coordinate_quality: approximate_municipality_orientation}
+    permits_and_entry: {area_entry: false, homestay_status: dynamic, protected_forest_access: dynamic}
+    how_to_visit: {from_hetauda: "Travel west to Manahari and then route to a verified village, park, temple or homestay rather than the cluster centre."}
+    things_to_do: [community visits, rural food, forest-edge nature, local religious sites]
+
+things_to_do_index:
+  - {activity: Himalayan_views, primary_locations: [Daman, Sim Bhanjyang, Daman View Tower area], map_behavior: area_plus_viewpoint}
+  - {activity: heritage_village, primary_locations: [Chitlang, Tistung, Bhimphedi, Makwanpurgadhi heritage village], map_behavior: area}
+  - {activity: reservoir_and_lakeside, primary_locations: [Indra Sarovar, Markhu], map_behavior: water_polygon_plus_village}
+  - {activity: hiking, primary_locations: [Chitlang-Markhu route, Daman-Simbhanjyang ridge], map_behavior: route}
+  - {activity: forts_and_history, primary_locations: [Makwanpurgadhi Fort, Chisapani Gadhi, Bhimphedi old ropeway], map_behavior: exact_sites_or_multi_point}
+  - {activity: pilgrimage, primary_locations: [Bhutandevi, Manakamana Hetauda, Risheshwar Mahadev, Bajrabarahi], map_behavior: exact_pins_when_verified}
+  - {activity: wildlife, primary_locations: [Parsa National Park official access, Manahari authorized forest nodes], map_behavior: route_to_official_gateway}
+  - {activity: agro_tourism, primary_locations: [Chitlang agro-tourism cluster], map_behavior: cluster_to_verified_business}
+
+publication_rules:
+  - "Large areas use circles/polygons for orientation; radius is not an administrative boundary."
+  - "Never route users to reservoir centres, river centres, park-sector centres, ecological corridors or generic cluster centres."
+  - "Use current official gates for Parsa National Park."
+  - "Boating, fishing, farm visits, homestays, road conditions and park fees are dynamic."
+  - "Pashupatinath Temple Hetauda and Gumba Danda remain routing HOLD until exact identity/location is verified."
+  - "Daman View Tower operational status must be checked before advertising tower access."
+
+sources:
+  - "Nepal Tourism Board - Bagmati Province / Daman"
+  - "Nepal Tourism Board - Chandragiri-Chitlang-Kulekhani trip idea"
+  - "Nepal Tourism Board - pilgrimage sites / Risheshwar Mahadev"
+  - "Thaha Municipality tourism portal"
+  - "Hetauda Sub-Metropolitan City tourism pages"
+  - "Parsa National Park official website"
+  - "Approximate settlement/landscape centers are orientation coordinates and should later be replaced with authoritative GIS polygons where available"

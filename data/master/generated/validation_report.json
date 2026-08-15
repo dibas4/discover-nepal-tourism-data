@@ -1,0 +1,86 @@
+{
+  "province_stats": {
+    "Bagmati": {
+      "districts": 13,
+      "records": 328,
+      "expected_records": 328
+    },
+    "Koshi": {
+      "districts": 14,
+      "records": 302,
+      "expected_records": 302
+    },
+    "Madhesh": {
+      "districts": 8,
+      "records": 153,
+      "expected_records": 153
+    },
+    "Gandaki": {
+      "districts": 11,
+      "records": 237,
+      "expected_records": 237
+    },
+    "Lumbini": {
+      "districts": 12,
+      "records": 318,
+      "expected_records": 318
+    },
+    "Karnali": {
+      "districts": 10,
+      "records": 284,
+      "expected_records": 284
+    },
+    "Sudurpashchim": {
+      "districts": 9,
+      "records": 270,
+      "expected_records": 270
+    }
+  },
+  "district_count": 77,
+  "record_count": 1892,
+  "expected_district_count": 77,
+  "expected_record_count": 1892,
+  "district_count_ok": true,
+  "record_count_ok": true,
+  "province_record_counts_ok": true,
+  "routing_hold_count": 539,
+  "visitor_ready_match_count": 1755,
+  "unmatched_visitor_ready_count": 137,
+  "unmatched_visitor_ready_examples": [
+    "Bagmati/Chitwan/Rapti River wildlife corridor",
+    "Bagmati/Chitwan/Siraichuli viewpoint",
+    "Bagmati/Dhading/Dhadingbesi",
+    "Bagmati/Nuwakot/Saat Tale Durbar",
+    "Bagmati/Nuwakot/Bhairabi Temple, Nuwakot",
+    "Bagmati/Nuwakot/Taleju Temple, Nuwakot",
+    "Bagmati/Nuwakot/Nuwakot old town",
+    "Bagmati/Nuwakot/Prithvi Narayan Shah memorial area",
+    "Bagmati/Nuwakot/Ghale village landscapes",
+    "Bagmati/Nuwakot/Shivapuri\u2013Nagarjun National Park buffer sector",
+    "Bagmati/Nuwakot/Langtang National Park sector",
+    "Bagmati/Sindhuli/Sindhuligadhi viewpoint",
+    "Bagmati/Sindhuli/Sindhuligadhi War Memorial",
+    "Bagmati/Sindhuli/Selfie Danda",
+    "Bagmati/Sindhuli/BP Koirala ancestral / memorial area",
+    "Bagmati/Sindhupalchok/Langtang National Park sector",
+    "Lumbini/Eastern Rukum/Local ponds of the Rukumkot basin",
+    "Karnali/Kalikot/Khandachakra\u2013Raskot trekking corridor",
+    "Sudurpashchim/Achham/Ramaroshan lake cluster",
+    "Sudurpashchim/Achham/Ramaroshan trekking landscape",
+    "Sudurpashchim/Achham/Khaptad approaches from Achham",
+    "Sudurpashchim/Achham/Panchadewal Binayak heritage landscape",
+    "Sudurpashchim/Achham/Panchadewal temple structures",
+    "Sudurpashchim/Achham/Chaurpati rural landscape",
+    "Sudurpashchim/Achham/Mellekh hill landscape"
+  ],
+  "routable_record_count": 1353,
+  "explicit_hold_routed_count": 0,
+  "explicit_hold_routed_ok": true,
+  "routable_without_match_count": 0,
+  "routable_without_match_ok": true,
+  "waterfall_corridor_count": 0,
+  "waterfall_geometry_ok": true,
+  "kavrepalanchok_visitor_ready_match_count": 32,
+  "kavrepalanchok_expected_visitor_ready_match_count": 32,
+  "kavrepalanchok_visitor_ready_ok": true
+}
