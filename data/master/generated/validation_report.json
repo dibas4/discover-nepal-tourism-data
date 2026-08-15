@@ -43,9 +43,9 @@
   "district_count_ok": true,
   "record_count_ok": true,
   "province_record_counts_ok": true,
-  "routing_hold_count": 693,
-  "visitor_ready_match_count": 1600,
-  "unmatched_visitor_ready_count": 292,
+  "routing_hold_count": 542,
+  "visitor_ready_match_count": 1751,
+  "unmatched_visitor_ready_count": 141,
   "unmatched_visitor_ready_examples": [
     "Bagmati/Chitwan/Rapti River wildlife corridor",
     "Bagmati/Chitwan/Siraichuli viewpoint",
@@ -69,11 +69,11 @@
     "Lumbini/Eastern Rukum/Putha Hiunchuli (Dhaulagiri VII)",
     "Lumbini/Eastern Rukum/Local ponds of the Rukumkot basin",
     "Karnali/Kalikot/Khandachakra\u2013Raskot trekking corridor",
-    "Sudurpashchim/Achham/Mangalsen",
-    "Sudurpashchim/Achham/Mangalsen Durbar area",
-    "Sudurpashchim/Achham/Ramaroshan Area"
+    "Sudurpashchim/Achham/Ramaroshan lake cluster",
+    "Sudurpashchim/Achham/Ramaroshan trekking landscape",
+    "Sudurpashchim/Achham/Khaptad approaches from Achham"
   ],
-  "routable_record_count": 1199,
+  "routable_record_count": 1350,
   "explicit_hold_routed_count": 0,
   "explicit_hold_routed_ok": true,
   "routable_without_match_count": 0,

@@ -174,6 +174,45 @@ def visitor_file(province_slug, district_slug):
     return None
 
 
+def province_visitor_summary(province_slug):
+    province = PROVINCE_NAMES[province_slug]
+    expected = EXPECTED[province]
+    for folder in ("visitor_ready", "visitor-ready"):
+        path = ROOT / f"provinces/{province_slug}/{folder}/README.md"
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        match = re.search(r"Canonical visitor records covered:\s*(\d+)", text, re.I)
+        if match and int(match.group(1)) == expected:
+            return path
+    return None
+
+
+def province_summary_eligible(record):
+    status = norm(record.get("research_status"))
+    if not status:
+        return False
+    blocked = (
+        "needs local verification", "needs specialist verification", "needs verification",
+        "first round", "partial", "hold", "unverified", "pending", "emerging",
+    )
+    if any(token in status for token in blocked):
+        return False
+    trusted = ("established", "government managed", "protected", "verified", "high confidence")
+    return any(token in status for token in trusted)
+
+
+def province_summary_enrichment(record):
+    return {
+        "name": record["name"],
+        "geometry_hint": clean(f"{record['name']} {record['research_note']}"),
+        "status": "Province-level visitor-ready certification; exact public access remains dynamic.",
+        "raw": "Province-level visitor-ready certification; exact public access remains dynamic.",
+        "mention_only": True,
+        "mention_match_method": "province-certified",
+    }
+
+
 def name_variants(name):
     variants = []
 
@@ -527,6 +566,7 @@ def build():
 
     for province_slug, district_slugs in DISTRICTS.items():
         province = PROVINCE_NAMES[province_slug]
+        province_summary_path = province_visitor_summary(province_slug)
         before = len(records)
         for district_slug in district_slugs:
             district = pretty(district_slug)
@@ -537,6 +577,13 @@ def build():
             enrichment_map = {}
             if visitor_path:
                 enrichment_map = yaml_enrichment(visitor_path) if visitor_path.suffix.lower() in {".yaml", ".yml"} else md_enrichment(visitor_path, [record["name"] for record in canonical_records])
+            elif province_summary_path:
+                enrichment_map = {
+                    norm(record["name"]): province_summary_enrichment(record)
+                    for record in canonical_records
+                    if province_summary_eligible(record)
+                }
+                visitor_path = province_summary_path
 
             for canonical in canonical_records:
                 enrichment, match_method = best_match(canonical["name"], enrichment_map)

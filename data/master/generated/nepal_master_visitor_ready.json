@@ -45465,19 +45465,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/achham.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mangalsen",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mangalsen"
   },
   {
     "id": "np-sudurpashchim-achham-mangalsen-durbar-area",
@@ -45493,18 +45493,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mangalsen",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mangalsen"
   },
   {
     "id": "np-sudurpashchim-achham-ramaroshan-area",
@@ -45519,19 +45519,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/achham.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ramaroshan Area",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ramaroshan Area"
   },
   {
     "id": "np-sudurpashchim-achham-ramaroshan-lake-cluster",
@@ -45557,7 +45557,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45573,19 +45573,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/achham.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ramaroshan meadows",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ramaroshan meadows"
   },
   {
     "id": "np-sudurpashchim-achham-ramaroshan-trekking-landscape",
@@ -45611,7 +45611,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45628,18 +45628,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "PROTECTED_AREA_ENTRY"
+      "PROTECTED_AREA_ENTRY",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad National Park, Achham sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad National Park, Achham sector"
   },
   {
     "id": "np-sudurpashchim-achham-khaptad-approaches-from-achham",
@@ -45665,7 +45666,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45681,19 +45682,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/achham.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "CORRIDOR",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Baidyanath Dham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Baidyanath Dham"
   },
   {
     "id": "np-sudurpashchim-achham-budhiganga-river-corridor",
@@ -45709,18 +45710,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Budhiganga River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Budhiganga River corridor"
   },
   {
     "id": "np-sudurpashchim-achham-sanphebagar",
@@ -45735,19 +45736,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/achham.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sanphebagar",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Sanphebagar"
   },
   {
     "id": "np-sudurpashchim-achham-sanphebagar-valley-landscape",
@@ -45763,18 +45764,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sanphebagar valley landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Sanphebagar valley landscape"
   },
   {
     "id": "np-sudurpashchim-achham-sanphebagar-airport",
@@ -45790,18 +45791,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Sanphebagar Airport",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Sanphebagar Airport"
   },
   {
     "id": "np-sudurpashchim-achham-panchadewal-binayak-heritage-landscape",
@@ -45827,7 +45828,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45854,7 +45855,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45871,18 +45872,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kamal Bazaar",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Kamal Bazaar"
   },
   {
     "id": "np-sudurpashchim-achham-chaurpati-rural-landscape",
@@ -45908,7 +45909,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45935,7 +45936,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45962,7 +45963,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -45989,7 +45990,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46016,7 +46017,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46033,18 +46034,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chure and mid-hill forest belts of Achham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chure and mid-hill forest belts of Achham"
   },
   {
     "id": "np-sudurpashchim-achham-achham-terraced-agriculture-landscape",
@@ -46060,18 +46061,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Achham terraced-agriculture landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Achham terraced-agriculture landscape"
   },
   {
     "id": "np-sudurpashchim-achham-gaura-festival-landscape-of-achham",
@@ -46087,18 +46088,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gaura festival landscape of Achham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Gaura festival landscape of Achham"
   },
   {
     "id": "np-sudurpashchim-achham-deuda-cultural-traditions-of-achham",
@@ -46114,18 +46115,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Deuda cultural traditions of Achham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Deuda cultural traditions of Achham"
   },
   {
     "id": "np-sudurpashchim-achham-achhami-cultural-settlements",
@@ -46151,7 +46152,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46178,7 +46179,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46205,7 +46206,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46232,7 +46233,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46259,7 +46260,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46276,18 +46277,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tripura Sundari Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tripura Sundari Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-tripura-sundari-temple-landscape",
@@ -46303,18 +46304,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tripura Sundari Temple",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tripura Sundari Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-ninglashaini-bhagwati-temple",
@@ -46330,18 +46331,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ninglashaini Bhagwati Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ninglashaini Bhagwati Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-dehimandu-temple",
@@ -46357,18 +46358,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dehimandu Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dehimandu Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-dogadakedar-temple",
@@ -46384,18 +46385,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dogadakedar Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dogadakedar Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-dogadakedar-hill-landscape",
@@ -46421,7 +46422,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46438,18 +46439,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Patan Bazaar",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Patan Bazaar"
   },
   {
     "id": "np-sudurpashchim-baitadi-patan-historic-core",
@@ -46475,7 +46476,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46492,18 +46493,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Patan Airport",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Patan Airport"
   },
   {
     "id": "np-sudurpashchim-baitadi-dasharathchand-khalanga",
@@ -46518,19 +46519,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/baitadi.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dasharathchand Khalanga",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dasharathchand Khalanga"
   },
   {
     "id": "np-sudurpashchim-baitadi-dasharathchand-historic-core",
@@ -46556,7 +46557,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46572,19 +46573,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/baitadi.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahakali River corridor, Baitadi sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mahakali River corridor, Baitadi sector"
   },
   {
     "id": "np-sudurpashchim-baitadi-jhulaghat-border-settlement-and-bridge-area",
@@ -46600,18 +46602,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jhulaghat border settlement and bridge area",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jhulaghat border settlement and bridge area"
   },
   {
     "id": "np-sudurpashchim-baitadi-surnaya-river-corridor",
@@ -46627,18 +46630,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Surnaya River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Surnaya River corridor"
   },
   {
     "id": "np-sudurpashchim-baitadi-surnaya-valley",
@@ -46664,7 +46667,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46691,7 +46694,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46718,7 +46721,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46745,7 +46748,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46772,7 +46775,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46789,18 +46792,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pancheshwar confluence landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Pancheshwar confluence landscape"
   },
   {
     "id": "np-sudurpashchim-baitadi-pancheshwar-pilgrimage-area",
@@ -46826,7 +46830,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46843,18 +46847,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Melauli Bhagwati Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Melauli Bhagwati Temple"
   },
   {
     "id": "np-sudurpashchim-baitadi-melauli-hill-landscape",
@@ -46880,7 +46884,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46907,7 +46911,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46934,7 +46938,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46961,7 +46965,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -46988,7 +46992,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47005,18 +47009,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chainpur",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chainpur"
   },
   {
     "id": "np-sudurpashchim-bajhang-chainpur-historic-bazaar",
@@ -47032,18 +47036,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chainpur",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chainpur"
   },
   {
     "id": "np-sudurpashchim-bajhang-jaya-prithvi-nagar-palace-area",
@@ -47069,7 +47073,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47096,7 +47100,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47113,18 +47117,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "OPERATOR_DEPENDENT"
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Seti River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Seti River corridor"
   },
   {
     "id": "np-sudurpashchim-bajhang-bauli-khola-confluence",
@@ -47140,18 +47145,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bauli Khola confluence",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bauli Khola confluence"
   },
   {
     "id": "np-sudurpashchim-bajhang-khaptad-national-park-bajhang-sector",
@@ -47167,18 +47172,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "PROTECTED_AREA_ENTRY"
+      "PROTECTED_AREA_ENTRY",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad National Park — Bajhang sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad National Park — Bajhang sector"
   },
   {
     "id": "np-sudurpashchim-bajhang-khaptad-plateau-access-from-bajhang",
@@ -47193,19 +47199,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajhang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad plateau access from Bajhang",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad plateau access from Bajhang"
   },
   {
     "id": "np-sudurpashchim-bajhang-khaptad-baba-ashram-relationship",
@@ -47220,19 +47226,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajhang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad Baba Ashram relationship",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad Baba Ashram relationship"
   },
   {
     "id": "np-sudurpashchim-bajhang-saipal-himal",
@@ -47247,19 +47253,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajhang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Saipal Himal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Saipal Himal"
   },
   {
     "id": "np-sudurpashchim-bajhang-saipal-base-camp-route",
@@ -47285,7 +47291,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47301,19 +47307,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajhang.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Saipal high-mountain landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Saipal high-mountain landscape"
   },
   {
     "id": "np-sudurpashchim-bajhang-surma-sarovar",
@@ -47329,18 +47335,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Surma Sarovar",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Surma Sarovar"
   },
   {
     "id": "np-sudurpashchim-bajhang-surma-devi-temple",
@@ -47356,18 +47362,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Surma Devi Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Surma Devi Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-surma-pilgrimage-trail",
@@ -47393,7 +47399,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47410,18 +47416,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jalapa Devi Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jalapa Devi Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-masta-devi-temple",
@@ -47437,18 +47443,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Masta Devi Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Masta Devi Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-bannimasta-temple",
@@ -47464,18 +47470,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bannimasta Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bannimasta Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-devisthan-temple-chainpur",
@@ -47491,18 +47497,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Devisthan Temple, Chainpur",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Devisthan Temple, Chainpur"
   },
   {
     "id": "np-sudurpashchim-bajhang-khulmour-kedar-temple",
@@ -47518,18 +47524,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khulmour Kedar Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khulmour Kedar Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-bitthad-kalika-temple",
@@ -47545,18 +47551,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bitthad Kalika Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bitthad Kalika Temple"
   },
   {
     "id": "np-sudurpashchim-bajhang-chuli-tika-sacred-ridge",
@@ -47582,7 +47589,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47609,7 +47616,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47626,18 +47633,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bungal Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bungal Valley"
   },
   {
     "id": "np-sudurpashchim-bajhang-bungal-historic-villages",
@@ -47663,7 +47670,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47690,7 +47697,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47717,7 +47724,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47744,7 +47751,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47771,7 +47778,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47799,7 +47806,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -47816,18 +47823,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badimalika Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badimalika Temple"
   },
   {
     "id": "np-sudurpashchim-bajura-badimalika-pilgrimage-landscape",
@@ -47842,19 +47849,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badimalika pilgrimage landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badimalika pilgrimage landscape"
   },
   {
     "id": "np-sudurpashchim-bajura-badimalika-patan",
@@ -47869,19 +47876,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badimalika Patan",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badimalika Patan"
   },
   {
     "id": "np-sudurpashchim-bajura-badimalika-trek",
@@ -47897,18 +47904,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badimalika Trek",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badimalika Trek"
   },
   {
     "id": "np-sudurpashchim-bajura-martadi",
@@ -47924,18 +47931,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Martadi",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Martadi"
   },
   {
     "id": "np-sudurpashchim-bajura-martadi-historic-core",
@@ -47951,18 +47958,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Martadi",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Martadi"
   },
   {
     "id": "np-sudurpashchim-bajura-budhinanda-temple",
@@ -47978,18 +47985,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Budhinanda Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Budhinanda Temple"
   },
   {
     "id": "np-sudurpashchim-bajura-budhinanda-sacred-landscape",
@@ -48015,7 +48022,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48032,18 +48039,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nateshwari Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Nateshwari Temple"
   },
   {
     "id": "np-sudurpashchim-bajura-triveni-pilgrimage-area",
@@ -48059,18 +48066,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Triveni pilgrimage area",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Triveni pilgrimage area"
   },
   {
     "id": "np-sudurpashchim-bajura-budhiganga-river-corridor",
@@ -48085,19 +48092,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Budhiganga River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Budhiganga River corridor"
   },
   {
     "id": "np-sudurpashchim-bajura-karnali-river-corridor",
@@ -48113,18 +48120,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": "karnali-river-corridor",
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Karnali River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Karnali River corridor"
   },
   {
     "id": "np-sudurpashchim-bajura-seti-headwater-landscapes",
@@ -48150,7 +48157,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48177,7 +48184,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48204,7 +48211,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48221,18 +48228,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Swamikartik Khapar landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Swamikartik Khapar landscape"
   },
   {
     "id": "np-sudurpashchim-bajura-jagannath-ridge-landscape",
@@ -48258,7 +48265,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48274,19 +48281,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad Chhededaha landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad Chhededaha landscape"
   },
   {
     "id": "np-sudurpashchim-bajura-tribeni-municipality-villages",
@@ -48312,7 +48319,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48328,19 +48335,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/bajura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Pandusain",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Pandusain"
   },
   {
     "id": "np-sudurpashchim-bajura-kolti",
@@ -48356,18 +48363,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kolti",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Kolti"
   },
   {
     "id": "np-sudurpashchim-bajura-kolti-airport",
@@ -48383,18 +48390,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kolti Airport",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Kolti Airport"
   },
   {
     "id": "np-sudurpashchim-bajura-piluchaur",
@@ -48420,7 +48427,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48447,7 +48454,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48474,7 +48481,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48501,7 +48508,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48528,7 +48535,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48555,7 +48562,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48582,7 +48589,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48599,18 +48606,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badimalika Trek",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badimalika Trek"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-amargadhi-fort",
@@ -48626,18 +48633,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Amargadhi Fort",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Amargadhi Fort"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-amargadhi-historic-core",
@@ -48652,19 +48659,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/dadeldhura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Amargadhi historic core",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Amargadhi historic core"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-khalanga-bazaar-heritage-area",
@@ -48690,7 +48697,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48707,18 +48714,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ugratara Bhagwati Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ugratara Bhagwati Temple"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-ugratara-sacred-landscape",
@@ -48744,7 +48751,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48761,18 +48768,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ajaymerukot",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ajaymerukot"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-ajaymeru-hill-landscape",
@@ -48798,7 +48805,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48815,18 +48822,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Parashuram Dham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Parashuram Dham"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-parashuram-river-confluence-landscape",
@@ -48841,19 +48848,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/dadeldhura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Parashuram river-confluence landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Parashuram river-confluence landscape"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-aalital-lake",
@@ -48869,18 +48876,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "OPERATOR_DEPENDENT"
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Aalital Lake",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Aalital Lake"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-aalital-lakeside-landscape",
@@ -48896,18 +48904,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Aalital Lake",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Aalital Lake"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-ghatal-than",
@@ -48922,19 +48931,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/dadeldhura.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ghatal Than",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ghatal Than"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-ghatal-sacred-pond-landscape",
@@ -48960,7 +48969,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -48977,18 +48986,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahakali River corridor, Dadeldhura sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mahakali River corridor, Dadeldhura sector"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-rangoon-river-corridor",
@@ -49004,18 +49014,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rangoon River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Rangoon River corridor"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-jogbuda-valley",
@@ -49031,18 +49041,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jogbuda Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jogbuda Valley"
   },
   {
     "id": "np-sudurpashchim-dadeldhura-dadeldhura-hill-viewpoints",
@@ -49068,7 +49078,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49095,7 +49105,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49122,7 +49132,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49149,7 +49159,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49176,7 +49186,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49203,7 +49213,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49230,7 +49240,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49257,7 +49267,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49284,7 +49294,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49311,7 +49321,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49338,7 +49348,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49365,7 +49375,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49382,19 +49392,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY",
       "DYNAMIC"
     ],
     "parent_entity_id": "api-nampa-conservation-area",
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Api Nampa Conservation Area",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Api Nampa Conservation Area"
   },
   {
     "id": "np-sudurpashchim-darchula-api-himal",
@@ -49409,19 +49419,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Api Himal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Api Himal"
   },
   {
     "id": "np-sudurpashchim-darchula-api-himal-base-camp-landscape",
@@ -49436,19 +49446,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Api Himal",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Api Himal"
   },
   {
     "id": "np-sudurpashchim-darchula-nampa-himal",
@@ -49463,19 +49473,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "PROTECTED_AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "PROTECTED_AREA_ENTRY",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nampa Himal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Nampa Himal"
   },
   {
     "id": "np-sudurpashchim-darchula-jethi-bahurani-himal",
@@ -49490,19 +49501,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jethi Bahurani Himal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jethi Bahurani Himal"
   },
   {
     "id": "np-sudurpashchim-darchula-byas-valley",
@@ -49517,19 +49528,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Byas Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Byas Valley"
   },
   {
     "id": "np-sudurpashchim-darchula-tinkar-village",
@@ -49545,18 +49556,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tinkar Village",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tinkar Village"
   },
   {
     "id": "np-sudurpashchim-darchula-chhangru-village",
@@ -49572,18 +49583,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chhangru Village",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chhangru Village"
   },
   {
     "id": "np-sudurpashchim-darchula-sauka-byansi-cultural-landscape",
@@ -49609,7 +49621,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49625,20 +49637,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tinkar Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tinkar Valley"
   },
   {
     "id": "np-sudurpashchim-darchula-tinkar-pass-route",
@@ -49665,7 +49677,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49692,7 +49704,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49708,20 +49720,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kailash–Mansarovar pilgrimage gateway, Darchula sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Kailash–Mansarovar pilgrimage gateway, Darchula sector"
   },
   {
     "id": "np-sudurpashchim-darchula-mahakali-river-corridor",
@@ -49736,19 +49748,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": "mahakali-river-corridor",
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahakali River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mahakali River corridor"
   },
   {
     "id": "np-sudurpashchim-darchula-darchula-khalanga",
@@ -49763,19 +49776,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Darchula Khalanga",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Darchula Khalanga"
   },
   {
     "id": "np-sudurpashchim-darchula-khalanga-riverfront-and-border-town-landscape",
@@ -49802,7 +49816,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49829,7 +49843,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49846,18 +49860,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Malikarjun Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Malikarjun Temple"
   },
   {
     "id": "np-sudurpashchim-darchula-malikarjun-sacred-landscape",
@@ -49883,7 +49897,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49900,18 +49914,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Latinath Temple area",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Latinath Temple area"
   },
   {
     "id": "np-sudurpashchim-darchula-hunainath-temple",
@@ -49927,18 +49941,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Hunainath Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Hunainath Temple"
   },
   {
     "id": "np-sudurpashchim-darchula-lekam-hill-landscape",
@@ -49964,7 +49978,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -49981,18 +49995,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gokuleshwar",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Gokuleshwar"
   },
   {
     "id": "np-sudurpashchim-darchula-chaulani-river-corridor",
@@ -50008,18 +50022,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chaulani River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chaulani River corridor"
   },
   {
     "id": "np-sudurpashchim-darchula-chameliya-river-corridor",
@@ -50035,18 +50049,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chameliya River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chameliya River corridor"
   },
   {
     "id": "np-sudurpashchim-darchula-dallekh-vinayak-viewpoint-landscape",
@@ -50072,7 +50086,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50099,7 +50113,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50126,7 +50140,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50142,19 +50156,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/darchula.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Nampa Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Nampa Valley"
   },
   {
     "id": "np-sudurpashchim-darchula-alpine-pasture-and-medicinal-herb-landscapes",
@@ -50180,7 +50194,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50197,18 +50211,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Snow leopard and blue-sheep habitat",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Snow leopard and blue-sheep habitat"
   },
   {
     "id": "np-sudurpashchim-darchula-thapla-traditional-governance-cultural-landscape",
@@ -50234,7 +50248,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50250,19 +50264,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/doti.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dipayal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dipayal"
   },
   {
     "id": "np-sudurpashchim-doti-silgadhi",
@@ -50277,19 +50291,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/doti.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Silgadhi",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Silgadhi"
   },
   {
     "id": "np-sudurpashchim-doti-dipayal-silgadhi-heritage-corridor",
@@ -50305,18 +50319,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Silgadhi",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Silgadhi"
   },
   {
     "id": "np-sudurpashchim-doti-shaileshwari-temple",
@@ -50332,18 +50346,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shaileshwari Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shaileshwari Temple"
   },
   {
     "id": "np-sudurpashchim-doti-shaileshwari-sacred-landscape",
@@ -50369,7 +50383,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50386,18 +50400,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "PROTECTED_AREA_ENTRY"
+      "PROTECTED_AREA_ENTRY",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad National Park, Doti sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad National Park, Doti sector"
   },
   {
     "id": "np-sudurpashchim-doti-khaptad-grasslands-doti-approaches",
@@ -50412,19 +50427,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/doti.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Khaptad grasslands, Doti approaches",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Khaptad grasslands, Doti approaches"
   },
   {
     "id": "np-sudurpashchim-doti-khaptad-pilgrimage-route-from-doti",
@@ -50450,7 +50465,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50466,19 +50481,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/doti.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Seti River corridor, Doti sector",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Seti River corridor, Doti sector"
   },
   {
     "id": "np-sudurpashchim-doti-seti-riverbank-landscapes-near-dipayal",
@@ -50494,18 +50509,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dipayal",
+    "match_method": "fuzzy",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dipayal"
   },
   {
     "id": "np-sudurpashchim-doti-badikedar-temple",
@@ -50521,18 +50536,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Badikedar Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Badikedar Temple"
   },
   {
     "id": "np-sudurpashchim-doti-badikedar-hill-landscape",
@@ -50558,7 +50573,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50575,18 +50590,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jorayal Valley",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jorayal Valley"
   },
   {
     "id": "np-sudurpashchim-doti-jorayal-ridge-viewpoints",
@@ -50612,7 +50627,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50639,7 +50654,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50666,7 +50681,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50693,7 +50708,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50720,7 +50735,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50747,7 +50762,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50764,18 +50779,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "B.P. Nagar gateway",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "B.P. Nagar gateway"
   },
   {
     "id": "np-sudurpashchim-doti-doti-forest-landscapes",
@@ -50791,18 +50806,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Doti forest landscapes",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Doti forest landscapes"
   },
   {
     "id": "np-sudurpashchim-doti-doti-terraced-agriculture-landscape",
@@ -50818,18 +50833,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Doti terraced-agriculture landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Doti terraced-agriculture landscape"
   },
   {
     "id": "np-sudurpashchim-doti-traditional-doti-khas-settlements",
@@ -50855,7 +50870,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50872,18 +50887,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Gaura festival landscape of Doti",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Gaura festival landscape of Doti"
   },
   {
     "id": "np-sudurpashchim-doti-deuda-cultural-traditions-of-doti",
@@ -50899,18 +50914,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Deuda cultural traditions of Doti",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Deuda cultural traditions of Doti"
   },
   {
     "id": "np-sudurpashchim-doti-doti-village-trekking-routes",
@@ -50936,7 +50951,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50963,7 +50978,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -50990,7 +51005,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51017,7 +51032,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51034,18 +51049,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ghodaghodi Lake Complex",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ghodaghodi Lake Complex"
   },
   {
     "id": "np-sudurpashchim-kailali-ghodaghodi-lake",
@@ -51061,18 +51076,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ghodaghodi Lake",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ghodaghodi Lake"
   },
   {
     "id": "np-sudurpashchim-kailali-ghodaghodi-temple",
@@ -51087,19 +51102,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kailali.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ghodaghodi Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ghodaghodi Temple"
   },
   {
     "id": "np-sudurpashchim-kailali-ghodaghodi-bird-habitat",
@@ -51115,18 +51130,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Ghodaghodi bird habitat",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Ghodaghodi bird habitat"
   },
   {
     "id": "np-sudurpashchim-kailali-tikapur-park",
@@ -51141,19 +51156,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kailali.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "AREA",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tikapur Park",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tikapur Park"
   },
   {
     "id": "np-sudurpashchim-kailali-tikapur-historic-garden-landscape",
@@ -51169,18 +51184,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tikapur historic garden landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tikapur historic garden landscape"
   },
   {
     "id": "np-sudurpashchim-kailali-karnali-river-at-chisapani",
@@ -51196,18 +51211,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Karnali River at Chisapani",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Karnali River at Chisapani"
   },
   {
     "id": "np-sudurpashchim-kailali-chisapani-bridge",
@@ -51223,18 +51238,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Chisapani Bridge",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Chisapani Bridge"
   },
   {
     "id": "np-sudurpashchim-kailali-karnali-rafting-corridor",
@@ -51249,19 +51264,20 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kailali.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "OPERATOR_DEPENDENT",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Karnali rafting corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Karnali rafting corridor"
   },
   {
     "id": "np-sudurpashchim-kailali-mohana-river-corridor",
@@ -51277,18 +51293,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mohana River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mohana River corridor"
   },
   {
     "id": "np-sudurpashchim-kailali-pathariya-river-wetlands",
@@ -51314,7 +51331,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51330,19 +51347,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kailali.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "CORRIDOR",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Basanta Protected Forest",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Basanta Protected Forest"
   },
   {
     "id": "np-sudurpashchim-kailali-basanta-wildlife-corridor",
@@ -51368,7 +51385,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51385,18 +51402,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jokhar Lake",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jokhar Lake"
   },
   {
     "id": "np-sudurpashchim-kailali-jakhor-jokhar-cultural-landscape",
@@ -51422,7 +51439,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51439,18 +51456,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dhangadhi city gateway",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dhangadhi city gateway"
   },
   {
     "id": "np-sudurpashchim-kailali-dhangadhi-aircraft-museum",
@@ -51466,18 +51484,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dhangadhi Aircraft Museum",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dhangadhi Aircraft Museum"
   },
   {
     "id": "np-sudurpashchim-kailali-behada-baba-temple",
@@ -51493,18 +51511,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Behada Baba Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Behada Baba Temple"
   },
   {
     "id": "np-sudurpashchim-kailali-shivapuri-dham",
@@ -51520,18 +51538,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shivapuri Dham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shivapuri Dham"
   },
   {
     "id": "np-sudurpashchim-kailali-godawari-dham",
@@ -51547,18 +51565,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Godawari Dham",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Godawari Dham"
   },
   {
     "id": "np-sudurpashchim-kailali-godawari-forest-foothills",
@@ -51574,18 +51592,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Godawari forest foothills",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Godawari forest foothills"
   },
   {
     "id": "np-sudurpashchim-kailali-sahastralinga-area",
@@ -51611,7 +51629,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51638,7 +51656,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51665,7 +51683,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51682,18 +51700,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bhada Homestay",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bhada Homestay"
   },
   {
     "id": "np-sudurpashchim-kailali-kailari-tharu-villages",
@@ -51709,18 +51727,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Kailari Tharu villages",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Kailari Tharu villages"
   },
   {
     "id": "np-sudurpashchim-kailali-tikapur-tharu-cultural-landscape",
@@ -51736,18 +51754,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Tikapur Tharu cultural landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Tikapur Tharu cultural landscape"
   },
   {
     "id": "np-sudurpashchim-kailali-lamki-market-and-gateway",
@@ -51762,19 +51780,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kailali.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "ROUTE",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "POINT",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Lamki market and gateway",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Lamki market and gateway"
   },
   {
     "id": "np-sudurpashchim-kailali-rajkanda-and-chure-foothill-routes",
@@ -51800,7 +51818,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51827,7 +51845,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51854,7 +51872,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51881,7 +51899,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -51898,20 +51916,20 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY",
       "OPERATOR_DEPENDENT",
       "DYNAMIC"
     ],
     "parent_entity_id": "shuklaphanta-national-park",
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shuklaphanta National Park",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shuklaphanta National Park"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-shuklaphanta-grasslands",
@@ -51927,18 +51945,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shuklaphanta grasslands",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shuklaphanta grasslands"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-swamp-deer-habitat",
@@ -51954,18 +51972,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Swamp deer habitat",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Swamp deer habitat"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-shuklaphanta-birding-landscape",
@@ -51980,19 +51998,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kanchanpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "WATER",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shuklaphanta birding landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shuklaphanta birding landscape"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-rani-tal",
@@ -52008,18 +52026,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rani Tal",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Rani Tal"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-shikari-tal",
@@ -52045,7 +52063,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52072,7 +52090,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52089,18 +52107,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "ENTRY_FEE"
+      "ENTRY_FEE",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Shuklaphanta buffer-zone forests",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Shuklaphanta buffer-zone forests"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-majhgaon-park-gateway",
@@ -52116,19 +52135,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "PROTECTED_AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "PROTECTED_AREA_ENTRY",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Majhgaon park gateway",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Majhgaon park gateway"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-mahendranagar-bhimdatta-city",
@@ -52143,19 +52162,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kanchanpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahendranagar / Bhimdatta city",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mahendranagar / Bhimdatta city"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-mahendranagar-historic-market-core",
@@ -52181,7 +52200,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52198,19 +52217,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": "mahakali-river-corridor",
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Mahakali River corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Mahakali River corridor"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-banbasa-mahakali-barrage-landscape",
@@ -52226,19 +52245,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "BORDER_CONTROL",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Banbasa–Mahakali barrage landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Banbasa–Mahakali barrage landscape"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-dodhara-chandani-suspension-bridge",
@@ -52254,18 +52273,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dodhara Chandani suspension bridge",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dodhara Chandani suspension bridge"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-dodhara-chandani-river-island-landscape",
@@ -52281,18 +52300,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Dodhara Chandani river-island landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Dodhara Chandani river-island landscape"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-dodhara-chandani-villages",
@@ -52318,7 +52337,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52335,18 +52354,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Jhilmila Lake",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Jhilmila Lake"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-jhilmila-pilgrimage-trail",
@@ -52372,7 +52391,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52389,19 +52408,19 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "WATER",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
       "OPERATOR_DEPENDENT",
       "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Bedkot Lake",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Bedkot Lake"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-bedkot-religious-landscape",
@@ -52427,7 +52446,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52454,7 +52473,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52470,19 +52489,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kanchanpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "CORRIDOR",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Daiji forest corridor",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Daiji forest corridor"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-chure-foothill-landscape",
@@ -52508,7 +52527,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52535,7 +52554,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52562,7 +52581,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52578,19 +52597,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kanchanpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "CORRIDOR",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Laljhadi forest landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Laljhadi forest landscape"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-laljhadi-mohana-wildlife-corridor",
@@ -52616,7 +52635,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52633,18 +52652,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Rana Tharu cultural landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Rana Tharu cultural landscape"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-tharu-village-and-homestay-clusters",
@@ -52670,7 +52689,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52687,18 +52706,18 @@
     "introduction": null,
     "things_to_do": [],
     "geometry_type": "POINT",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "NONE"
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Siddhanath Temple",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Siddhanath Temple"
   },
   {
     "id": "np-sudurpashchim-kanchanpur-baijnath-temple-area",
@@ -52724,7 +52743,7 @@
     "match_method": null,
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
     "source_record_key": null
   },
   {
@@ -52740,18 +52759,19 @@
     "canonical_source_file": "provinces/sudurpashchim/districts/kanchanpur.md",
     "introduction": null,
     "things_to_do": [],
-    "geometry_type": "AREA",
-    "source_routing_status": "routing_hold",
-    "access_status": "ROUTING_HOLD",
+    "geometry_type": "ROUTE",
+    "source_routing_status": "dynamic_check_required",
+    "access_status": "DYNAMIC_CHECK_REQUIRED",
     "permit_layers": [
-      "BORDER_CONTROL"
+      "BORDER_CONTROL",
+      "DYNAMIC"
     ],
     "parent_entity_id": null,
-    "visitor_ready_label": null,
-    "match_method": null,
+    "visitor_ready_label": "Brahmadev border and pilgrimage landscape",
+    "match_method": "province-certified",
     "permit_entry_text": null,
     "how_to_visit": null,
-    "visitor_ready_source_file": null,
-    "source_record_key": null
+    "visitor_ready_source_file": "provinces/sudurpashchim/visitor_ready/README.md",
+    "source_record_key": "Brahmadev border and pilgrimage landscape"
   }
 ]
