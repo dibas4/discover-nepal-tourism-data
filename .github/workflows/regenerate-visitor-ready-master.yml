@@ -54,17 +54,26 @@ jobs:
           bolde = find("Bagmati", "Kavrepalanchok", "Bolde viewpoint")
           jalbire = find("Bagmati", "Chitwan", "Jalbire Waterfall")
           kalo = find("Bagmati", "Dolakha", "Kalo Bhir")
+          burney = find("Koshi", "Jhapa", "Burney Tea Estate")
+          libju = find("Koshi", "Okhaldhunga", "Libju Religious Site")
+          cho_la = find("Koshi", "Solukhumbu", "Cho La Pass")
+          rauta = find("Koshi", "Udayapur", "Rauta Pokhari and Rauta Mahadev")
 
           assert report.get("district_count_ok") is True
           assert report.get("record_count_ok") is True
           assert report.get("province_record_counts_ok") is True
           assert report.get("explicit_hold_routed_ok") is True
           assert report.get("routable_without_match_ok") is True
+          assert report.get("waterfall_geometry_ok") is True
           assert report.get("kavrepalanchok_visitor_ready_ok") is True
           assert namo.get("geometry_type") == "AREA" and namo.get("access_status") != "ROUTING_HOLD"
           assert bolde.get("access_status") == "ROUTING_HOLD"
           assert jalbire.get("geometry_type") == "POINT"
           assert kalo.get("access_status") == "ROUTING_HOLD"
+          assert burney.get("match_method")
+          assert libju.get("match_method")
+          assert cho_la.get("match_method")
+          assert rauta.get("match_method")
           PY
 
       - name: Commit regenerated artifacts
